@@ -1,0 +1,369 @@
+{
+    "home": {
+        "title": "Theviyanthan Krishnamohan.",
+        "description": "I am a 3rd-year Ph.D. student at the University of Glasgow, a world top 100 university, researching autonomous networks. I have 5 years' experience as a software engineer, 4 of them working on WSO2 Identity Server, a strong performer according to Forrester. ",
+        "slug": "",
+        "interests": [
+            "Autonomous Networks",
+            "Evolutionary Computation",
+            "Artificial Intelligence",
+            "Identity and Access Management",
+            "Network Virtualisation"
+        ],
+        "socials": [
+            {
+                "name": "GitHub",
+                "link": ""
+            }
+        ],
+        "text": "I am a 3rd-year Ph.D. student at the University of Glasgow, researching the use of of Genetic Algorithms to optimally embed Service Function Chains. I completed M.Sc. in Advanced Software Engineering from the University of Westminster in 2022 and B.Sc. in Information Technology specialising in Computer Systems and Network Engineering from Sri Lanka Institute of Information Technology in 2018. I worked as a Trainee Software Engineer at Aeturnum, where I developed a React application under little supervision for Incentivio, a restaurant guest engagement platform, from 2017 to 2018. After graduating, I joined Mobitel, the second largest mobile network operator in Sri Lanka, as an Associate Software Engineer and developed an event management application. Then, I joined WSO2 as a Software Engineer where I worked on developing front-end applications for WSO2 Identity Server, helping turn an on-prem product into a SaaS application. I also developed Open ID Connect SDKs for TypeScript/JavaScript, generic Single Page and React applications, all of which receive 1000+ weekly downloads on NPM. I have a strong passion for solving problems, learning new technologies and contributing to open source projects. I am passionate about front-end development, fullstack development, cloud computing, autonomous networks, evolutionary computing, and artificial intelligence. I am also an ardent cricket fan and enjoy performing amateur analysis. During my free time, I enjoy reading and writing."
+    },
+    "talks": {
+        "title": "Talks",
+        "description": "Some description",
+        "slug": "talks",
+        "items": [
+            {
+                "slug": "open-rase-sans",
+                "title": "Open Resource Allocation to Service Function Chains Emulator",
+                "event": "Scottish Autonomous Networked Systems",
+                "venue": "University of Glasgow",
+                "date": "2nd May 2024",
+                "slides": "/pdfs/OpenRASE.pdf",
+                "image": "/images/talks/openrase/arc_uofg.jpg",
+                "gallery": [
+                    "/images/talks/openrase/sans_1.jpg",
+                    "/images/talks/openrase/sans_2.jpg",
+                    "/images/talks/openrase/sans_3.jpg"
+                ],
+                "description": "I presented a talk on Open Resource Allocation to Service Function Chains Emulator where I discussed the OpenRASE emulator.",
+                "type": "Academic"
+            },
+            {
+                "slug": "title-2-slug",
+                "title": "Title 2",
+                "event": "Event 2",
+                "venue": "Venue 2",
+                "date": "Date 2",
+                "image": "/images/talks/openrase/arc_uofg.jpg",
+                "description": "description 2"
+            },
+            {
+                "slug": "title-3-slug",
+                "title": "Title 2",
+                "event": "Event 2",
+                "venue": "Venue 2",
+                "date": "Date 2",
+                "image": "/images/talks/openrase/arc_uofg.jpg",
+                "description": "description 2"
+            },
+            {
+                "slug": "title-4-slug",
+                "title": "Title 2",
+                "event": "Event 2",
+                "venue": "Venue 2",
+                "date": "Date 2",
+                "image": "/images/talks/openrase/arc_uofg.jpg",
+                "description": "description 2"
+            },
+            {
+                "slug": "title-5-slug",
+                "title": "Title 2",
+                "event": "Event 2",
+                "venue": "Venue 2",
+                "date": "Date 2",
+                "image": "/images/talks/openrase/arc_uofg.jpg",
+                "description": "description 2"
+            },
+            {
+                "slug": "title-6-slug",
+                "title": "Title 2",
+                "event": "Event 2",
+                "venue": "Venue 2",
+                "date": "Date 2",
+                "image": "/images/talks/openrase/arc_uofg.jpg",
+                "description": "description 2"
+            },
+            {
+                "slug": "title-7-slug",
+                "title": "Title 2",
+                "event": "Event 2",
+                "venue": "Venue 2",
+                "date": "Date 2",
+                "image": "/images/talks/openrase/arc_uofg.jpg",
+                "description": "description 2"
+            }
+        ]
+    },
+    "publications": {
+        "title": "Publications",
+        "description": "A list of my publications.",
+        "slug": "publications",
+        "items": [
+            {
+                "slug": "publication-1-slug",
+                "title": "Publication 1",
+                "publication": "Journal Name",
+                "date": "Publication Date",
+                "link": "https://example.com/publication-1",
+                "preprint": true,
+                "citation": "@INPROCEEDINGS{11197454, author={Krishnamohan, Theviyanthan and Harvey, Paul}, booktitle={2025 International Conference on Software, Telecommunications and Computer Networks (SoftCOM)}, title={OpenRASE: Service Function Chain Emulation}, year={2025}, volume={}, number={}, pages={1-6}, keywords={Service function chaining;Heuristic algorithms;Software algorithms;Dynamic scheduling;Computer networks;Software;Telecommunications;Resource management;Optimization;Genetic algorithms;Emulator;Network Function Virtualisation (NFV);Network Function Virtualisation Resource Allocation (NFV-RA);Service Function Chaining (SFC);Autonomous Network}, doi={10.23919/SoftCOM66362.2025.11197454}}",
+                "abstract": "This is the abstract of publication 1.",
+                "codeRepository": "https://github.com/username/repository1",
+                "dataRepository": "https://datarepository.com/dataset1",
+                "type": "Journal Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan",
+                    "Paul Harvey"
+                ]
+            }
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "description": "My educational background.",
+        "slug": "education",
+        "items": [
+            {
+                "institution": "University Name",
+                "degree": "Degree Name",
+                "grade": "Grade or GPA",
+                "duration": "Duration of Study",
+                "description": "Description of the course or achievements.",
+                "awards": [
+                    {
+                        "name": "Award Name",
+                        "year": "Year Received"
+                    }
+                ],
+                "skills": [
+                    "Skill 1",
+                    "Skill 2",
+                    "Skill 3"
+                ],
+                "projects": [
+                    "project-1",
+                    "project-2"
+                ],
+                "image": "/images/education/uofg.jpg"
+            },
+            {
+                "institution": "University Name",
+                "degree": "Degree Name",
+                "grade": "Grade or GPA",
+                "duration": "Duration of Study",
+                "description": "Description of the course or achievements.",
+                "awards": [
+                    {
+                        "name": "Award Name",
+                        "year": "Year Received"
+                    }
+                ],
+                "skills": [
+                    "Skill 1",
+                    "Skill 2",
+                    "Skill 3"
+                ],
+                "projects": [
+                    "project-1",
+                    "project-2"
+                ],
+                "image": "/images/education/uofg.jpg"
+            },
+            {
+                "institution": "University Name",
+                "degree": "Degree Name",
+                "grade": "Grade or GPA",
+                "duration": "Duration of Study",
+                "description": "Description of the course or achievements.",
+                "awards": [
+                    {
+                        "name": "Award Name",
+                        "year": "Year Received"
+                    }
+                ],
+                "skills": [
+                    "Skill 1",
+                    "Skill 2",
+                    "Skill 3"
+                ],
+                "projects": [
+                    "project-1",
+                    "project-2"
+                ],
+                "image": "/images/education/uofg.jpg"
+            }
+        ]
+    },
+    "experience": {
+        "title": "Work Experience",
+        "description": "My work experience.",
+        "slug": "experience",
+        "items": [
+            {
+                "institution": "Job Name",
+                "position": "Position Title",
+                "duration": "Duration of Employment",
+                "description": "Description of the job or achievements.",
+                "awards": [
+                    {
+                        "name": "Award Name",
+                        "year": "Year Received"
+                    }
+                ],
+                "skills": [
+                    "Skill 1",
+                    "Skill 2",
+                    "Skill 3"
+                ],
+                "projects": [
+                    "project-1",
+                    "project-2"
+                ],
+                "image": "/images/education/uofg.jpg"
+            },
+            {
+                "institution": "Job Name",
+                "position": "Position Title",
+                "duration": "Duration of Employment",
+                "description": "Description of the job or achievements.",
+                "awards": [
+                    {
+                        "name": "Award Name",
+                        "year": "Year Received"
+                    }
+                ],
+                "skills": [
+                    "Skill 1",
+                    "Skill 2",
+                    "Skill 3"
+                ],
+                "projects": [
+                    "project-1",
+                    "project-2"
+                ],
+                "image": "/images/education/uofg.jpg"
+            },
+            {
+                "institution": "Job Name",
+                "position": "Position Title",
+                "duration": "Duration of Employment",
+                "description": "Description of the job or achievements.",
+                "awards": [
+                    {
+                        "name": "Award Name",
+                        "year": "Year Received"
+                    }
+                ],
+                "skills": [
+                    "Skill 1",
+                    "Skill 2",
+                    "Skill 3"
+                ],
+                "projects": [
+                    "project-1",
+                    "project-2"
+                ],
+                "image": "/images/education/uofg.jpg"
+            }
+        ]
+    },
+    "blogs": {
+        "title": "Blogs",
+        "description": "A collection of my blog posts.",
+        "slug": "blogs",
+        "blogs": [
+            {
+                "name": "Blog Name",
+                "link": "https://bloglink.com",
+                "description": "Description of the blog.",
+                "image": "/images/blogs/blogimage.png"
+            },
+            {
+                "name": "Blog Name 2",
+                "link": "https://bloglink2.com",
+                "description": "Description of the blog 2.",
+                "image": "/images/blogs/blogimage2.png"
+            }
+        ],
+        "articles": [
+            {
+                "link": "https://cricketbloglink.com",
+                "title": "Cricket Blog Title",
+                "date": "Date of Publication",
+                "excerpt": "A brief excerpt from the cricket blog.",
+                "image": "/images/blogs/blogimage.png"
+            },
+            {
+                "link": "https://cricketbloglink2.com",
+                "title": "Cricket Blog Title 2",
+                "date": "Date of Publication 2",
+                "excerpt": "A brief excerpt from the cricket blog 2.",
+                "image": "/images/blogs/blogimage2.png"
+            }
+        ]
+    },
+    "vlogs": {
+        "title": "Vlogs",
+        "description": "A collection of my video blogs.",
+        "slug": "vlogs",
+        "items": [
+            {
+                "title": "Vlog 1",
+                "date": "Date of Publication",
+                "excerpt": "A brief excerpt from vlog 1.",
+                "link": "https://example.com/vlog-1",
+                "image": "/images/vlogs/vlog1.png"
+
+            },
+            {
+                "title": "Vlog 1",
+                "date": "Date of Publication",
+                "excerpt": "A brief excerpt from vlog 1.",
+                "link": "https://example.com/vlog-1",
+                "image": "/images/vlogs/vlog1.png"
+            },
+            {
+                "title": "Vlog 1",
+                "date": "Date of Publication",
+                "excerpt": "A brief excerpt from vlog 1.",
+                "link": "https://example.com/vlog-1",
+                "image": "/images/vlogs/vlog1.png"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "A showcase of my projects.",
+        "slug": "projects",
+        "items": [
+            {
+                "slug": "project-1",
+                "title": "Project 1",
+                "description": "Description of project 1.",
+                "repository": "https://github.com/user/project-1",
+                "image": "/images/projects/project1.png",
+                "publications": [
+                    "publication-1-slug"
+                ],
+                "type": "Academic",
+                "year": "2023"
+            }
+        ]
+    },
+    "certifications": {
+        "title": "Certifications",
+        "description": "My professional certifications.",
+        "slug": "certifications",
+        "items": [
+            {
+                "name": "Certification Name",
+                "issuer": "Issuing Organization",
+                "date": "Date of Issuance",
+                "credentialID": "Credential ID",
+                "credentialURL": "https://example.com/certification",
+                "image": "/images/certifications/cert1.png"
+            }
+        ]
+    }
+}
