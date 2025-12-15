@@ -5,7 +5,7 @@ import Gallery from "../../_components/Gallery";
 
 const Talk = async ({ params }: { params: { slug: string } }) => {
     const { slug } = await params;
-    const talkData = portfolio.talks?.items?.find((t) => t.slug === slug);
+    const talkData = portfolio.presentations?.items?.find((t) => t.slug === slug);
 
     return (
         <Box>

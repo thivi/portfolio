@@ -6,7 +6,7 @@ import Grid from "@mui/material/Grid";
 import Link from "next/link";
 
 const TalksPage: React.FC = () => {
-    const talks = portfolio.talks;
+    const talks = portfolio.presentations;
 
     return (
         <Box>

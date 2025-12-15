@@ -30,7 +30,7 @@
         ],
         "text": "I am a 3rd-year Ph.D. student at the University of Glasgow, researching the use of of Genetic Algorithms to optimally embed Service Function Chains. I completed M.Sc. in Advanced Software Engineering from the University of Westminster in 2022 and B.Sc. in Information Technology specialising in Computer Systems and Network Engineering from Sri Lanka Institute of Information Technology in 2018. I worked as a Trainee Software Engineer at Aeturnum, where I developed a React application under little supervision for Incentivio, a restaurant guest engagement platform, from 2017 to 2018. After graduating, I joined Mobitel, the second largest mobile network operator in Sri Lanka, as an Associate Software Engineer and developed an event management application. Then, I joined WSO2 as a Software Engineer where I worked on developing front-end applications for WSO2 Identity Server, helping turn an on-prem product into a SaaS application. I also developed Open ID Connect SDKs for TypeScript/JavaScript, generic Single Page and React applications, all of which receive 1000+ weekly downloads on NPM. I have a strong passion for solving problems, learning new technologies and contributing to open source projects. I am passionate about front-end development, fullstack development, cloud computing, autonomous networks, evolutionary computing, and artificial intelligence. I am also an ardent cricket fan and enjoy performing amateur analysis. During my free time, I enjoy reading and writing."
     },
-    "talks": {
+    "presentations": {
         "title": "Presentations",
         "description": "Here are the talks I have given at various events and conferences during my academic and professional career.",
         "slug": "presentations",
@@ -140,12 +140,72 @@
                 "slides": "/pdfs/OpenRASE.pdf",
                 "image": "/images/presentations/openrase/glasgow.jpg",
                 "gallery": [
-                    "/images/presentations/openrase/sans_1.jpg",
-                    "/images/presentations/openrase/sans_2.jpg",
-                    "/images/presentations/openrase/sans_3.jpg"
+                    "/images/presentations/openrase/sans-1.jpg",
+                    "/images/presentations/openrase/sans-2.jpg",
+                    "/images/presentations/openrase/sans-3.jpg"
                 ],
                 "description": "I presented the motivation and architecture of the OpenRASE emulator that I developed to perform SFC embedding experiments.",
                 "type": "Academic"
+            },
+            {
+                "slug": "codesprint-iit",
+                "title": "UX Workshop",
+                "event": "Codesprint 2023, IIT",
+                "venue": "Informatics Institute of Technology, Sri Lanka",
+                "date": "17th January 2023",
+                "slides": "/pdfs/codesprint-ux-2023.pdf",
+                "image": "/images/presentations/codesprint/iit.jpg",
+                "gallery": [
+                    "/images/presentations/codesprint/codesprint-1.jpeg",
+                    "/images/presentations/codesprint/codesprint-2.jpeg",
+                    "/images/presentations/codesprint/codesprint-3.jpeg",
+                    "/images/presentations/codesprint/codesprint-4.jpeg",
+                    "/images/presentations/codesprint/codesprint-5.jpeg",
+                    "/images/presentations/codesprint/codesprint-6.jpeg",
+                    "/images/presentations/codesprint/codesprint-7.jpeg"
+                ],
+                "description": "I presented an introduction to UX to IIT students.",
+                "type": "Work"
+            },
+            {
+                "slug": "iam-ucsc",
+                "title": "Introduction to Identity and Access Management with Asgardeo",
+                "event": "",
+                "venue": "University of Colombo School of Computing",
+                "date": "17th January 2023",
+                "slides": "",
+                "image": "/images/presentations/iam/ucsc.jpg",
+                "gallery": [
+                    "/images/presentations/iam/iam-1.HEIC",
+                    "/images/presentations/iam/iam-2.HEIC",
+                    "/images/presentations/iam/iam-3.HEIC",
+                    "/images/presentations/iam/iam-4.HEIC",
+                    "/images/presentations/iam/iam-5.HEIC",
+                    "/images/presentations/iam/iam-6.HEIC",
+                    "/images/presentations/iam/iam-7.HEIC",
+                    "/images/presentations/iam/iam-8.HEIC",
+                    "/images/presentations/iam/iam-9.jpeg"
+                ],
+                "description": "I presented an introduction to Identity and Access Management using Asgardeo to the University of Colombo School of Computing students.",
+                "type": "Work"
+            },
+            {
+                "slug": "ui-ux-bootcamp-iit",
+                "title": "Problem Definition in Design Thinking",
+                "event": "UI/UX Bootcamp 2022",
+                "venue": "Informatics Institute of Technology, Sri Lanka",
+                "date": "24th September 2022",
+                "slides": "/pdfs/define-design-thinking.pdf",
+                "image": "/images/presentations/ui-ux-bootcamp/iit.jpg",
+                "gallery": [
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-1.jpg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-2.jpg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-3.jpg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-4.jpg"
+
+                ],
+                "description": "I presented a talk on defining problems in design thinking as a part of the UI/UX bootcamp conducted for IIT students.",
+                "type": "Work"
             }
 
         ]
