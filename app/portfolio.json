@@ -13,16 +13,124 @@
         "socials": [
             {
                 "name": "GitHub",
-                "link": ""
+                "link": "https://github.com/thivi"
+            },
+            {
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/krishnamohan-theviyanthan/"
+            },
+            {
+                "name": "ORCiD",
+                "link": "https://orcid.org/0000-0003-0040-1130"
+            },
+            {
+                "name": "Google Scholar",
+                "link": "https://scholar.google.com/citations?hl=en&user=kOTtM0QAAAAJ"
             }
         ],
         "text": "I am a 3rd-year Ph.D. student at the University of Glasgow, researching the use of of Genetic Algorithms to optimally embed Service Function Chains. I completed M.Sc. in Advanced Software Engineering from the University of Westminster in 2022 and B.Sc. in Information Technology specialising in Computer Systems and Network Engineering from Sri Lanka Institute of Information Technology in 2018. I worked as a Trainee Software Engineer at Aeturnum, where I developed a React application under little supervision for Incentivio, a restaurant guest engagement platform, from 2017 to 2018. After graduating, I joined Mobitel, the second largest mobile network operator in Sri Lanka, as an Associate Software Engineer and developed an event management application. Then, I joined WSO2 as a Software Engineer where I worked on developing front-end applications for WSO2 Identity Server, helping turn an on-prem product into a SaaS application. I also developed Open ID Connect SDKs for TypeScript/JavaScript, generic Single Page and React applications, all of which receive 1000+ weekly downloads on NPM. I have a strong passion for solving problems, learning new technologies and contributing to open source projects. I am passionate about front-end development, fullstack development, cloud computing, autonomous networks, evolutionary computing, and artificial intelligence. I am also an ardent cricket fan and enjoy performing amateur analysis. During my free time, I enjoy reading and writing."
     },
     "talks": {
-        "title": "Talks",
-        "description": "Some description",
-        "slug": "talks",
+        "title": "Presentations",
+        "description": "Here are the talks I have given at various events and conferences during my academic and professional career.",
+        "slug": "presentations",
         "items": [
+            {
+                "slug": "scone-2025",
+                "title": "Genetic Algorithms for Service Function Chain Embedding",
+                "event": "Scottish Networking Event 2025",
+                "venue": "Abertay cyberQuarter, Dundee",
+                "date": "29th October 2025",
+                "slides": "/pdfs/scone-oct-29.pdf",
+                "image": "/images/presentations/scone-2025/dundee.jpg",
+                "gallery": [
+                    "/images/presentations/scone-2025/scone-1.jpg",
+                    "/images/presentations/scone-2025/scone-2.jpg",
+                    "/images/presentations/scone-2025/scone-3.jpg",
+                    "/images/presentations/scone-2025/scone-4.jpg",
+                    "/images/presentations/scone-2025/scone-5.jpg"
+                ],
+                "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
+                "type": "Academic"
+            },
+            {
+                "slug": "softcom-2025",
+                "title": "OpenRASE: Service Function Chain Emulation",
+                "event": "33rd International Conference on Software, Telecommunications and Computer Networks (SoftCOM 2025)",
+                "venue": "Split, Croatia (Online)",
+                "date": "18th September 2025",
+                "slides": "/pdfs/softcom-sep-2025.pdf",
+                "image": "/images/presentations/softcom-2025/split.jpg",
+                "gallery": [],
+                "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
+                "type": "Academic"
+            },
+            {
+                "slug": "sicsa-phd-poster-2025",
+                "title": "Poster: Genetic Evolution of Service Function Chain Embedding",
+                "event": "SICSA PhD Conference 2025",
+                "venue": "Craighlockhart Campus, University of Napier",
+                "date": "25th June 2025",
+                "slides": "/pdfs/sicsa-phd-poster.pdf",
+                "image": "/images/presentations/sicsa-phd-conference-2025/poster.png",
+                "gallery": [
+                    "/images/presentations/sicsa-phd-conference-2025/poster_1.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/poster_2.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/poster_3.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/poster_4.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/poster_5.jpg"
+                ],
+                "description": "I presented a poster on using Genetic Algorithms to evolve Service Function Chain embeddings.",
+                "type": "Academic"
+            },
+            {
+                "slug": "sicsa-lightning-2025",
+                "title": "Genetic Algorithms for Service Function Chain Deployment",
+                "event": "SICSA PhD Conference 2025",
+                "venue": "Craighlockhart Campus, University of Napier",
+                "date": "25th June 2025",
+                "slides": "/pdfs/sicsa-lightning-talk.pdf",
+                "image": "/images/presentations/sicsa-phd-conference-2025/napier.jpg",
+                "gallery": [],
+                "description": "I talked about using hybrid evolution to optimally embed Service Function Chains.",
+                "type": "Academic"
+            },
+            {
+                "slug": "sicsa-pre-ec-2025",
+                "title": "Genetic Algorithms for Service Function Chain Deployment",
+                "event": "SICSA Pre-EC Conference 2025",
+                "venue": "University of Stirling",
+                "date": "29th May 2025",
+                "slides": "/pdfs/pre-ec-may-2025.pdf",
+                "image": "/images/presentations/sicsa-pre-ec-2025/stirling.jpg",
+                "gallery": [],
+                "description": "I talked about using Genetic Algorithms for SFC embedding, focussing specifically on how I developed a surrogate to assist the evolution.",
+                "type": "Academic"
+            },
+            {
+                "slug": "uk-systems-2025",
+                "title": "Genetic Algorithms for Service Function Chain Deployment",
+                "event": "9th Annual UK Systems Workshop",
+                "venue": "Redworth Hall Hotel, Durham",
+                "date": "16th April 2025",
+                "slides": "/pdfs/UK-systems-workshop-April-2025.pdf",
+                "image": "/images/presentations/uk-systems-2025/redworth.jpg",
+                "gallery": [],
+                "description": "I talked about optimally embedding SFCs by evolving perceptrons using surrogate-assisted Genetic Algorithms.",
+                "type": "Academic"
+            },
+            {
+                "slug": "openrase-poster",
+                "title": "Poster: Service Functuion Chain Emulation Using OpenRASE",
+                "event": "",
+                "venue": "",
+                "date": "2024",
+                "slides": "/pdfs/openrase-poster.pdf",
+                "image": "/images/presentations/openrase-poster/poster.png",
+                "gallery": [],
+                "description": "I designed poster explaining how OpenRASE works and how I used it to perform experiments on SFC embedding.",
+                "type": "Academic"
+            },
             {
                 "slug": "open-rase-sans",
                 "title": "Open Resource Allocation to Service Function Chains Emulator",
@@ -30,69 +138,16 @@
                 "venue": "University of Glasgow",
                 "date": "2nd May 2024",
                 "slides": "/pdfs/OpenRASE.pdf",
-                "image": "/images/talks/openrase/arc_uofg.jpg",
+                "image": "/images/presentations/openrase/glasgow.jpg",
                 "gallery": [
-                    "/images/talks/openrase/sans_1.jpg",
-                    "/images/talks/openrase/sans_2.jpg",
-                    "/images/talks/openrase/sans_3.jpg"
+                    "/images/presentations/openrase/sans_1.jpg",
+                    "/images/presentations/openrase/sans_2.jpg",
+                    "/images/presentations/openrase/sans_3.jpg"
                 ],
-                "description": "I presented a talk on Open Resource Allocation to Service Function Chains Emulator where I discussed the OpenRASE emulator.",
+                "description": "I presented the motivation and architecture of the OpenRASE emulator that I developed to perform SFC embedding experiments.",
                 "type": "Academic"
-            },
-            {
-                "slug": "title-2-slug",
-                "title": "Title 2",
-                "event": "Event 2",
-                "venue": "Venue 2",
-                "date": "Date 2",
-                "image": "/images/talks/openrase/arc_uofg.jpg",
-                "description": "description 2"
-            },
-            {
-                "slug": "title-3-slug",
-                "title": "Title 2",
-                "event": "Event 2",
-                "venue": "Venue 2",
-                "date": "Date 2",
-                "image": "/images/talks/openrase/arc_uofg.jpg",
-                "description": "description 2"
-            },
-            {
-                "slug": "title-4-slug",
-                "title": "Title 2",
-                "event": "Event 2",
-                "venue": "Venue 2",
-                "date": "Date 2",
-                "image": "/images/talks/openrase/arc_uofg.jpg",
-                "description": "description 2"
-            },
-            {
-                "slug": "title-5-slug",
-                "title": "Title 2",
-                "event": "Event 2",
-                "venue": "Venue 2",
-                "date": "Date 2",
-                "image": "/images/talks/openrase/arc_uofg.jpg",
-                "description": "description 2"
-            },
-            {
-                "slug": "title-6-slug",
-                "title": "Title 2",
-                "event": "Event 2",
-                "venue": "Venue 2",
-                "date": "Date 2",
-                "image": "/images/talks/openrase/arc_uofg.jpg",
-                "description": "description 2"
-            },
-            {
-                "slug": "title-7-slug",
-                "title": "Title 2",
-                "event": "Event 2",
-                "venue": "Venue 2",
-                "date": "Date 2",
-                "image": "/images/talks/openrase/arc_uofg.jpg",
-                "description": "description 2"
             }
+
         ]
     },
     "publications": {
