@@ -202,12 +202,10 @@
                     "/images/presentations/ui-ux-bootcamp/bootcamp-2.jpg",
                     "/images/presentations/ui-ux-bootcamp/bootcamp-3.jpg",
                     "/images/presentations/ui-ux-bootcamp/bootcamp-4.jpg"
-
                 ],
                 "description": "I presented a talk on defining problems in design thinking as a part of the UI/UX bootcamp conducted for IIT students.",
                 "type": "Work"
             }
-
         ]
     },
     "publications": {
@@ -387,7 +385,10 @@
                 "dataRepository": "",
                 "type": "Journal Paper",
                 "authors": [
-                    "Theviyanthan Krishnamohan", "Kugathasan Janarthanan", "Peramune P.R.L.C", "Ranaweera A.T "
+                    "Theviyanthan Krishnamohan",
+                    "Kugathasan Janarthanan",
+                    "Peramune P.R.L.C",
+                    "Ranaweera A.T "
                 ]
             },
             {
@@ -421,73 +422,82 @@
         "slug": "education",
         "items": [
             {
-                "institution": "University Name",
-                "degree": "Degree Name",
-                "grade": "Grade or GPA",
-                "duration": "Duration of Study",
-                "description": "Description of the course or achievements.",
+                "institution": "University of Glasgow",
+                "degree": "Ph.D. in Computing Science",
+                "grade": "",
+                "duration": "2023-Present",
+                "description": "I am reading for a Ph.D. in optimal Service Function Chain embedding using Genetic Algorithms and I am currently in my 3rd year.",
                 "awards": [
                     {
-                        "name": "Award Name",
-                        "year": "Year Received"
+                        "name": "University of Glasgwow Doctoral Scholarship",
+                        "year": "2023-2026"
                     }
                 ],
                 "skills": [
-                    "Skill 1",
-                    "Skill 2",
-                    "Skill 3"
+                    "Python",
+                    "TypeScript",
+                    "Mininet",
+                    "R",
+                    "Genetic Algorithms",
+                    "Neural Networks"
                 ],
                 "projects": [
-                    "project-1",
-                    "project-2"
+                    "openrase",
+                    "benns",
+                    "genesis"
                 ],
-                "image": "/images/education/uofg.jpg"
+                "image": "/images/education/uofg_logo.jpg"
             },
             {
-                "institution": "University Name",
-                "degree": "Degree Name",
-                "grade": "Grade or GPA",
-                "duration": "Duration of Study",
-                "description": "Description of the course or achievements.",
+                "institution": "University of Westminster",
+                "degree": "M.Sc. in Advanced Software Engineering",
+                "grade": "Distinction",
+                "duration": "2021-2022",
+                "description": "My master's thesis was on developing a blockchain consensus algorithm to improve Byzantine fault tolerance in swarm robotics.",
                 "awards": [
                     {
-                        "name": "Award Name",
-                        "year": "Year Received"
+                        "name": "Dr. Gamini Wickramasinghe Gold Medal for Academic Excellence",
+                        "year": "2022"
                     }
                 ],
                 "skills": [
-                    "Skill 1",
-                    "Skill 2",
-                    "Skill 3"
+                    "Swarm Robotics",
+                    "Ethereum",
+                    "Go",
+                    "TypeScript",
+                    "React"
                 ],
                 "projects": [
-                    "project-1",
-                    "project-2"
+                    "proof-of-identity"
                 ],
-                "image": "/images/education/uofg.jpg"
+                "image": "/images/education/uofw_logo.jpg"
             },
             {
-                "institution": "University Name",
-                "degree": "Degree Name",
-                "grade": "Grade or GPA",
-                "duration": "Duration of Study",
-                "description": "Description of the course or achievements.",
+                "institution": "Sri Lanka Institute of Information Technology",
+                "degree": "B.Sc. in Information Technology specialising in Computer Systems and Network Engineering",
+                "grade": "Second Class Upper (3.65/4.0)",
+                "duration": "2015-2018",
+                "description": "I took courses in software, embedded systems, network and system engineering. My finaly-year thesis was on decentarlising the control plane of Software Defined Networking using a blockchain smart contract.",
                 "awards": [
                     {
-                        "name": "Award Name",
-                        "year": "Year Received"
+                        "name": "Dean List Award for Outstanding Academic Performance",
+                        "year": "2018"
+                    },
+                    {
+                        "name": "Dean List Award for Outstanding Academic Performance",
+                        "year": "2017"
                     }
                 ],
                 "skills": [
-                    "Skill 1",
-                    "Skill 2",
-                    "Skill 3"
+                    "Texas Instrument MSP430",
+                    "C#",
+                    "Java",
+                    "C++"
                 ],
                 "projects": [
-                    "project-1",
-                    "project-2"
+                    "blockflow"
                 ],
-                "image": "/images/education/uofg.jpg"
+                "image": "/images/education/sliit_logo.jpg"
             }
         ]
     },
@@ -497,70 +507,145 @@
         "slug": "experience",
         "items": [
             {
-                "institution": "Job Name",
-                "position": "Position Title",
-                "duration": "Duration of Employment",
-                "description": "Description of the job or achievements.",
-                "awards": [
-                    {
-                        "name": "Award Name",
-                        "year": "Year Received"
-                    }
-                ],
+                "institution": "University of Glasgow",
+                "position": "Graduate Teaching Assistant",
+                "duration": "2024-Present",
+                "description": "I was the Graduate Teaching Assistant for the Operating Systems (COMPSCI4011) course for Level 4 students in 2024. I also marked the exams for the same course.",
+                "awards": [],
                 "skills": [
-                    "Skill 1",
-                    "Skill 2",
-                    "Skill 3"
+                    "Teaching",
+                    "Marking"
                 ],
-                "projects": [
-                    "project-1",
-                    "project-2"
-                ],
-                "image": "/images/education/uofg.jpg"
+                "projects": [],
+                "image": "/images/education/uofg_logo.jpg"
             },
             {
-                "institution": "Job Name",
-                "position": "Position Title",
-                "duration": "Duration of Employment",
-                "description": "Description of the job or achievements.",
-                "awards": [
-                    {
-                        "name": "Award Name",
-                        "year": "Year Received"
-                    }
+                "institution": "WSO2",
+                "position": "Senior Software Engineer",
+                "duration": "2021-2023",
+                "description": [
+                    "I made significant contributions to two React apps by developing, testing and documenting new features. I also produced vlogs and blogs to help market the features. ",
+                    "I managed small Agile teams to deliver crtical features on times.",
+                    "I mentored and coached junior developers to learn the codebases and the best coding practices.",
+                    "I lead and mentored intern developers to develop OIDC SDKs for Node.js, Angular and Express and ship them to production on time.",
+                    "I lead the effort to organise community calls that attracted audience from around the globe.",
+                    "I contributed to WSO2 Oxygen UI, a design system powering WSO2's frontend applications.",
+                    "I worked on reducing the bundle size of the frontend applications, boosting the load times significantly.",
+                    "I was rated as top 5% performer for two successive cycles in 2021 and 2022."
                 ],
+                "awards": [],
                 "skills": [
-                    "Skill 1",
-                    "Skill 2",
-                    "Skill 3"
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Cypress",
+                    "Figma",
+                    "Adobe XD",
+                    "Agile Methodologies"
                 ],
                 "projects": [
-                    "project-1",
-                    "project-2"
+                    "oxygen-ui",
+                    "my-account",
+                    "console",
+                    "oidc-js",
+                    "oidc-spa",
+                    "oidc-react"
                 ],
-                "image": "/images/education/uofg.jpg"
+                "image": "/images/work/wso2_logo.jpg"
             },
             {
-                "institution": "Job Name",
-                "position": "Position Title",
-                "duration": "Duration of Employment",
-                "description": "Description of the job or achievements.",
+                "institution": "WSO2",
+                "position": "Software Engineer",
+                "duration": "2019-2021",
+                "description": [
+                    "I played a pivotal role in designing the UX, following the design thinking process, of two frontend applications that are in production now.",
+                    "I developed, wrote tests and documented new features for the two React applications.",
+                    "I developed OIDC SDKs for JavaScript, Single Page Applications and React to help developers integrate WSO2 Identity Server with their applications. These SDKS get 1000+ weekly downloads now."
+                ],
                 "awards": [
                     {
-                        "name": "Award Name",
-                        "year": "Year Received"
+                        "name": "Sustained Outstanding Contribution",
+                        "year": "2020"
+                    },
+                    {
+                        "name": "Rockstar Award for producing high-impact tech blogs",
+                        "year": "2021"
                     }
                 ],
                 "skills": [
-                    "Skill 1",
-                    "Skill 2",
-                    "Skill 3"
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Cypress",
+                    "Figma",
+                    "Adobe XD",
+                    "Agile Methodologies"
                 ],
                 "projects": [
-                    "project-1",
-                    "project-2"
+                    "my-account",
+                    "console",
+                    "oidc-js",
+                    "oidc-spa",
+                    "oidc-react"
                 ],
-                "image": "/images/education/uofg.jpg"
+                "image": "/images/work/wso2_logo.jpg"
+            },
+            {
+                "institution": "Mobitel",
+                "position": "Associate Software Engineer",
+                "duration": "2019",
+                "description": [
+                    "I developed node.js app that streamed live data using Socket.IO to a Vue.js app for an event-maanagement system.",
+                    "I developed an Angular applicaation for the dashboard of the event-management system."
+                ],
+                "awards": [],
+                "skills": [
+                    "Vue.js",
+                    "Angular",
+                    "Socket.IO"
+                ],
+                "projects": [],
+                "image": "/images/work/mobitel_logo.jpg"
+            },
+            {
+                "institution": "Aeturnum",
+                "position": "Trainee Software Engineer",
+                "duration": "2017-2018",
+                "description": [
+                    "I worked on a .NET core project that was meant to help the company manage its human resources and projects. The project used Web APIs, Dapper, Entity Framework, SQL, and Angular.",
+                    "I developed a React-based web app for an online food-ordering service provider and delivered it to production under little to no supervision. I optimized the web app to ensure faster loading time and integrated various payment processing systems such as Braintree, Vantiv, Moneris, and Heartland with the app.",
+                    "I lead, guided, and trained another engineer to continue with the development of this React app."
+                ],
+                "awards": [],
+                "skills": [
+                    ".NET Core",
+                    "Angular",
+                    "React",
+                    "SQL"
+                ],
+                "projects": [],
+                "image": "/images/work/aeturnum_logo.jpeg"
+            },
+            {
+                "institution": "Sportskeeda",
+                "position": "Freelance Cricket Writer",
+                "duration": "2014-2018",
+                "description": [
+                    "I wrote cricket news and analytical articles, mainly covering Sri Lanka cricket, some of which were selected as editor's pick, article of the week and year."
+                ],
+                "awards": [
+                    {
+                        "name": "International Cricket Writer of the Year",
+                        "year": "2014"
+                    }
+                ],
+                "skills": [
+                    "Cricket Analysis",
+                    "News Writing",
+                    "Satire Writing"
+                ],
+                "projects": [],
+                "image": "/images/work/sportskeeda_logo.jpeg"
             }
         ]
     },
@@ -610,7 +695,6 @@
                 "excerpt": "A brief excerpt from vlog 1.",
                 "link": "https://example.com/vlog-1",
                 "image": "/images/vlogs/vlog1.png"
-
             },
             {
                 "title": "Vlog 1",
