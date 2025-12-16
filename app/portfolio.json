@@ -655,32 +655,103 @@
         "slug": "blogs",
         "blogs": [
             {
-                "name": "Blog Name",
-                "link": "https://bloglink.com",
-                "description": "Description of the blog.",
-                "image": "/images/blogs/blogimage.png"
+                "name": "Cricket Machan",
+                "link": "https://www.cricketmachan.com",
+                "description": "A blog where I write on cricket.",
+                "image": "/images/blogs/cm-logo.png"
             },
             {
-                "name": "Blog Name 2",
-                "link": "https://bloglink2.com",
-                "description": "Description of the blog 2.",
-                "image": "/images/blogs/blogimage2.png"
+                "name": "The Armchair Critic",
+                "link": "https://www.thearmchaircritic.org",
+                "description": "A blog where I write on tech and everything else.",
+                "image": "/images/blogs/tac-logo.png"
+            },
+            {
+                "name": "Sportskeeda",
+                "link": "https://www.sportskeeda.com/author/theviyanthan-krishnamohan",
+                "description": "My author page on Sportskeeda where I wrote cricket articles.",
+                "image": "/images/blogs/sk-logo.jpeg"
             }
         ],
         "articles": [
             {
-                "link": "https://cricketbloglink.com",
-                "title": "Cricket Blog Title",
-                "date": "Date of Publication",
-                "excerpt": "A brief excerpt from the cricket blog.",
-                "image": "/images/blogs/blogimage.png"
+                "link": "https://wso2.com/blogs/thesource/common-developer-errors-to-avoid-in-a-ciam-strategy/",
+                "title": "Common Developer Errors to Avoid in a CIAM Strategy",
+                "date": "5th May 2020",
+                "image": "/images/blogs/common-developer-errors-ciam.jpg"
             },
             {
-                "link": "https://cricketbloglink2.com",
-                "title": "Cricket Blog Title 2",
-                "date": "Date of Publication 2",
-                "excerpt": "A brief excerpt from the cricket blog 2.",
-                "image": "/images/blogs/blogimage2.png"
+                "link": "https://wso2.com/blogs/thesource/how-we-built-our-console-app/",
+                "title": "How We Built Our Console App",
+                "date": "2nd December 2020",
+                "image": "/images/blogs/console-app.png"
+            },
+            {
+                "link": "https://thenewstack.io/leveraging-web-workers-to-safely-store-access-tokens/",
+                "title": "Leveraging Web Workers to Safely Store Access Tokens",
+                "date": "24th February 2021",
+                "image": "/images/blogs/web-workers.jpg"
+            },
+            {
+                "link": "https://thenewstack.io/how-to-optimize-customer-identity-and-access-management/",
+                "title": "How to Optimize Customer Identity and Access Management",
+                "date": "7th May 2022",
+                "image": "/images/blogs/ciam.jpg"
+            },
+            {
+                "link": "https://web.archive.org/web/20210125070100/https://www.islandcricket.lk/editorial/can-chandika-hathurusingha-spark-a-revival/",
+                "title": "Can Chandika Hathurusingha spark a revival?",
+                "date": "23rd JanApriluary 2018"
+            },
+            {
+                "link": "https://www.thearmchaircritic.org/cricket/field-laurels-marred-boardroom-politics-sri-lankas-year-review",
+                "title": "On-field of laurels marred by boardroom politics: Sri Lanka’s year in review",
+                "date": "31st December 2014"
+            },
+            {
+                "link": "https://web.archive.org/web/20210119022919/https://www.islandcricket.lk/editorial/how-foolish-of-sri-lankas-selectors-to-leave-kusal-mendis-behind/",
+                "title": "How foolish of Sri Lanka’s selectors to leave Kusal Mendis behind",
+                "date": "28th November 2017"
+            },
+            {
+                "link": "https://web.archive.org/web/20210119020834/https://www.islandcricket.lk/editorial/in-transition-no-more/",
+                "title": "In transition no more?",
+                "date": "16th October 2017"
+            },
+            {
+                "link": "https://web.archive.org/web/20211018225725/https://www.islandcricket.lk/editorial/sports-ministers-antics-underlines-need-to-change-sri-lankas-sports-law/",
+                "title": "Sports Minister’s antics underlines need to change Sri Lanka’s Sports Law",
+                "date": "30th July 2017"
+            },
+            {
+                "link": "https://web.archive.org/web/20210125081424/https://www.islandcricket.lk/editorial/bowling-not-entirely-to-blame/",
+                "title": "Bowling not entirely to blame",
+                "date": "20th February 2015"
+            },
+            {
+                "link": "https://web.archive.org/web/20210125074551/https://www.islandcricket.lk/editorial/forget-mubarak-and-focus-on-youth/",
+                "title": "Forget Mubarak and focus on youth",
+                "date": "23rd June 2015"
+            },
+            {
+                "link": "https://web.archive.org/web/20210119013723/https://www.islandcricket.lk/editorial/sri-lankas-world-cup-preparation-hampered-by-poor-selections/",
+                "title": "Sri Lanka’s World Cup preparation hampered by poor selections",
+                "date": "28th January 2015"
+            },
+            {
+                "link": "https://web.archive.org/web/20211129200440/https://www.islandcricket.lk/editorial/are-sri-lankan-tamil-cricketers-discriminated-against/",
+                "title": "Are Sri Lankan Tamil cricketers discriminated against?",
+                "date": "15th November 2014"
+            },
+            {
+                "link": "https://web.archive.org/web/20210414180746/https://www.islandcricket.lk/editorial/stop-living-in-denial-sri-lanka/",
+                "title": "Stop living in denial, Sri Lanka",
+                "date": "15th June 2016"
+            },
+            {
+                "link": "https://web.archive.org/web/20210119013504/https://www.islandcricket.lk/editorial/sri-lanka-captain-a-major-part-of-the-teams-problems/",
+                "title": "Sri Lanka captain a major part of the team’s problems",
+                "date": "18th June 2016"
             }
         ]
     },
@@ -690,25 +761,82 @@
         "slug": "vlogs",
         "items": [
             {
-                "title": "Vlog 1",
-                "date": "Date of Publication",
-                "excerpt": "A brief excerpt from vlog 1.",
-                "link": "https://example.com/vlog-1",
-                "image": "/images/vlogs/vlog1.png"
+                "link": "https://www.youtube.com/watch?v=e_3xsRdsyFM",
+                "title": "Final Presentation of Proof of Identity - A blockchain consensus algorithm for swarm robotics",
+                "date": "23rd November 2025",
+                "image": "/images/vlogs/poi.jpg"
             },
             {
-                "title": "Vlog 1",
-                "date": "Date of Publication",
-                "excerpt": "A brief excerpt from vlog 1.",
-                "link": "https://example.com/vlog-1",
-                "image": "/images/vlogs/vlog1.png"
+                "link": "https://www.youtube.com/watch?v=VNfiIEyS-Vw",
+                "date": "11th November 2018",
+                "title": "Decentralizing an SDN controller using blockchain",
+                "image": "/images/vlogs/blockflow.jpg"
             },
             {
-                "title": "Vlog 1",
-                "date": "Date of Publication",
-                "excerpt": "A brief excerpt from vlog 1.",
-                "link": "https://example.com/vlog-1",
-                "image": "/images/vlogs/vlog1.png"
+                "title": "Integrating Office 365 with WSO2 Identity Server",
+                "date": "25th May 2021",
+                "link": "https://www.youtube.com/watch?v=Czxf1o0wp_Y",
+                "image": "/images/vlogs/office-365.jpg"
+            },
+            {
+                "title": "Adding social login buttons to your website",
+                "date": "8th December 2020",
+                "link": "https://www.youtube.com/watch?v=vsBTweSjVRE",
+                "image": "/images/vlogs/social-media-buttons.jpg"
+            },
+            {
+                "title": "Azure AD Federation with WSO2 Identity Server",
+                "date": "30th March 2021",
+                "link": "https://www.youtube.com/watch?v=ycIplHrB6a4",
+                "image": "/images/vlogs/azure-ad.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=HPneV0xpm8U",
+                "title": "Building a Single Page Application with OIDC authentication",
+                "date": "20th October 2020",
+                "image": "/images/vlogs/spa-oidc.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=hM2FBgKCi0s&t=1744s",
+                "title": "Authentication SDKs Using WSO2 Identity Server - WSO2 Identity Server Community Call",
+                "date": "28th August 2020",
+                "image": "/images/vlogs/auth-sdk.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=7nZr2NOUDik",
+                "title": "How to add Facebook login to WSO2 Identity Server",
+                "date": "9th October 2020",
+                "image": "/images/vlogs/fb-login.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=v7AQpkLFq_A",
+                "title": "Social Login",
+                "date": "9th April 2021",
+                "image": "/images/vlogs/social-login.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=i_p0nYtguEs",
+                "title": "MFA",
+                "date": "9th April 2021",
+                "image": "/images/vlogs/mfa.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=5d-wV6ufBXY",
+                "title": "FIDO",
+                "date": "9th April 2021",
+                "image": "/images/vlogs/fido.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=CcrfMKLQq94",
+                "title": "Azure AD",
+                "date": "15th April 2021",
+                "image": "/images/vlogs/azure-ad-iam.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=Aq1mDC0d5Bc",
+                "title": "Add passwordless login using Asgardeo",
+                "date": "22nd March 2022",
+                "image": "/images/vlogs/passwordless.jpg"
             }
         ]
     },
