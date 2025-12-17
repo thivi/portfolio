@@ -121,7 +121,7 @@
             },
             {
                 "slug": "openrase-poster",
-                "title": "Poster: Service Functuion Chain Emulation Using OpenRASE",
+                "title": "Poster: Service Function Chain Emulation Using OpenRASE",
                 "event": "",
                 "venue": "",
                 "date": "2024",
@@ -429,7 +429,7 @@
                 "description": "I am reading for a Ph.D. in optimal Service Function Chain embedding using Genetic Algorithms and I am currently in my 3rd year.",
                 "awards": [
                     {
-                        "name": "University of Glasgwow Doctoral Scholarship",
+                        "name": "University of Glasgow Doctoral Scholarship",
                         "year": "2023-2026"
                     }
                 ],
@@ -525,7 +525,7 @@
                 "duration": "2021-2023",
                 "description": [
                     "I made significant contributions to two React apps by developing, testing and documenting new features. I also produced vlogs and blogs to help market the features. ",
-                    "I managed small Agile teams to deliver crtical features on times.",
+                    "I managed small Agile teams to deliver critical features on times.",
                     "I mentored and coached junior developers to learn the codebases and the best coding practices.",
                     "I lead and mentored intern developers to develop OIDC SDKs for Node.js, Angular and Express and ship them to production on time.",
                     "I lead the effort to organise community calls that attracted audience from around the globe.",
@@ -595,8 +595,8 @@
                 "position": "Associate Software Engineer",
                 "duration": "2019",
                 "description": [
-                    "I developed node.js app that streamed live data using Socket.IO to a Vue.js app for an event-maanagement system.",
-                    "I developed an Angular applicaation for the dashboard of the event-management system."
+                    "I developed node.js app that streamed live data using Socket.IO to a Vue.js app for an event-management system.",
+                    "I developed an Angular application for the dashboard of the event-management system."
                 ],
                 "awards": [],
                 "skills": [
@@ -701,7 +701,7 @@
             {
                 "link": "https://web.archive.org/web/20210125070100/https://www.islandcricket.lk/editorial/can-chandika-hathurusingha-spark-a-revival/",
                 "title": "Can Chandika Hathurusingha spark a revival?",
-                "date": "23rd JanApriluary 2018"
+                "date": "23rd January 2018"
             },
             {
                 "link": "https://www.thearmchaircritic.org/cricket/field-laurels-marred-boardroom-politics-sri-lankas-year-review",
