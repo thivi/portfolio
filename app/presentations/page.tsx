@@ -33,7 +33,7 @@ const TalksPage: React.FC = () => {
                                         <Image src={talk.image} alt={talk.title} fill style={{ objectFit: "cover" }} />
                                     </CardMedia>
                                     <CardContent>
-                                        <Typography variant="h5">{talk.title}</Typography>
+                                        <Typography variant="h6">{talk.title}</Typography>
                                         <Typography variant="subtitle1" sx={{ color: "text.secondary" }}>
                                             {talk.event}
                                         </Typography>

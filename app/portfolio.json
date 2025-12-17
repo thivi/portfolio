@@ -74,11 +74,11 @@
                 "slides": "/pdfs/sicsa-phd-poster.pdf",
                 "image": "/images/presentations/sicsa-phd-conference-2025/poster.png",
                 "gallery": [
-                    "/images/presentations/sicsa-phd-conference-2025/poster_1.jpg",
-                    "/images/presentations/sicsa-phd-conference-2025/poster_2.jpg",
-                    "/images/presentations/sicsa-phd-conference-2025/poster_3.jpg",
-                    "/images/presentations/sicsa-phd-conference-2025/poster_4.jpg",
-                    "/images/presentations/sicsa-phd-conference-2025/poster_5.jpg"
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-1.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-2.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-3.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-4.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-5.jpg"
                 ],
                 "description": "I presented a poster on using Genetic Algorithms to evolve Service Function Chain embeddings.",
                 "type": "Academic"
@@ -198,10 +198,10 @@
                 "slides": "/pdfs/define-design-thinking.pdf",
                 "image": "/images/presentations/ui-ux-bootcamp/iit.jpg",
                 "gallery": [
-                    "/images/presentations/ui-ux-bootcamp/bootcamp-1.jpg",
-                    "/images/presentations/ui-ux-bootcamp/bootcamp-2.jpg",
-                    "/images/presentations/ui-ux-bootcamp/bootcamp-3.jpg",
-                    "/images/presentations/ui-ux-bootcamp/bootcamp-4.jpg"
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-1.jpeg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-2.jpeg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-3.jpeg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-4.jpeg"
                 ],
                 "description": "I presented a talk on defining problems in design thinking as a part of the UI/UX bootcamp conducted for IIT students.",
                 "type": "Work"
@@ -446,7 +446,7 @@
                     "benns",
                     "genesis"
                 ],
-                "image": "/images/education/uofg_logo.jpg"
+                "image": "/images/education/uofg-logo.jpg"
             },
             {
                 "institution": "University of Westminster",
@@ -470,7 +470,7 @@
                 "projects": [
                     "proof-of-identity"
                 ],
-                "image": "/images/education/uofw_logo.jpg"
+                "image": "/images/education/uofw-logo.jpg"
             },
             {
                 "institution": "Sri Lanka Institute of Information Technology",
@@ -497,7 +497,7 @@
                 "projects": [
                     "blockflow"
                 ],
-                "image": "/images/education/sliit_logo.jpg"
+                "image": "/images/education/sliit-logo.jpg"
             }
         ]
     },
@@ -517,7 +517,7 @@
                     "Marking"
                 ],
                 "projects": [],
-                "image": "/images/education/uofg_logo.jpg"
+                "image": "/images/education/uofg-logo.jpg"
             },
             {
                 "institution": "WSO2",
@@ -551,7 +551,7 @@
                     "oidc-spa",
                     "oidc-react"
                 ],
-                "image": "/images/work/wso2_logo.jpg"
+                "image": "/images/work/wso2-logo.jpg"
             },
             {
                 "institution": "WSO2",
@@ -588,7 +588,7 @@
                     "oidc-spa",
                     "oidc-react"
                 ],
-                "image": "/images/work/wso2_logo.jpg"
+                "image": "/images/work/wso2-logo.jpg"
             },
             {
                 "institution": "Mobitel",
@@ -605,7 +605,7 @@
                     "Socket.IO"
                 ],
                 "projects": [],
-                "image": "/images/work/mobitel_logo.jpg"
+                "image": "/images/work/mobitel-logo.jpg"
             },
             {
                 "institution": "Aeturnum",
@@ -624,7 +624,7 @@
                     "SQL"
                 ],
                 "projects": [],
-                "image": "/images/work/aeturnum_logo.jpeg"
+                "image": "/images/work/aeturnum-logo.jpeg"
             },
             {
                 "institution": "Sportskeeda",
@@ -645,7 +645,7 @@
                     "Satire Writing"
                 ],
                 "projects": [],
-                "image": "/images/work/sportskeeda_logo.jpeg"
+                "image": "/images/work/sportskeeda-logo.jpeg"
             }
         ]
     },
@@ -846,16 +846,118 @@
         "slug": "projects",
         "items": [
             {
-                "slug": "project-1",
-                "title": "Project 1",
-                "description": "Description of project 1.",
-                "repository": "https://github.com/user/project-1",
-                "image": "/images/projects/project1.png",
+                "slug": "openrase",
+                "title": "OpenRASE: An SFC Emulator",
+                "description": "OpenRASE is an emulator for performing Service Function Chain (SFC) experiments, sepcifically focusing on resource allocation to SFCs. The emulator is written in Python and uses Mininet and Docker containers to emulate computer networks. As of now, to the best of my knowledge, this is the only SFC emulator. In contrast to the simulators avilable, OpenRASE offers higher fidelity and in contrast to the testbeds, it provides more scalability and flexibility.",
+                "repository": "https://github.com/Project-Kelvin/OpenRASE",
+                "image": "/images/projects/openrase.png",
                 "publications": [
-                    "publication-1-slug"
+                    "openrase-service-function-chain-emulation"
                 ],
                 "type": "Academic",
+                "year": "2023-Present"
+            },
+            {
+                "slug": "benns",
+                "title": "BENNS: A Surrogate Model for GA-based SFC embedding",
+                "description": "BENNS is a benchmarking and Neural Network based surrogate model for approximating traffic latency across SFCs in and SFC embedding. This surrogate model is used in Genetic Algorithms to speed up the evaluation of candidate solutions. BENNS benchmarks SFC embeddings to encode them to two numerical values, which are then used to train a Neural Network to predict the traffic latency of the SFC embeddings. BENNS reduces evolution time by 98% while achieving near-optimal solutions.",
+                "repository": "https://github.com/Project-Kelvin/OpenRASE/tree/main/src/algorithms/hybrid",
+                "image": "/images/projects/benns.png",
+                "publications": [
+                    "benns-surrogate-model-hybrid-online-offline-evolution-sfc-embedding"
+                ],
+                "type": "Academic",
+                "year": "2024-Present"
+            },
+            {
+                "slug": "genesis",
+                "title": "GENESIS: Evolving Neural Networks for SFC embedding",
+                "description": "GENESIS evolves three Deep Neural Networks (DNNs) using a Genetic Algorithm (GA) to optimally embed Service Function Chains (SFCs) on physical networks. Optimal SFC embedding consists of three sub-problems, namely optimal ordering of Virtual Network Functions (VNFs) in SFCs, optimally embedding VNFs on hosts, and optimally routing traffic between VNFS. These sub-problems have to be optimised simulatenously to achieve optimal SFC embedding. This is an NP-hard optimisation problem. I use a DNN to tackle each sub-problem and evolve these DNNs using a Genetic Algorithm to achieve optimal SFC embedding. GENESIS is 59% faster than the state-of-the-art GA while achieving 29% better performance.",
+                "repository": "https://github.com/Project-Kelvin/OpenRASE/tree/main/src/algorithms/hybrid",
+                "image": "/images/projects/genesis.png",
+                "publications": [
+                    "simultaneous-genetic-evolution-neural-networks-optimal-sfc-embedding"
+                ],
+                "type": "Academic",
+                "year": "2024-Present"
+            },
+            {
+                "slug": "proof-of-identity",
+                "title": "Proof of identity: A Blockchain Consensus Algorithm",
+                "description": "Proof of Identity (PoI) is a blockchain consensus algorithm designed to improve Byzantine failt tolerance in swarm robotics. In swarm robotics, robots work together to achieve a common goal. However, some robots may behave maliciously or fail to function properly, which can compromise the entire swarm's performance. PoI addresses this issue by allowing robots to validate each other's identities and actions using a decentralized ledger. This ensures that only trustworthy robots can participate in the swarm's decision-making process, thereby enhancing the overall reliability and security of the system.",
+                "repository": "https://github.com/PoI-Research",
+                "image": "/images/projects/poi.png",
+                "publications": [
+                    "proof-of-identity-blockchain-consensus-algorithm"
+                ],
+                "type": "Academic",
+                "year": "2022"
+            },
+            {
+                "slug": "blockflow",
+                "title": "BlockFlow: A Decentralized SDN Controller Using Blockchain",
+                "description": "BlockFlow is a decentralized Software Defined Networking (SDN) controller that leverages blockchain technology to enhance network security and reliability. Traditional SDN architectures rely on a centralized controller, which can become a single point of failure and is vulnerable to attacks. BlockFlow addresses these issues by distributing the control plane across multiple nodes using a blockchain-based consensus mechanism. This decentralization ensures that the network remains operational even if some nodes fail or behave maliciously. BlockFlow also provides a transparent and tamper-proof record of network configurations and changes, enhancing trust among network participants.",
+                "repository": "https://github.com/user/project-1",
+                "image": "/images/projects/BlockFlow.png",
+                "publications": [
+                    "blockflow-decentralized-sdn-controller"
+                ],
+                "type": "Academic",
+                "year": "2018"
+            },
+            {
+                "slug": "oxygen-ui",
+                "title": "Oxygen UI: WSO2's Design System",
+                "description": "Oxygen UI is Material Design-based design system that powers WSO2's frontend applications. It provides a set of reusable components, styles, and guidelines to ensure consistency and efficiency in UI development across WSO2 products. As a design system, Oxygen UI helps streamline the design and development process, allowing teams to create user interfaces that are visually appealing, accessible, and user-friendly. I contributed to the initial development effort of Oxygen UI developing components, writing unit tests using React Testing Library, writing stories using StoryBook and documenting them.",
+                "repository": "https://github.com/wso2/oxygen-ui",
+                "image": "/images/projects/oxygenui.png",
+                "type": "Work",
                 "year": "2023"
+            },
+            {
+                "slug": "my-account",
+                "title": "My Account: WSO2 Identity Server's User Portal",
+                "description": "My Account is the user portal of WSO2 Identity Server, providing users with a centralized interface to manage their identity information, security settings, and application access. It offers features such as profile management, password changes, multi-factor authentication setup, and consent management. The portal is designed to enhance user experience and security by giving users control over their personal data and authentication methods. This is a React application and I designed the UX and developed new features, optimised performance and wrote tests using Cypress and React Testing Library.",
+                "repository": "https://github.com/wso2/identity-apps",
+                "image": "/images/projects/my-account.png",
+                "type": "Work",
+                "year": "2019-2023"
+            },
+            {
+                "slug": "console",
+                "title": "Console: WSO2 Identity Server's Management Console",
+                "description": "Console is the management console of WSO2 Identity Server, providing administrators with a web-based interface to configure and manage identity and access management (IAM) settings. It offers features such as user and role management, authentication and authorization policies, identity federation, and reporting. The console is designed to simplify the administration of WSO2 Identity Server, allowing administrators to efficiently manage users, applications, and security settings. This is a React application and I designed the UX and developed new features, optimised performance and wrote tests using Cypress and React Testing Library.",
+                "repository": "https://github.com/wso2/identity-apps",
+                "image": "/images/projects/console.png",
+                "type": "Work",
+                "year": "2019-2023"
+            },
+            {
+                "slug": "oidc-js",
+                "title": "Asgardeo Auth JS Core: OIDC SDK for JavaScript",
+                "description": "Asgardeo Auth JS Core is an OpenID Connect (OIDC) Software Development Kit (SDK) for JavaScript applications. It provides the core utils to build SDKs for all JavaScript platforms and libraries such as Node.js, React and Angular. I contributed significantly to this SDK from scratch, enabling it to be used across multiple JavaScript platforms. This SDK simplifies the integration of OIDC authentication and authorization into JavaScript applications, allowing developers to easily implement secure user authentication and access control. It supports various OIDC flows, token management, and user session handling, making it a comprehensive solution for JavaScript developers looking to incorporate OIDC into their applications.",
+                "repository": "https://github.com/asgardeo/asgardeo-auth-js-core",
+                "image": "/images/projects/asgardeo.png",
+                "type": "Work",
+                "year": "2020-2023"
+            },
+            {
+                "slug": "oidc-spa",
+                "title": "Asgardeo Auth SPA: OIDC SDK for Single Page Applications",
+                "description": "Asgardeo Auth SPA is an OpenID Connect (OIDC) Software Development Kit (SDK) specifically designed for Single Page Applications (SPAs). It provides developers with the necessary tools to integrate OIDC authentication and authorization into their SPA projects seamlessly. I contributed significantly to this SDK from scratch, building it on top of the Asgardeo Auth JavaScript Core SDK. This SDK simplifies the implementation of secure user authentication and access control in SPAs, supporting various OIDC flows, token management, and user session handling. It enables developers to create robust and secure SPAs that adhere to modern authentication standards. I implemented a feture that uses web workers to securely store access tokens, which is safer than using session and local storages.",
+                "repository": "https://github.com/asgardeo/asgardeo-auth-spa-sdk",
+                "image": "/images/projects/asgardeo.png",
+                "type": "Work",
+                "year": "2020-2023"
+            },
+            {
+                "slug": "oidc-react",
+                "title": "Asgardeo Auth React: OIDC SDK for React Applications",
+                "description": "Asgardeo Auth React is an OpenID Connect (OIDC) Software Development Kit (SDK) tailored for React applications. It provides a set of tools and components that enable developers to easily integrate OIDC authentication and authorization into their React projects. I contributed significantly to this SDK from scratch, building it on top of the Asgardeo Auth SPA SDK. This SDK simplifies the process of implementing secure user authentication and access control in React applications, supporting various OIDC flows, token management, and user session handling. It empowers developers to create robust and secure React applications that comply with modern authentication standards.",
+                "repository": "https://github.com/asgardeo/asgardeo-auth-react-sdk",
+                "image": "/images/projects/asgardeo.png",
+                "type": "Work",
+                "year": "2020-2023"
             }
         ]
     },
