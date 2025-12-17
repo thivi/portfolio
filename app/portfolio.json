@@ -967,12 +967,84 @@
         "slug": "certifications",
         "items": [
             {
-                "name": "Certification Name",
-                "issuer": "Issuing Organization",
-                "date": "Date of Issuance",
-                "credentialID": "Credential ID",
-                "credentialURL": "https://example.com/certification",
-                "image": "/images/certifications/cert1.png"
+                "name": "Google Data Analytics Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "31st July 2021",
+                "credentialID": "2YHNYMBGQMW7",
+                "credentialURL": "https://coursera.org/share/7683ff8551d7139a166e0b10548597c6",
+                "image": "/images/certifications/data-analytics.png"
+            },
+            {
+                "name": "Google IT Support Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "21st September 2021",
+                "credentialID": "W77HWU9Z2N9C",
+                "credentialURL": "https://coursera.org/share/ffdf32a31a398507606a772392ebcc57",
+                "image": "/images/certifications/it-support.png"
+            },
+            {
+                "name": "Google IT Support Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "21st September 2021",
+                "credentialID": "W77HWU9Z2N9C",
+                "credentialURL": "https://coursera.org/share/ffdf32a31a398507606a772392ebcc57",
+                "image": "/images/certifications/it-support.png"
+            },
+            {
+                "name": "Google IT Automation with Python Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "7th September 2021",
+                "credentialID": "EMXX6SDBA6F8",
+                "credentialURL": "https://coursera.org/share/a385cbf48645321c54a920a5bb1604f6",
+                "image": "/images/certifications/it-automation-python.png"
+            },
+            {
+                "name": "Google Project Management Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "25th June 2021",
+                "credentialID": "XD6YUSZPE2S7",
+                "credentialURL": "https://coursera.org/share/ff5085f0709eda5b23938324cf466bcb",
+                "image": "/images/certifications/project-management.png"
+            },
+            {
+                "name": "Google UX Design Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "2nd April 2021",
+                "credentialID": "6SBRY8494GTY",
+                "credentialURL": "https://coursera.org/share/6c6c65c13873c8aa9cb4f1dfacf90ff2",
+                "image": "/images/certifications/ux-design.png"
+            },
+            {
+                "name": "WSO2 Certified Identity Server Developer - V5",
+                "issuer": "WSO2",
+                "date": "29th October 2021",
+                "credentialID": "9GZXEG",
+                "credentialURL": "https://certification.wso2.com/web/certificate/9GZXEG",
+                "image": "/images/certifications/wso2.png"
+            },
+            {
+                "name": "Machine Learning Certificate",
+                "issuer": "Stanford University/Coursera",
+                "date": "22nd April 2019",
+                "credentialID": "SFKQTBHFZKXM",
+                "credentialURL": "https://coursera.org/share/d50c1b297ba378a8f8b24ee2481c2f3d",
+                "image": "/images/certifications/machine-learning.jpg"
+            },
+            {
+                "name": "Deep Learning Certificate",
+                "issuer": "Deeplearning.AI/Coursera",
+                "date": "26th December 2020",
+                "credentialID": "73U8L5NP4JGP",
+                "credentialURL": "https://coursera.org/share/bfd617f7363b0463fe02db0275c5b739",
+                "image": "/images/certifications/deep-learning.png"
+            },
+            {
+                "name": "Media and Information Literacy, and Inter-Cultural Dialogue",
+                "issuer": "Athabasca University",
+                "date": "August 2015",
+                "credentialID": "",
+                "credentialURL": "",
+                "image": "/images/certifications/athabasca.png"
             }
         ]
     }
