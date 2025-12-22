@@ -3,7 +3,7 @@
 import { Backdrop, Box, IconButton } from "@mui/material";
 import Image from "next/image";
 import { FC, ReactElement, RefObject, useRef, useState } from "react";
-import CancelIcon from "@mui/icons-material/Cancel";
+import CloseIcon from "@mui/icons-material/Close";
 import ChevronLeft from "@mui/icons-material/ChevronLeft";
 import ChevronRight from "@mui/icons-material/ChevronRight";
 import { Theme } from "@mui/material/styles";
@@ -60,7 +60,7 @@ const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): Re
                         }}
                     >
                         <IconButton>
-                            <CancelIcon
+                            <CloseIcon
                                 onClick={() => setImageToOpen(-1)}
                                 sx={{
                                     color: "var(--portfolio-palette-primary-contrastText)"
