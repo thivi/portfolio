@@ -1,7 +1,7 @@
 .app-body {
     min-height: 100vh;
     position: relative;
-    background: linear-gradient(45deg, var(--portfolio-palette-primary-main), var(--portfolio-palette-secondary-main))
+    background: linear-gradient(45deg, var(--portfolio-palette-bgGradient-main), var(--portfolio-palette-bgGradient-second));
 }
 .app-body::before {
     position: absolute;
@@ -11,21 +11,16 @@
     z-index: -1;
     background-image: url("/images/tartan.jpeg");
     background-size: 200px 200px;
-    opacity: 0.8;
+    opacity: 0.3;
     background-blend-mode: color;
 }
 .pdf-iframe {
     border: none;
 }
-.biblatex-entry p {
-    margin: 0;
-    overflow: hidden;
-    word-wrap: break-word;
-    white-space: normal;
-}
-.biblatex-entry p:not(:first-child) {
-    margin-left: 1.5em;
-}
-.institute-image {
-    border-radius: 50%;
+.footer {
+    font-family: var(--font-body);
+    font-size: 1em;
+    color: var(--portfolio-palette-primary-contrastText);
+    margin-top: 2rem;
+    text-align: center;
 }

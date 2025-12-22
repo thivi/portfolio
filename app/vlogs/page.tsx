@@ -1,53 +1,41 @@
-import React from "react";
-import portfolio from "../portfolio.json";
-import { Box, Card, CardActionArea, CardContent, CardMedia, Typography } from "@mui/material";
-import Image from "next/image";
+import React, { FC, ReactElement } from "react";
 import Grid from "@mui/material/Grid";
-import Link from "next/link";
+import ListPage from "../_components/ListPage";
+import VerticalCard from "../_components/VerticalCard";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+import { Metadata } from "next";
+import { Article, Portfolio, Vlogs } from "../../models/portfolio";
+import { loadPortfolioData } from "../../data/portfolio";
 
-const VlogsPage: React.FC = () => {
-    const vlogs = portfolio.vlogs;
+export const generateMetadata = async (): Promise<Metadata> => {
+    const portfolioData: Portfolio = await loadPortfolioData();
+
+    return {
+        title: `${portfolioData.vlogs.title} | ${portfolioData.home.title}`,
+        description: portfolioData.vlogs.description
+    };
+};
+
+const VlogsPage: FC = async (): Promise<ReactElement> => {
+    const portfolioData: Portfolio = await loadPortfolioData();
+    const vlogs: Vlogs = portfolioData.vlogs;
 
     return (
-        <Box>
-            <Typography variant="h3" component="h3" color="var(--portfolio-palette-primary-contrastText)">
-                {vlogs.title}
-            </Typography>
-            <Typography variant="subtitle1" component="h5" color="var(--portfolio-palette-primary-contrastText)">
-                {vlogs.description}
-            </Typography>
+        <ListPage heading={vlogs.title} subHeading={vlogs.description}>
             <Grid container spacing={4} sx={{ marginTop: "20px" }}>
-                {vlogs.items?.map((vlog, index) => (
+                {vlogs.items?.map((vlog: Article, index: number) => (
                     <Grid size={{ xs: 12, sm: 6, md: 6 }} key={index}>
-                        <Card sx={{ display: "flex", flexDirection: "column" }}>
-                            <Link href={vlog.link} style={{ textDecoration: "none", color: "inherit" }}>
-                                <CardActionArea>
-                                    <CardMedia
-                                        sx={{
-                                            width: "100%",
-                                            height: "200px",
-                                            position: "relative",
-                                            overflow: "hidden"
-                                        }}
-                                    >
-                                        <Image src={vlog.image} alt={vlog.title} fill style={{ objectFit: "cover" }} />
-                                    </CardMedia>
-                                    <CardContent>
-                                        <Typography variant="h5">{vlog.title}</Typography>
-                                        <Typography variant="subtitle1" sx={{ color: "text.secondary" }}>
-                                            {vlog.date}
-                                        </Typography>
-                                        <Typography variant="subtitle1" sx={{ color: "text.secondary" }}>
-                                            {vlog.excerpt}
-                                        </Typography>
-                                    </CardContent>
-                                </CardActionArea>
-                            </Link>
-                        </Card>
+                        <VerticalCard
+                            heading={vlog.title}
+                            subHeading1={vlog.date}
+                            imageUrl={vlog.image}
+                            link={vlog.link}
+                            icon={<PlayArrowIcon sx={{ height: "4rem", width: "4rem" }} />}
+                        />
                     </Grid>
                 ))}
             </Grid>
-        </Box>
+        </ListPage>
     );
 };
 

@@ -3,21 +3,36 @@
 import {
     Box,
     Button,
-    Chip,
     Dialog,
     DialogActions,
     DialogContent,
     DialogTitle,
     Divider,
+    styled,
     Typography
 } from "@mui/material";
 import HistoryEduIcon from "@mui/icons-material/HistoryEdu";
-import { useState } from "react";
+import { FC, ReactElement, useState } from "react";
 import CloseIcon from "@mui/icons-material/Close";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import DownloadIcon from "@mui/icons-material/Download";
 
-const Citation: React.FC<{ citationText: string, size?: "small" | "medium" }> = ({ citationText, size = "medium" }) => {
+const BibTex = styled("pre")({
+    p: {
+        margin: 0,
+        overflow: "hidden",
+        wordWrap: "break-word",
+        whiteSpace: "normal"
+    },
+    "p:not(:first-child)": {
+        marginLeft: "1.5em"
+    }
+});
+
+const Citation: FC<{ citationText: string; size?: "small" | "medium" }> = ({
+    citationText,
+    size = "medium"
+}): ReactElement => {
     const [openCitation, setOpenCitation] = useState<string | null>(null);
 
     const handleClose = (e: React.SyntheticEvent) => {
@@ -39,23 +54,27 @@ const Citation: React.FC<{ citationText: string, size?: "small" | "medium" }> = 
         navigator.clipboard.writeText(citationText);
     };
 
+    const handleDownload = (e: React.SyntheticEvent) => {
+        e.stopPropagation();
+    };
+
+    const handleDialogClick = (e: React.SyntheticEvent) => {
+        e.stopPropagation();
+        e.preventDefault();
+    };
+
     const citationKeyRegex: RegExp = /{[^,]+/g;
-    const citationKeyMatch = citationText.match(citationKeyRegex);
+    const citationKeyMatch: RegExpMatchArray | null = citationText.match(citationKeyRegex);
     const citationKey: string =
         citationKeyMatch && citationKeyMatch.length > 0 ? citationKeyMatch[0].slice(1, -1) : "citation";
     const bibFile: Blob = new Blob([citationText], { type: "text/plain" });
 
     return (
         <>
-            <Chip
-                label="Cite"
-                icon={<HistoryEduIcon />}
-                clickable
-                size={size}
-                sx={{ marginLeft: "10px" }}
-                onClick={handleOpen}
-            />
-            <Dialog open={openCitation !== null} onClose={handleClose}>
+            <Button startIcon={<HistoryEduIcon />} size={size} onClick={handleOpen} variant="contained">
+                Cite
+            </Button>
+            <Dialog open={openCitation !== null} onClose={handleClose} onClick={handleDialogClick}>
                 <DialogTitle>
                     <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                         <Typography variant="h6">Cite</Typography>
@@ -66,17 +85,17 @@ const Citation: React.FC<{ citationText: string, size?: "small" | "medium" }> = 
                 </DialogTitle>
                 <Divider />
                 <DialogContent>
-                    <pre className="biblatex-entry">
-                        {citationText.split(",").map((line, index) => (
+                    <BibTex>
+                        {citationText.split(",").map((line: string, index: number) => (
                             <p key={index}>
                                 {line.trim()}
                                 {index < citationText.split(",").length - 1 ? "," : ""}
                             </p>
                         ))}
-                    </pre>
+                    </BibTex>
                 </DialogContent>
                 <Divider />
-                <DialogActions>
+                <DialogActions sx={{ padding: "1rem", paddingRight: "3rem" }}>
                     <Button
                         onClick={handleCopy}
                         startIcon={<ContentCopyIcon />}
@@ -87,15 +106,13 @@ const Citation: React.FC<{ citationText: string, size?: "small" | "medium" }> = 
                     <Button
                         component="a"
                         rel="noopener noreferrer"
-                        onClick={(e) => {
-                            e.stopPropagation();
-                        }}
+                        onClick={handleDownload}
                         id="sample"
                         download={`${citationKey}.bib`}
-                        href={ URL.createObjectURL(bibFile) }
-                        sx={ {
+                        href={URL.createObjectURL(bibFile)}
+                        sx={{
                             color: "var(--portfolio-palette-primary-contrastText)"
-                        } }
+                        }}
                         startIcon={<DownloadIcon />}
                     >
                         Download

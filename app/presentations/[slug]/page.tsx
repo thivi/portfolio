@@ -1,45 +1,50 @@
-import { Box, Chip, Typography } from "@mui/material";
-import portfolio from "../../portfolio.json";
+import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import Gallery from "../../_components/Gallery";
+import DetailsPage from "../../_components/DetailsPage";
+import { Metadata } from "next";
+import { FC, ReactElement } from "react";
+import { Portfolio, PresentationItem } from "../../../models/portfolio";
+import { notFound } from "next/navigation";
+import { Params } from "../../../models/navigation";
+import { loadPortfolioData } from "../../../data/portfolio";
 
-const Talk = async ({ params }: { params: { slug: string } }) => {
-    const { slug } = await params;
-    const talkData = portfolio.presentations?.items?.find((t) => t.slug === slug);
+export const generateMetadata = async ({ params }: PageProps<"/presentations/[slug]">): Promise<Metadata> => {
+    const p: Params = await params;
+    const portfolio: Portfolio = await loadPortfolioData();
+    const talkData: PresentationItem | undefined = portfolio.presentations?.items?.find((t) => t.slug === p.slug);
+
+    return {
+        title: `${talkData?.title}`,
+        description: talkData?.description || portfolio.presentations.description
+    };
+}
+
+const Talk: FC<PageProps<"/presentations/[slug]">> = async ({ params }): Promise<ReactElement> => {
+    const p: Params = await params;
+    const portfolio: Portfolio = await loadPortfolioData();
+    const talkData: PresentationItem | undefined = portfolio.presentations?.items?.find((t) => t.slug === p.slug);
+
+    if (talkData === undefined) {
+        notFound();
+    }
 
     return (
-        <Box>
-            <Typography variant="h3" component="h1" color="var(--portfolio-palette-primary-contrastText)">
-                {talkData?.title}
-            </Typography>
-            <Chip label={talkData?.type} variant="outlined" sx={{ marginBottom: "10px" }} />
-            <Typography variant="h6" color="var(--portfolio-palette-primary-contrastText)">
-                {talkData?.event}
-            </Typography>
-            <Typography
-                variant="h6"
-                color="var(--portfolio-palette-primary-contrastText)"
-                sx={{ marginBottom: "10px" }}
-            >
-                {talkData?.date}
-            </Typography>
+        <DetailsPage
+            heading={talkData?.title || ""}
+            subheading1={`${talkData?.event || ""}, ${talkData?.venue || ""}`}
+            subheading2={talkData?.date || ""}
+            tags={ [ talkData?.type || "" ] }
+            backHref={`/${portfolio.presentations?.slug}`}
+        >
             <Box
                 sx={{ width: "100%", height: "400px", position: "relative", overflow: "hidden", marginBottom: "20px" }}
             >
                 <Image src={talkData?.image || ""} alt={talkData?.title || ""} fill style={{ objectFit: "cover" }} />
             </Box>
-            <Typography
-                variant="h6"
-                color="var(--portfolio-palette-primary-contrastText)"
-                sx={{ marginBottom: "10px" }}
-            >
-                at {talkData?.venue}
-            </Typography>
-            <Typography variant="body1" color="var(--portfolio-palette-primary-contrastText)">
-                {talkData?.description}
-            </Typography>
-            <Typography variant="body1" color="var(--portfolio-palette-primary-contrastText)">
-                Presentation Slides:
+            <Typography variant="body1">{talkData?.description}</Typography>
+            <Typography variant="h2" sx={{ marginTop: "2rem", marginBottom: "1rem" }}>
+                Presentation Slides
             </Typography>
             <iframe
                 title={talkData?.title || "Talk Slides"}
@@ -48,11 +53,11 @@ const Talk = async ({ params }: { params: { slug: string } }) => {
                 height="600px"
                 className="pdf-iframe"
             ></iframe>
-            <Typography variant="body1" color="var(--portfolio-palette-primary-contrastText)">
-                Gallery:
+            <Typography variant="h2" sx={{ marginTop: "2rem", marginBottom: "1rem" }}>
+                Gallery
             </Typography>
             <Gallery images={talkData?.gallery || []} />
-        </Box>
+        </DetailsPage>
     );
 };
 

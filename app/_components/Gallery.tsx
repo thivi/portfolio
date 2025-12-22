@@ -2,12 +2,13 @@
 
 import { Backdrop, Box, ImageList, ImageListItem } from "@mui/material";
 import Image from "next/image";
-import { useState } from "react";
+import { FC, ReactElement, useState } from "react";
 import CancelIcon from "@mui/icons-material/Cancel";
 import ChevronLeft from "@mui/icons-material/ChevronLeft";
 import ChevronRight from "@mui/icons-material/ChevronRight";
+import { Theme } from "@mui/material/styles";
 
-const Gallery: React.FC<{ images: string[] }> = ({ images }: { images: string[] }): React.ReactElement => {
+const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): ReactElement => {
     const [imageToOpen, setImageToOpen] = useState<number>(-1);
 
     return (
@@ -15,11 +16,11 @@ const Gallery: React.FC<{ images: string[] }> = ({ images }: { images: string[] 
             <Backdrop
                 open={imageToOpen > -1}
                 onClick={() => setImageToOpen(-1)}
-                sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
+                sx={{ zIndex: (theme: Theme) => theme.zIndex.drawer + 1 }}
             >
                 <Box
                     sx={{
-                        margin: "50px",
+                        margin: "2rem",
                         width: "100%",
                         height: "100vh"
                     }}
@@ -53,7 +54,7 @@ const Gallery: React.FC<{ images: string[] }> = ({ images }: { images: string[] 
                         sx={{
                             color: "var(--portfolio-palette-primary-contrastText)",
                             position: "absolute",
-                            bottom: "50px",
+                            bottom: "2rem",
                             left: "0",
                             right: "0",
                             display: "flex",
@@ -80,7 +81,7 @@ const Gallery: React.FC<{ images: string[] }> = ({ images }: { images: string[] 
                 </Box>
             </Backdrop>
             <ImageList variant="masonry" cols={3} gap={8}>
-                {images?.map((imageSrc, index) => (
+                {images?.map((imageSrc: string, index: number) => (
                     <ImageListItem
                         key={index}
                         sx={{ position: "relative", width: "100%",height: "100%", paddingBottom: "150%", cursor: "pointer" }}
