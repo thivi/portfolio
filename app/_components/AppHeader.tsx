@@ -5,7 +5,6 @@ import {
     Button,
     SxProps,
     Toolbar,
-    Link,
     IconButton,
     Box,
     List,
@@ -20,6 +19,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { TABLET_BREAKPOINT } from "../../constants/ui";
 import { Portfolio, PortfolioPage } from "../../models/portfolio";
+import Link from "next/link";
 
 const buttonStyle: SxProps = {
     filter: "drop-shadow(0px 0px 2px var(--portfolio-palette-primary-dark))",

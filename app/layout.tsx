@@ -10,7 +10,7 @@ import Footer from "./_components/Footer";
 import { loadPortfolioData } from "../data/portfolio";
 import { Portfolio } from "../models/portfolio";
 import { FC, ReactElement } from "react";
-
+import { MotionDiv } from "./_components/motion";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const portfolioData: Portfolio = await loadPortfolioData();
@@ -61,7 +61,13 @@ const RootLayout: FC<LayoutProps<"/">> = async ({ children }): Promise<ReactElem
                                 }
                             }}
                         >
-                            <AppHeader portfolioData={portfolioData} />
+                            <MotionDiv
+                                initial={{ scale: 0.8, opacity: 0 }}
+                                animate={{ scale: 1, opacity: 1 }}
+                                transition={{ duration: 0.5, ease: "easeIn" }}
+                            >
+                                <AppHeader portfolioData={portfolioData} />
+                            </MotionDiv>
                             <Box sx={{ paddingTop: "2rem" }}>{children}</Box>
                             <Footer />
                         </Container>

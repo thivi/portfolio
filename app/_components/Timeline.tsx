@@ -6,6 +6,7 @@ import HorizontalCard from "./HorizontalCard";
 import { CardSize } from "../../constants/card";
 import { Award, Portfolio } from "../../models/portfolio";
 import { loadPortfolioData } from "../../data/portfolio";
+import { MotionDiv } from "./motion";
 
 export interface TimelineItemData {
     heading: string;
@@ -29,7 +30,13 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                     sx={{ marginTop: index != 0 ? "2rem" : 0, display: "flex", gap: "1rem", flexDirection: "row" }}
                 >
                     <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                        <CircularAvatar src={data.imageUrl ?? ""} alt={data.heading} width={60} height={60} />
+                        <MotionDiv
+                            initial={{ filter: "blur(5px)", opacity: 0 }}
+                            animate={{ filter: "blur(0px)", opacity: 1 }}
+                            transition={{ duration: 0.5, ease: "easeIn" }}
+                        >
+                            <CircularAvatar src={data.imageUrl ?? ""} alt={data.heading} width={60} height={60} />
+                        </MotionDiv>
                         {index != timelineData.length - 1 && (
                             <Box
                                 sx={{
@@ -42,10 +49,15 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                         )}
                     </Box>
                     <Box>
-                        <Typography variant="h5">{data.heading}</Typography>
-                        <Typography variant="subtitle1">{data.subHeading1}</Typography>
-                        <Typography variant="subtitle2">{data.subHeading2}</Typography>
-
+                        <MotionDiv
+                            initial={{ x: 20, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            transition={{ duration: 0.5, ease: "easeIn" }}
+                        >
+                            <Typography variant="h5">{data.heading}</Typography>
+                            <Typography variant="subtitle1">{data.subHeading1}</Typography>
+                            <Typography variant="subtitle2">{data.subHeading2}</Typography>
+                        </MotionDiv>
                         {Array.isArray(data.description) ? (
                             <ul>
                                 {data.description.map((point: string, pointIndex: number) => (
@@ -66,16 +78,23 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                                 </Typography>
                                 <List sx={{ display: "flex", flexDirection: "row", gap: "0.5rem", flexWrap: "wrap" }}>
                                     {data.awards?.map((award: Award, awardIndex: number) => (
-                                        <ListItem key={awardIndex}>
-                                            <ListItemAvatar>
-                                                <MilitaryTechIcon sx={{ color: "gold" }} />
-                                            </ListItemAvatar>
-                                            <ListItemText
-                                                color="var(--portfolio-palette-primary-contrastText)"
-                                                primary={award.name}
-                                                secondary={award.year}
-                                            />
-                                        </ListItem>
+                                        <MotionDiv
+                                            key={awardIndex}
+                                            initial={{ scale: 0.8, opacity: 0 }}
+                                            animate={{ scale: 1, opacity: 1 }}
+                                            transition={{ duration: 0.3, ease: "easeIn", delay: awardIndex * 0.1 }}
+                                        >
+                                            <ListItem>
+                                                <ListItemAvatar>
+                                                    <MilitaryTechIcon sx={{ color: "gold" }} />
+                                                </ListItemAvatar>
+                                                <ListItemText
+                                                    color="var(--portfolio-palette-primary-contrastText)"
+                                                    primary={award.name}
+                                                    secondary={award.year}
+                                                />
+                                            </ListItem>
+                                        </MotionDiv>
                                     ))}
                                 </List>
                             </>
@@ -110,7 +129,14 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                         )}
                         <Box sx={{ marginTop: "1rem", display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
                             {data.skills?.map((skill: string, skillIndex: number) => (
-                                <Chip key={skillIndex} label={skill} variant="outlined" />
+                                <MotionDiv
+                                    key={skillIndex}
+                                    initial={{ scale: 0.8, opacity: 0 }}
+                                    animate={{ scale: 1, opacity: 1 }}
+                                    transition={{ duration: 0.3, ease: "easeIn", delay: skillIndex * 0.1 }}
+                                >
+                                    <Chip label={skill} variant="outlined" />
+                                </MotionDiv>
                             ))}
                         </Box>
                     </Box>

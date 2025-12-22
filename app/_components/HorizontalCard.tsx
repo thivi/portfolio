@@ -3,6 +3,7 @@ import { FC, PropsWithChildren, ReactElement } from "react";
 import Link from "./Link";
 import Image from "next/image";
 import { CardSize } from "../../constants/card";
+import { MotionDiv } from "./motion";
 
 interface HorizontalCardProps {
     heading: string;
@@ -73,55 +74,63 @@ const HorizontalCard: FC<PropsWithChildren<HorizontalCardProps>> = ({
     size = CardSize.Large
 }): ReactElement => {
     return (
-        <Card variant="outlined" sx={{ height: "-webkit-fill-available" }}>
-            <Box sx={{ display: "flex", flexDirection: "row", gap: "1rem", height: "100%" }}>
-                {link ? (
-                    <Link
-                        href={link}
-                        style={{
-                            textDecoration: "none",
-                            color: "inherit",
-                            height: "100%",
-                            flexGrow: 2,
-                            overflow: "auto"
-                        }}
-                        target={linkTarget}
-                    >
-                        <CardActionArea sx={{ height: "100%" }}>
-                            <HorizontalCardContent
-                                heading={heading}
-                                subHeading1={subHeading1}
-                                subHeading2={subHeading2}
-                                imageUrl={imageUrl}
-                                tag={tag}
-                                size={size}
-                            />
-                        </CardActionArea>
-                    </Link>
-                ) : (
-                    <HorizontalCardContent
-                        heading={heading}
-                        subHeading1={subHeading1}
-                        subHeading2={subHeading2}
-                        imageUrl={imageUrl}
-                        tag={tag}
-                        size={size}
-                    />
-                )}
-                {children && (
-                    <Box
-                        sx={{
-                            display: "flex",
-                            alignItems: "center",
-                            paddingRight: "2rem",
-                            justifyContent: "flex-end"
-                        }}
-                    >
-                        {children}
-                    </Box>
-                )}
-            </Box>
-        </Card>
+        <Box
+            component={MotionDiv}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.3, delay: 0.5, ease: "easeIn" }}
+            sx={{ height: "-webkit-fill-available" }}
+        >
+            <Card variant="outlined" sx={{ height: "-webkit-fill-available" }}>
+                <Box sx={{ display: "flex", flexDirection: "row", gap: "1rem", height: "100%" }}>
+                    {link ? (
+                        <Link
+                            href={link}
+                            style={{
+                                textDecoration: "none",
+                                color: "inherit",
+                                height: "100%",
+                                flexGrow: 2,
+                                overflow: "auto"
+                            }}
+                            target={linkTarget}
+                        >
+                            <CardActionArea sx={{ height: "100%" }}>
+                                <HorizontalCardContent
+                                    heading={heading}
+                                    subHeading1={subHeading1}
+                                    subHeading2={subHeading2}
+                                    imageUrl={imageUrl}
+                                    tag={tag}
+                                    size={size}
+                                />
+                            </CardActionArea>
+                        </Link>
+                    ) : (
+                        <HorizontalCardContent
+                            heading={heading}
+                            subHeading1={subHeading1}
+                            subHeading2={subHeading2}
+                            imageUrl={imageUrl}
+                            tag={tag}
+                            size={size}
+                        />
+                    )}
+                    {children && (
+                        <Box
+                            sx={{
+                                display: "flex",
+                                alignItems: "center",
+                                paddingRight: "2rem",
+                                justifyContent: "flex-end"
+                            }}
+                        >
+                            {children}
+                        </Box>
+                    )}
+                </Box>
+            </Card>
+        </Box>
     );
 };
 

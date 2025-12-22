@@ -15,7 +15,7 @@ export const generateMetadata = async (): Promise<Metadata> => {
     };
 };
 
-const TalksPage: FC = async (): Promise<ReactElement> => {
+const PresentationsPage: FC = async (): Promise<ReactElement> => {
     const portfolio: Portfolio = await loadPortfolioData();
 
     return (
@@ -38,4 +38,4 @@ const TalksPage: FC = async (): Promise<ReactElement> => {
     );
 };
 
-export default TalksPage;
+export default PresentationsPage;

@@ -2,6 +2,7 @@ import { Box, Card, CardActionArea, CardContent, CardMedia, Chip, Typography } f
 import { FC, ReactElement } from "react";
 import Image from "next/image";
 import Link from "./Link";
+import { MotionDiv } from "./motion";
 
 interface VerticalCardProps {
     heading: string;
@@ -89,31 +90,38 @@ const VerticalCard: FC<VerticalCardProps> = ({
     icon
 }): ReactElement => {
     return (
-        <Card sx={{ display: "flex", flexDirection: "column" }} variant="outlined">
-            {link ? (
-                <Link href={link} style={{ textDecoration: "none", color: "inherit" }} target={linkTarget}>
-                    <CardActionArea>
-                        <VerticalCardContent
-                            heading={heading}
-                            subHeading1={subHeading1}
-                            subHeading2={subHeading2}
-                            imageUrl={imageUrl}
-                            tag={tag}
-                            icon={icon}
-                        />
-                    </CardActionArea>
-                </Link>
-            ) : (
-                <VerticalCardContent
-                    heading={heading}
-                    subHeading1={subHeading1}
-                    subHeading2={subHeading2}
-                    imageUrl={imageUrl}
-                    tag={tag}
-                    icon={icon}
-                />
-            )}
-        </Card>
+        <Box
+            component={MotionDiv}
+            initial={{ scale: 0.8, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{ duration: 0.3, delay: 0.5, ease: "easeIn" }}
+        >
+            <Card sx={{ display: "flex", flexDirection: "column" }} variant="outlined">
+                {link ? (
+                    <Link href={link} style={{ textDecoration: "none", color: "inherit" }} target={linkTarget}>
+                        <CardActionArea>
+                            <VerticalCardContent
+                                heading={heading}
+                                subHeading1={subHeading1}
+                                subHeading2={subHeading2}
+                                imageUrl={imageUrl}
+                                tag={tag}
+                                icon={icon}
+                            />
+                        </CardActionArea>
+                    </Link>
+                ) : (
+                    <VerticalCardContent
+                        heading={heading}
+                        subHeading1={subHeading1}
+                        subHeading2={subHeading2}
+                        imageUrl={imageUrl}
+                        tag={tag}
+                        icon={icon}
+                    />
+                )}
+            </Card>
+        </Box>
     );
 };
 
