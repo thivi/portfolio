@@ -1,6 +1,7 @@
 {
     "home": {
         "title": "Theviyanthan Krishnamohan.",
+        "shortTitle": "Thivi",
         "description": "I am a 3rd-year Ph.D. student at the University of Glasgow, a world top 100 university, researching autonomous networks. I have 5 years' experience as a software engineer, 4 of them working on WSO2 Identity Server, a strong performer according to Forrester. ",
         "slug": "",
         "interests": [
@@ -510,7 +511,7 @@
                 "institution": "University of Glasgow",
                 "position": "Graduate Teaching Assistant",
                 "duration": "2024-Present",
-                "description": "I was the Graduate Teaching Assistant for the Operating Systems (COMPSCI4011) course for Level 4 students in 2024. I also marked the exams for the same course.",
+                "description": "I was the Graduate Teaching Assistant for the Operating Systems (COMPSCI4011) course for Level 4 students in 2025. I also marked the exams for the same course.",
                 "awards": [],
                 "skills": [
                     "Teaching",
@@ -657,7 +658,7 @@
             {
                 "name": "Cricket Machan",
                 "link": "https://www.cricketmachan.com",
-                "description": "A blog where I write on cricket.",
+                "description": "A blog where I write on cricket, focusing mostly on Sri Lanka cricket.",
                 "image": "/images/blogs/cm-logo.png"
             },
             {
@@ -701,57 +702,68 @@
             {
                 "link": "https://web.archive.org/web/20210125070100/https://www.islandcricket.lk/editorial/can-chandika-hathurusingha-spark-a-revival/",
                 "title": "Can Chandika Hathurusingha spark a revival?",
-                "date": "23rd January 2018"
+                "date": "23rd January 2018",
+                "image": "/images/blogs/hathurusinghe.webp"
             },
             {
                 "link": "https://www.thearmchaircritic.org/cricket/field-laurels-marred-boardroom-politics-sri-lankas-year-review",
                 "title": "On-field of laurels marred by boardroom politics: Sri Lanka’s year in review",
-                "date": "31st December 2014"
+                "date": "31st December 2014",
+                "image": "/images/blogs/2014-wt20-win.webp"
             },
             {
                 "link": "https://web.archive.org/web/20210119022919/https://www.islandcricket.lk/editorial/how-foolish-of-sri-lankas-selectors-to-leave-kusal-mendis-behind/",
                 "title": "How foolish of Sri Lanka’s selectors to leave Kusal Mendis behind",
-                "date": "28th November 2017"
+                "date": "28th November 2017",
+                "image": "/images/blogs/kusal-mendis.webp"
             },
             {
                 "link": "https://web.archive.org/web/20210119020834/https://www.islandcricket.lk/editorial/in-transition-no-more/",
                 "title": "In transition no more?",
-                "date": "16th October 2017"
+                "date": "16th October 2017",
+                "image": "/images/blogs/sl-vs-pak-2017.webp"
             },
             {
                 "link": "https://web.archive.org/web/20211018225725/https://www.islandcricket.lk/editorial/sports-ministers-antics-underlines-need-to-change-sri-lankas-sports-law/",
                 "title": "Sports Minister’s antics underlines need to change Sri Lanka’s Sports Law",
-                "date": "30th July 2017"
+                "date": "30th July 2017",
+                "image": "/images/blogs/dayasiri-jayasekara.jpg"
             },
             {
                 "link": "https://web.archive.org/web/20210125081424/https://www.islandcricket.lk/editorial/bowling-not-entirely-to-blame/",
                 "title": "Bowling not entirely to blame",
-                "date": "20th February 2015"
+                "date": "20th February 2015",
+                "image": "/images/blogs/sl-vs-nz-2015.avif"
             },
             {
                 "link": "https://web.archive.org/web/20210125074551/https://www.islandcricket.lk/editorial/forget-mubarak-and-focus-on-youth/",
                 "title": "Forget Mubarak and focus on youth",
-                "date": "23rd June 2015"
+                "date": "23rd June 2015",
+                "image": "/images/blogs/jehan-mubarak.jpg"
             },
             {
                 "link": "https://web.archive.org/web/20210119013723/https://www.islandcricket.lk/editorial/sri-lankas-world-cup-preparation-hampered-by-poor-selections/",
                 "title": "Sri Lanka’s World Cup preparation hampered by poor selections",
-                "date": "28th January 2015"
+                "date": "28th January 2015",
+                "image": "/images/blogs/sl-wc-2015.webp"
             },
             {
                 "link": "https://web.archive.org/web/20211129200440/https://www.islandcricket.lk/editorial/are-sri-lankan-tamil-cricketers-discriminated-against/",
                 "title": "Are Sri Lankan Tamil cricketers discriminated against?",
-                "date": "15th November 2014"
+                "date": "15th November 2014",
+                "image": "/images/blogs/murali.jpg"
             },
             {
                 "link": "https://web.archive.org/web/20210414180746/https://www.islandcricket.lk/editorial/stop-living-in-denial-sri-lanka/",
                 "title": "Stop living in denial, Sri Lanka",
-                "date": "15th June 2016"
+                "date": "15th June 2016",
+                "image": "/images/blogs/sl-vs-eng-2016.webp"
             },
             {
                 "link": "https://web.archive.org/web/20210119013504/https://www.islandcricket.lk/editorial/sri-lanka-captain-a-major-part-of-the-teams-problems/",
                 "title": "Sri Lanka captain a major part of the team’s problems",
-                "date": "18th June 2016"
+                "date": "18th June 2016",
+                "image": "/images/blogs/angelo-mathews.webp"
             }
         ]
     },
