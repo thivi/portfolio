@@ -41,7 +41,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                     <MotionDiv
                         initial={{ filter: "blur(10px)", opacity: 0 }}
                         animate={{ filter: "blur(0px)", opacity: 1 }}
-                        transition={{ duration: 0.5, ease: "easeOut" }}
+                        transition={{ duration: 0.2, ease: "easeOut" }}
                     >
                         <Box sx={{ width: "200px", height: "200px", position: "relative" }}>
                             <Image
@@ -72,14 +72,14 @@ const Home: FC = async (): Promise<ReactElement> => {
                     }}
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={{ scale: 1, opacity: 1 }}
-                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
                 >
                     {portfolioData.home.title.split("").map((char: string, index: number) => (
                         <MotionSpan
                             key={index}
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
-                            transition={{ duration: 0.5, delay: index * 0.05, ease: "easeOut" }}
+                            transition={{ duration: 0.2, delay: index * 0.05, ease: "easeOut" }}
                         >
                             {char}
                         </MotionSpan>
@@ -92,7 +92,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                             key={index}
                             initial={{ scale: 0.8, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
-                            transition={{ duration: 0.3, delay: index * 0.2, ease: "easeOut" }}
+                            transition={{ duration: 0.2, delay: index * 0.2, ease: "easeOut" }}
                         >
                             <IconButton component="a" href={social.link} target="_blank" aria-label={social.name}>
                                 {getIcon(social.name)}
@@ -138,7 +138,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                         <MotionDiv
                             initial={{ scale: 0.8, opacity: 0 }}
                             animate={{ scale: 1, opacity: 1 }}
-                            transition={{ duration: 0.5, ease: "easeOut" }}
+                            transition={{ duration: 0.2, ease: "easeOut" }}
                         >
                             <Typography
                                 sx={{
@@ -171,7 +171,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                                     key={index}
                                     initial={{ scale: 0.8, opacity: 0 }}
                                     animate={{ scale: 1, opacity: 1 }}
-                                    transition={{ duration: 0.3, delay: index * 0.2, ease: "easeOut" }}
+                                    transition={{ duration: 0.2, delay: index * 0.2, ease: "easeOut" }}
                                 >
                                     <Chip label={interest} variant="outlined" />
                                 </MotionDiv>
@@ -188,7 +188,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                 <MotionDiv
                     initial={{ y: 40, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.5, ease: "easeOut" }}
+                    transition={{ duration: 0.2, ease: "easeOut" }}
                 >
                     <Typography variant="body1" color="var(--portfolio-palette-primary-contrastText)">
                         {portfolioData.home.text}

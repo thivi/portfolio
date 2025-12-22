@@ -78,7 +78,7 @@ const HorizontalCard: FC<PropsWithChildren<HorizontalCardProps>> = ({
             component={MotionDiv}
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.3, delay: 0.5, ease: "easeIn" }}
+            transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
             sx={{ height: "-webkit-fill-available" }}
         >
             <Card variant="outlined" sx={{ height: "-webkit-fill-available" }}>

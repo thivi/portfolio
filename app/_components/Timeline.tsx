@@ -33,7 +33,7 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                         <MotionDiv
                             initial={{ filter: "blur(5px)", opacity: 0 }}
                             animate={{ filter: "blur(0px)", opacity: 1 }}
-                            transition={{ duration: 0.5, ease: "easeIn" }}
+                            transition={{ duration: 0.2, ease: "easeIn" }}
                         >
                             <CircularAvatar src={data.imageUrl ?? ""} alt={data.heading} width={60} height={60} />
                         </MotionDiv>
@@ -52,7 +52,7 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                         <MotionDiv
                             initial={{ x: 20, opacity: 0 }}
                             animate={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.5, ease: "easeIn" }}
+                            transition={{ duration: 0.2, ease: "easeIn" }}
                         >
                             <Typography variant="h5">{data.heading}</Typography>
                             <Typography variant="subtitle1">{data.subHeading1}</Typography>
@@ -82,7 +82,7 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                                             key={awardIndex}
                                             initial={{ scale: 0.8, opacity: 0 }}
                                             animate={{ scale: 1, opacity: 1 }}
-                                            transition={{ duration: 0.3, ease: "easeIn", delay: awardIndex * 0.1 }}
+                                            transition={{ duration: 0.2, ease: "easeIn", delay: awardIndex * 0.1 }}
                                         >
                                             <ListItem>
                                                 <ListItemAvatar>
@@ -133,7 +133,7 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                                     key={skillIndex}
                                     initial={{ scale: 0.8, opacity: 0 }}
                                     animate={{ scale: 1, opacity: 1 }}
-                                    transition={{ duration: 0.3, ease: "easeIn", delay: skillIndex * 0.1 }}
+                                    transition={{ duration: 0.2, ease: "easeIn", delay: skillIndex * 0.1 }}
                                 >
                                     <Chip label={skill} variant="outlined" />
                                 </MotionDiv>

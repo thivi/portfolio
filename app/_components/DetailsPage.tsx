@@ -2,6 +2,7 @@ import { Box, Button, Chip, Typography } from "@mui/material";
 import { FC, PropsWithChildren, ReactElement } from "react";
 import ArrowBack from "@mui/icons-material/ArrowBack";
 import Link from "./Link";
+import { MotionDiv } from "./motion";
 
 interface DetailsPageProps {
     heading: string;
@@ -20,39 +21,45 @@ const DetailsPage: FC<PropsWithChildren<DetailsPageProps>> = ({
 }): ReactElement => {
     return (
         <Box>
-            <Box>
-                <Button
-                    startIcon={<ArrowBack />}
-                    variant="text"
-                    component={Link}
-                    sx={{ marginBottom: "1rem", color: "var(--portfolio-palette-text-primary)" }}
-                    href={backHref}
-                >
-                    Back
-                </Button>
-            </Box>
-            <Typography variant="h1">{heading}</Typography>
-            {subheading1 && (
-                <Typography variant="subtitle1" sx={{ marginTop: "0.5rem" }}>
-                    {subheading1}
-                </Typography>
-            )}
-            {subheading2 && <Typography variant="subtitle1">{subheading2}</Typography>}
-            {tags && (
-                <Box sx={{ marginTop: "1rem" }}>
-                    {tags.map((tag: string, index: number) => (
-                        <Chip
-                            key={index}
-                            label={tag}
-                            sx={{
-                                marginRight: "0.5rem",
-                                marginBottom: "1rem"
-                            }}
-                            variant="outlined"
-                        />
-                    ))}
+            <MotionDiv
+                initial={{ filter: "blur(10px)" }}
+                animate={{ filter: "blur(0px)" }}
+                transition={{ ease: "easeIn", duration: 0.2 }}
+            >
+                <Box>
+                    <Button
+                        startIcon={<ArrowBack />}
+                        variant="text"
+                        component={Link}
+                        sx={{ marginBottom: "1rem", color: "var(--portfolio-palette-text-primary)" }}
+                        href={backHref}
+                    >
+                        Back
+                    </Button>
                 </Box>
-            )}
+                <Typography variant="h1">{heading}</Typography>
+                {subheading1 && (
+                    <Typography variant="subtitle1" sx={{ marginTop: "0.5rem" }}>
+                        {subheading1}
+                    </Typography>
+                )}
+                {subheading2 && <Typography variant="subtitle1">{subheading2}</Typography>}
+                {tags && (
+                    <Box sx={{ marginTop: "1rem" }}>
+                        {tags.map((tag: string, index: number) => (
+                            <Chip
+                                key={index}
+                                label={tag}
+                                sx={{
+                                    marginRight: "0.5rem",
+                                    marginBottom: "1rem"
+                                }}
+                                variant="outlined"
+                            />
+                        ))}
+                    </Box>
+                )}
+            </MotionDiv>
             <Box sx={{ marginTop: "2rem" }}>{children}</Box>
         </Box>
     );

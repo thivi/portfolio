@@ -94,7 +94,7 @@ const VerticalCard: FC<VerticalCardProps> = ({
             component={MotionDiv}
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.3, delay: 0.5, ease: "easeIn" }}
+            transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
         >
             <Card sx={{ display: "flex", flexDirection: "column" }} variant="outlined">
                 {link ? (

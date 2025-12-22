@@ -86,7 +86,7 @@ const AppHeader: FC<AppHeaderProps> = ({ portfolioData }): ReactElement => {
                             sx={{
                                 color: "var(--portfolio-palette-AppBar-darkColor)",
                                 "&:hover": buttonStyle,
-                                ...(currentPathName === `/${value.slug.toLowerCase()}` ? activeState : {})
+                                ...(currentPathName.split("/")[1] === `${value.slug.toLowerCase()}` ? activeState : {})
                             }}
                         >
                             {value?.shortTitle ?? value?.title ?? key}
