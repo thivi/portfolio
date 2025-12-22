@@ -89,7 +89,8 @@ const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): Re
                                         position: "absolute",
                                         width: "100%",
                                         height: "100%",
-                                        top: 0
+                                        top: 0,
+                                        filter: "drop-shadow(0 0 30px var(--portfolio-palette-background-default))"
                                     }}
                                     key={imageToOpen}
                                 >
