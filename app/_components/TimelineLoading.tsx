@@ -62,7 +62,7 @@ const Timeline: FC = (): ReactElement => {
                                     width="5rem"
                                     height="2rem"
                                     key={skillIndex}
-                                    sx={{ borderRadius: "3rem" }}
+                                    sx={{ borderRadius: "var(--portfolio-shape-borderRadius)" }}
                                 />
                             ))}
                         </Box>

@@ -7,7 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import Image from "next/image";
-import { MotionInView, MotionDiv, MotionH1, MotionSpan } from "./_components/Motion";
+import { MotionInView, MotionDiv, MotionSpan } from "./_components/Motion";
 import SkillIcon, { SkillIconType } from "./_components/SkillIcon";
 
 const getIcon = (name: string): ReactElement => {
@@ -60,7 +60,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                 </Box>
 
                 <Typography
-                    component={MotionH1}
+                    variant="h1"
                     sx={{
                         color: "transparent",
                         background:
@@ -74,9 +74,6 @@ const Home: FC = async (): Promise<ReactElement> => {
                         fontSize: "3rem",
                         filter: "drop-shadow(0px 0px 5px var(--portfolio-palette-primary-dark))"
                     }}
-                    initial={{ scale: 0.8, opacity: 0 }}
-                    animate={{ scale: 1, opacity: 1 }}
-                    transition={{ duration: 0.2, ease: "easeOut" }}
                 >
                     {portfolioData.home.title.split("").map((char: string, index: number) => (
                         <MotionSpan
@@ -160,7 +157,8 @@ const Home: FC = async (): Promise<ReactElement> => {
                                 variant="body1"
                                 color="var(--portfolio-palette-primary-contrastText)"
                             >
-                                {portfolioData.home.salutation}<br/>
+                                {portfolioData.home.salutation}
+                                <br />
                                 {portfolioData.home.description}
                             </Typography>
                         </MotionDiv>
@@ -220,7 +218,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                                         sx={{
                                             padding: "1.5rem",
                                             textAlign: "center",
-                                            borderRadius: "3rem",
+                                            borderRadius: "var(--portfolio-shape-borderRadius)",
                                             backdropFilter: "blur(2px)",
                                             height: "100%",
                                             "&::before": {
@@ -233,7 +231,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                                                 height: "100%",
                                                 width: "100%",
                                                 display: "block",
-                                                borderRadius: "3em",
+                                                borderRadius: "var(--portfolio-shape-borderRadius)",
                                                 border: "1px solid var(--portfolio-palette-primaryGradient-second)",
                                                 opacity: 0.1,
                                                 zIndex: -1

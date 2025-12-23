@@ -62,7 +62,7 @@ const AppHeader: FC<AppHeaderProps> = ({ portfolioData }): ReactElement => {
                     [`@media (max-width: ${TABLET_BREAKPOINT}px)`]: {
                         display: "none"
                     },
-                    borderRadius: "3rem",
+                    borderRadius: "var(--portfolio-shape-borderRadius)",
                     backdropFilter: "blur(1px)",
                     backgroundImage:
                         "linear-gradient(220deg, rgb(from var(--portfolio-palette-primaryGradient-second)" +

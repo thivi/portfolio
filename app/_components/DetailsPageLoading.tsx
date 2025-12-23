@@ -9,7 +9,7 @@ const DetailsPageLoading: FC<PropsWithChildren> = ({ children }): ReactElement =
                     variant="rectangular"
                     width={80}
                     height={36}
-                    sx={{ borderRadius: "3rem", marginBottom: "1rem" }}
+                    sx={{ borderRadius: "var(--portfolio-shape-borderRadius)", marginBottom: "1rem" }}
                 />
             </Box>
             <Skeleton variant="text" width="60%" height="3rem" />
@@ -19,7 +19,7 @@ const DetailsPageLoading: FC<PropsWithChildren> = ({ children }): ReactElement =
                 variant="rectangular"
                 width="6rem"
                 height="2rem"
-                sx={{ borderRadius: "3rem", marginBottom: "1rem", marginTop: "1rem" }}
+                sx={{ borderRadius: "var(--portfolio-shape-borderRadius)", marginBottom: "1rem", marginTop: "1rem" }}
             />
             <Box sx={{ marginTop: "2rem" }}>{children}</Box>
         </Box>

@@ -20,7 +20,12 @@ const VerticalCardLoading: FC = (): ReactElement => {
                     <Skeleton variant="text" width="100%" height="2rem" />
                     <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                         <Skeleton variant="text" width="50%" height="2rem" />
-                        <Skeleton variant="rectangular" width={60} height="2rem" sx={{ borderRadius: "3rem" }} />
+                        <Skeleton
+                            variant="rectangular"
+                            width={60}
+                            height="2rem"
+                            sx={{ borderRadius: "var(--portfolio-shape-borderRadius)" }}
+                        />
                     </Box>
                 </CardContent>
             </Box>

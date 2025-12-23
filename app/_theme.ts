@@ -2,8 +2,32 @@
 
 import { createTheme, Theme } from "@mui/material";
 
+declare module '@mui/material/styles' {
+    interface PaletteOptions {
+        primaryGradient?: {
+            main: string;
+            second: string;
+        };
+        bgGradient?: {
+            main: string;
+            second: string;
+        };
+    }
+    interface Palette {
+        primaryGradient: {
+            main: string;
+            second: string;
+        };
+        bgGradient: {
+            main: string;
+            second: string;
+        };
+    }
+}
 export const theme: Theme = createTheme({
-    cssVariables: true,
+    cssVariables: {
+        cssVarPrefix: "portfolio",
+    },
     typography: {
         fontFamily: 'var(--font-body), sans-serif',
         h1: {
@@ -84,12 +108,14 @@ export const theme: Theme = createTheme({
             }
         }
     },
-    cssVarPrefix: "portfolio",
+    shape: {
+        borderRadius: "3em",
+    },
     components: {
         MuiButton: {
             styleOverrides: {
                 root: {
-                    borderRadius: "3rem",
+                    borderRadius: "var(--portfolio-shape-borderRadius)",
                 }
             }
         },
@@ -128,7 +154,7 @@ export const theme: Theme = createTheme({
             styleOverrides: {
                 paper: {
                     backgroundColor: "var(--portfolio-palette-bgGradient-second)",
-                    borderRadius: "3rem",
+                    borderRadius: "var(--portfolio-shape-borderRadius)",
                     backgroundImage: "none",
                     backdropFilter: "blur(5px)",
                     padding: "1rem 0"

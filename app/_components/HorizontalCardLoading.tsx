@@ -45,7 +45,7 @@ const HorizontalCard: FC<PropsWithChildren<HorizontalCardProps>> = ({
                                 variant="rectangular"
                                 width={size === CardSize.Small ? "3rem" : "5rem"}
                                 height={size === CardSize.Small ? "2rem" : "1rem"}
-                                sx={{ borderRadius: "3rem" }}
+                                sx={{ borderRadius: "var(--portfolio-shape-borderRadius)" }}
                             />
                         </Box>
                     </CardContent>

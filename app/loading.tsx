@@ -74,7 +74,13 @@ const Loading: FC = (): ReactElement => {
                         <Skeleton variant="text" width="40%" height="3rem" />
                         <Box sx={{ display: "flex", flexWrap: "wrap", gap: "1rem", marginTop: "1rem" }}>
                             {Array.from({ length: 4 }, (_, index) => (
-                                <Skeleton key={index} variant="rectangular" width={100} height={30} sx={{borderRadius: "3rem"}} />
+                                <Skeleton
+                                    key={index}
+                                    variant="rectangular"
+                                    width={100}
+                                    height={30}
+                                    sx={{ borderRadius: "var(--portfolio-shape-borderRadius)" }}
+                                />
                             ))}
                         </Box>
                     </Box>
@@ -95,6 +101,27 @@ const Loading: FC = (): ReactElement => {
                 <Skeleton variant="text" width="100%" height="2rem" />
                 <Skeleton variant="text" width="100%" height="2rem" />
                 <Skeleton variant="text" width="75%" height="2rem" />
+            </Box>
+            <Box sx={{ marginTop: "2rem", width: "100%" }}>
+                <Skeleton variant="text" width="10%" height="3rem" />
+                <Box
+                    sx={{
+                        display: "grid",
+                        gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+                        gap: "2rem",
+                        marginTop: "1rem"
+                    }}
+                >
+                    {Array.from({ length: 9 }).map((_, index: number) => (
+                        <Skeleton
+                            key={index}
+                            variant="rectangular"
+                            width="100%"
+                            height="250px"
+                            sx={{ borderRadius: "var(--portfolio-shape-borderRadius)" }}
+                        />
+                    ))}
+                </Box>
             </Box>
         </Grid>
     );

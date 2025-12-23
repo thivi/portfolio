@@ -10,18 +10,26 @@ const Loading: FC = (): ReactElement => {
                 {Array.from({ length: 5 }).map((_, index) => (
                     <Grid size={{ md: 12 }} key={index}>
                         <HorizontalCardLoading imageUrl="image">
-                            <Box sx={{ display: "flex", flexDirection: "column", gap: "1rem", width: "100%", justifyContent: "center" }}>
+                            <Box
+                                sx={{
+                                    display: "flex",
+                                    flexDirection: "column",
+                                    gap: "1rem",
+                                    width: "100%",
+                                    justifyContent: "center"
+                                }}
+                            >
                                 <Skeleton
                                     variant="rectangular"
                                     width="5rem"
                                     height="2rem"
-                                    sx={{ borderRadius: "3rem" }}
+                                    sx={{ borderRadius: "var(--portfolio-shape-borderRadius)" }}
                                 />
                                 <Skeleton
                                     variant="rectangular"
                                     width="5rem"
                                     height="2rem"
-                                    sx={{ borderRadius: "3rem"}}
+                                    sx={{ borderRadius: "var(--portfolio-shape-borderRadius)" }}
                                 />
                             </Box>
                         </HorizontalCardLoading>
