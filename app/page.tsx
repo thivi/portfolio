@@ -49,7 +49,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                     >
                         <Box sx={{ width: "200px", height: "200px", position: "relative" }}>
                             <Image
-                                src="/images/placeholder-profile.jpg"
+                                src={portfolioData.home.profilePicture}
                                 alt="Profile Picture"
                                 fill
                                 objectFit="contain"

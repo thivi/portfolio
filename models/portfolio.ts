@@ -108,6 +108,7 @@ export interface Skill {
 export interface Home extends PortfolioPage {
     shortTitle: string;
     salutation: string;
+    profilePicture: string;
     description: string;
     interests: string[];
     socials: SocialLink[];

@@ -1,10 +1,11 @@
 {
     "home": {
-        "title": "Theviyanthan Krishnamohan.",
+        "title": "Theviyanthan Krishnamohan",
         "shortTitle": "Home",
         "salutation": "Hello World!👋",
         "description": "I am a Ph.D. student in Computing Science researching Genetic Algorithms for autonomous networks at the University of Glasgow.",
         "slug": "",
+        "profilePicture": "/images/profile.jpeg",
         "interests": [
             "Autonomous Networks",
             "Evolutionary Computation",
