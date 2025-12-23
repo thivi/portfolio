@@ -11,6 +11,7 @@ import { loadPortfolioData } from "../data/portfolio";
 import { Portfolio } from "../models/portfolio";
 import { FC, ReactElement } from "react";
 import { MotionDiv } from "./_components/Motion";
+import { Analytics } from "@vercel/analytics/next";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const portfolioData: Portfolio = await loadPortfolioData();
@@ -70,6 +71,7 @@ const RootLayout: FC<LayoutProps<"/">> = async ({ children }): Promise<ReactElem
                             </MotionDiv>
                             <Box sx={{ paddingTop: "2rem" }}>{children}</Box>
                             <Footer />
+                            <Analytics />
                         </Container>
                     </ThemeProvider>
                 </AppRouterCacheProvider>

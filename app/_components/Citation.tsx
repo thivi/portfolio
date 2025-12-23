@@ -8,6 +8,7 @@ import {
     DialogContent,
     DialogTitle,
     Divider,
+    IconButton,
     styled,
     Typography
 } from "@mui/material";
@@ -78,9 +79,9 @@ const Citation: FC<{ citationText: string; size?: "small" | "medium" }> = ({
                 <DialogTitle>
                     <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                         <Typography variant="h6">Cite</Typography>
-                        <Button onClick={handleClose}>
+                        <IconButton onClick={handleClose}>
                             <CloseIcon sx={{ color: "var(--portfolio-palette-primary-contrastText)" }} />
-                        </Button>
+                        </IconButton>
                     </Box>
                 </DialogTitle>
                 <Divider />
