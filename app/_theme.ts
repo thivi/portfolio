@@ -51,8 +51,8 @@ export const theme: Theme = createTheme({
         body1: {
             fontFamily: 'var(--font-body), sans-serif',
             color: "var(--portfolio-palette-primary-contrastText)",
-            lineHeight: 1.5,
-            fontSize: "1rem",
+            lineHeight: 1.8,
+            fontSize: "1.1rem",
         },
         body2: {
             fontFamily: 'var(--font-body), sans-serif',

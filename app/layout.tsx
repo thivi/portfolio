@@ -10,7 +10,7 @@ import Footer from "./_components/Footer";
 import { loadPortfolioData } from "../data/portfolio";
 import { Portfolio } from "../models/portfolio";
 import { FC, ReactElement } from "react";
-import { MotionDiv } from "./_components/motion";
+import { MotionDiv } from "./_components/Motion";
 
 export const generateMetadata = async (): Promise<Metadata> => {
     const portfolioData: Portfolio = await loadPortfolioData();

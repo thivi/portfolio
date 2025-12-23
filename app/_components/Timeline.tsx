@@ -6,12 +6,13 @@ import HorizontalCard from "./HorizontalCard";
 import { CardSize } from "../../constants/card";
 import { Award, Portfolio } from "../../models/portfolio";
 import { loadPortfolioData } from "../../data/portfolio";
-import { MotionDiv } from "./motion";
+import { MotionDiv } from "./Motion";
 
 export interface TimelineItemData {
     heading: string;
     subHeading1?: string;
     subHeading2?: string;
+    subHeading3?: string;
     description?: string | string[];
     imageUrl?: string;
     awards?: Award[];
@@ -56,7 +57,8 @@ const Timeline: FC<{ timelineData: TimelineItemData[] }> = async ({ timelineData
                         >
                             <Typography variant="h5">{data.heading}</Typography>
                             <Typography variant="subtitle1">{data.subHeading1}</Typography>
-                            <Typography variant="subtitle2">{data.subHeading2}</Typography>
+                            <Typography variant="subtitle1">{data.subHeading2}</Typography>
+                            <Typography variant="subtitle2">{data.subHeading3}</Typography>
                         </MotionDiv>
                         {Array.isArray(data.description) ? (
                             <ul>

@@ -3,7 +3,7 @@ import { FC, PropsWithChildren, ReactElement } from "react";
 import Link from "./Link";
 import Image from "next/image";
 import { CardSize } from "../../constants/card";
-import { MotionDiv } from "./motion";
+import { MotionDiv } from "./Motion";
 
 interface HorizontalCardProps {
     heading: string;

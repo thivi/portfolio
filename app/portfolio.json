@@ -1,17 +1,23 @@
 {
     "home": {
         "title": "Theviyanthan Krishnamohan.",
-        "shortTitle": "Thivi",
-        "description": "I am a 3rd-year Ph.D. student at the University of Glasgow, a world top 100 university, researching autonomous networks. I have 5 years' experience as a software engineer, 4 of them working on WSO2 Identity Server, a strong performer according to Forrester. ",
+        "shortTitle": "Home",
+        "salutation": "Hello World!👋",
+        "description": "I am a Ph.D. student in Computing Science researching Genetic Algorithms for autonomous networks at the University of Glasgow.",
         "slug": "",
         "interests": [
             "Autonomous Networks",
             "Evolutionary Computation",
             "Artificial Intelligence",
             "Identity and Access Management",
-            "Network Virtualisation"
+            "Network Virtualisation",
+            "Fullstack Development"
         ],
         "socials": [
+            {
+                "name": "E-Mail",
+                "link": "mailto:theviyanthan@outlook.com"
+            },
             {
                 "name": "GitHub",
                 "link": "https://github.com/thivi"
@@ -29,7 +35,54 @@
                 "link": "https://scholar.google.com/citations?hl=en&user=kOTtM0QAAAAJ"
             }
         ],
-        "text": "I am a 3rd-year Ph.D. student at the University of Glasgow, researching the use of of Genetic Algorithms to optimally embed Service Function Chains. I completed M.Sc. in Advanced Software Engineering from the University of Westminster in 2022 and B.Sc. in Information Technology specialising in Computer Systems and Network Engineering from Sri Lanka Institute of Information Technology in 2018. I worked as a Trainee Software Engineer at Aeturnum, where I developed a React application under little supervision for Incentivio, a restaurant guest engagement platform, from 2017 to 2018. After graduating, I joined Mobitel, the second largest mobile network operator in Sri Lanka, as an Associate Software Engineer and developed an event management application. Then, I joined WSO2 as a Software Engineer where I worked on developing front-end applications for WSO2 Identity Server, helping turn an on-prem product into a SaaS application. I also developed Open ID Connect SDKs for TypeScript/JavaScript, generic Single Page and React applications, all of which receive 1000+ weekly downloads on NPM. I have a strong passion for solving problems, learning new technologies and contributing to open source projects. I am passionate about front-end development, fullstack development, cloud computing, autonomous networks, evolutionary computing, and artificial intelligence. I am also an ardent cricket fan and enjoy performing amateur analysis. During my free time, I enjoy reading and writing."
+        "intro": "I am a computer scientist and software engineer with an insatiable passion for problem-solving and continuous learning. I am ambitious about bridging science and engineering by experimentally evaluating novel research ideas and engineering them into scalable, user-friendly products. Currently, I am reading for a Ph.D. in Computing Science at the University of Glasgow, a world top-100 university, where I research enabling network autonomy using Genetic Algorithms. I have over 5 years of experience in the industry, 4 of which were spent designing and developing an open-source Identity and Access Management product that is recognised as a Strong Performer by Forrester. Outside of my professional work, I have contributed to impactful open-source projects, including software used to manage elections that were used to run national elections in Sri Lanka. Beyond technology, I am an ardent cricket analyst and regularly publish data-driven articles.",
+        "skills": [
+            {
+                "title": "Artificial Intelligence",
+                "icon": "Memory",
+                "description": "Solving real-world problems using Genetic Algorithms, Swarm Optimisation, Deep Neural Networks, and Machine Learning."
+            },
+            {
+                "title": "Scientific Research",
+                "icon": "Biotech",
+                "description": "Formulating research questions, developing prototypes, designing experiments, analysing data using R, and publishing findings."
+            },
+            {
+                "title": "Next.js & React Development",
+                "icon": "Web",
+                "description": "More than 5 years of experience developing and testing frontend apps using React, Next.js, Material UI, Redux, Storybook and React Testing Library."
+            },
+            {
+                "title": "Developing SDKs",
+                "icon": "Code",
+                "description": "Designing and developing OpenID Connect SDKs in TypeScript, which receive thousands of weekly downloads."
+            },
+            {
+                "title": "End-to-end Testing",
+                "icon": "BugReport",
+                "description": "Designing and developing end-to-end tests using Cypress for complex web apps."
+            },
+            {
+                "title": "UX and UI Design",
+                "icon": "Architecture",
+                "description": "Engineering UX following the design thinking process and designing UIs using Figma, Adobe XD, and Adobe Photoshop."
+            },
+            {
+                "title": "Backend Development",
+                "icon": "Storage",
+                "description": "Developing REST APIs using .NET Core, Express.js, and Django."
+            },
+            {
+                "title": "Content Creation",
+                "icon": "Create",
+                "description": "Documenting software, writing blog posts, vlogs and tutorials to explain software features and complex technical concepts."
+            },
+            {
+                "title": "Mentorship & Leadership",
+                "icon": "SupportAgent",
+                "description": "Mentoring junior developers and interns, providing guidance on technical skills, and best practices."
+            }
+        ]
     },
     "presentations": {
         "title": "Presentations",
@@ -452,7 +505,7 @@
             {
                 "institution": "University of Westminster",
                 "degree": "M.Sc. in Advanced Software Engineering",
-                "grade": "Distinction",
+                "grade": "Distinction (Avg: 85.14/100)",
                 "duration": "2021-2022",
                 "description": "My master's thesis was on developing a blockchain consensus algorithm to improve Byzantine fault tolerance in swarm robotics.",
                 "awards": [
@@ -476,7 +529,7 @@
             {
                 "institution": "Sri Lanka Institute of Information Technology",
                 "degree": "B.Sc. in Information Technology specialising in Computer Systems and Network Engineering",
-                "grade": "Second Class Upper (3.65/4.0)",
+                "grade": "Second Class Upper (GPA: 3.65/4.0)",
                 "duration": "2015-2018",
                 "description": "I took courses in software, embedded systems, network and system engineering. My finaly-year thesis was on decentarlising the control plane of Software Defined Networking using a blockchain smart contract.",
                 "awards": [
@@ -526,7 +579,8 @@
                 "duration": "2021-2023",
                 "description": [
                     "I made significant contributions to two React apps by developing, testing and documenting new features. I also produced vlogs and blogs to help market the features. ",
-                    "I managed small Agile teams to deliver critical features on times.",
+                    "I wrote end-to-end tests using Cypress to improve the test coverage of the two React apps.",
+                    "I managed Agile teams to deliver critical features on times.",
                     "I mentored and coached junior developers to learn the codebases and the best coding practices.",
                     "I lead and mentored intern developers to develop OIDC SDKs for Node.js, Angular and Express and ship them to production on time.",
                     "I lead the effort to organise community calls that attracted audience from around the globe.",
@@ -592,6 +646,32 @@
                 "image": "/images/work/wso2-logo.jpg"
             },
             {
+                "institution": "Lanka Software Foundation",
+                "position": "Volunteer Software Engineer",
+                "duration": "2019-2021",
+                "description": [
+                    "I developed a cross-platform mobile application using Flutter to manage election logistics.",
+                    "I took part in the development of an election result and incident management applications using React and Django.",
+                    "I designed and developed React and Django applications to send and receive election tools.",
+                    "These applications were used in the 2019 Presidential Election and 2020 General Election in Sri Lanka."
+                ],
+                "awards": [],
+                "skills": [
+                    "React",
+                    "TypeScript",
+                    "Flutter",
+                    "Dart",
+                    "Django",
+                    "Python"
+                ],
+                "projects": [
+                    "maft",
+                    "issuing-receiving",
+                    "incident-management"
+                ],
+                "image": "/images/work/lsf-logo.jpeg"
+            },
+            {
                 "institution": "Mobitel",
                 "position": "Associate Software Engineer",
                 "duration": "2019",
@@ -632,7 +712,7 @@
                 "position": "Freelance Cricket Writer",
                 "duration": "2014-2018",
                 "description": [
-                    "I wrote cricket news and analytical articles, mainly covering Sri Lanka cricket, some of which were selected as editor's pick, article of the week and year."
+                    "I authored cricket news and analytical articles, primarily on Sri Lanka cricket, several of which were selected as Editor’s Pick and honoured as Article of the Week and Article of the Year."
                 ],
                 "awards": [
                     {
@@ -970,6 +1050,33 @@
                 "image": "/images/projects/asgardeo.png",
                 "type": "Work",
                 "year": "2020-2023"
+            },
+            {
+                "slug": "maft",
+                "title": "A Cross-Platform Mobile Application for Election Logistics",
+                "description": "This is a Flutter-based cross-platform mobile application developed to manage election logistics for the Lanka Software Foundation. The application facilitates the efficient distribution and tracking of election materials, ensuring that all necessary tools reach their designated locations on time.",
+                "repository": "https://github.com/ECLK/MAFT",
+                "image": "/images/projects/lsf.jpg",
+                "type": "Volunteer Work",
+                "year": "2019"
+            },
+            {
+                "slug": "issuing-receiving",
+                "title": "Election Material Issuing and Receiving Application",
+                "description": "This is a React and Django-based Election Material Issuing and Receiving Application that is used to issue and receive materials used during an election such as ballot papers, and stationeries. I designed and developed both the frontend and backend applicatiosn from scratch.",
+                "repository": "https://github.com/ECLK/issuing-receiving",
+                "image": "/images/projects/lsf.jpg",
+                "type": "Volunteer Work",
+                "year": "2020"
+            },
+            {
+                "slug": "incident-management",
+                "title": "Election Incident Management Application",
+                "description": "This is a React and Django-based Election Incident Management Application that was used to report and manage election incidents during the 2019 Presidential Election and 2020 General Election in Sri Lanka.",
+                "repository": "https://github.com/ECLK/IncidentManagement",
+                "image": "/images/projects/lsf.jpg",
+                "type": "Volunteer Work",
+                "year": "2020"
             }
         ]
     },

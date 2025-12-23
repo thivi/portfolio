@@ -20,8 +20,9 @@ const EducationPage: FC = async (): Promise<ReactElement> => {
 
     const timelineData: TimelineItemData[] = educationData.items.map((edu: EducationItem) => ({
         heading: edu.degree,
-        subHeading1: edu.institution,
-        subHeading2: edu.duration,
+        subHeading1: edu.grade,
+        subHeading2: edu.institution,
+        subHeading3: edu.duration,
         description: edu.description,
         imageUrl: edu.image,
         awards: edu.awards,

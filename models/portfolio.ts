@@ -99,12 +99,20 @@ export interface CertificationItem {
     image: string;
 };
 
+export interface Skill {
+    title: string;
+    icon: string;
+    description: string;
+}
+
 export interface Home extends PortfolioPage {
     shortTitle: string;
+    salutation: string;
     description: string;
     interests: string[];
     socials: SocialLink[];
-    text: string;
+    intro: string;
+    skills: Skill[];
 };
 
 export interface Presentations extends PortfolioPage {

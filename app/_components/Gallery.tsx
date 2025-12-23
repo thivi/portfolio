@@ -7,7 +7,7 @@ import CloseIcon from "@mui/icons-material/Close";
 import ChevronLeft from "@mui/icons-material/ChevronLeft";
 import ChevronRight from "@mui/icons-material/ChevronRight";
 import { Theme } from "@mui/material/styles";
-import { MotionDiv } from "./motion";
+import { MotionDiv } from "./Motion";
 import { AnimatePresence, useInView } from "motion/react";
 
 const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): ReactElement => {

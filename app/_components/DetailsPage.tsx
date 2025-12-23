@@ -2,7 +2,7 @@ import { Box, Button, Chip, Typography } from "@mui/material";
 import { FC, PropsWithChildren, ReactElement } from "react";
 import ArrowBack from "@mui/icons-material/ArrowBack";
 import Link from "./Link";
-import { MotionDiv } from "./motion";
+import { MotionDiv } from "./Motion";
 
 interface DetailsPageProps {
     heading: string;

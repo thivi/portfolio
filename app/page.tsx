@@ -1,12 +1,14 @@
 import { Metadata } from "next";
-import { Portfolio } from "../models/portfolio";
+import { Portfolio, Skill } from "../models/portfolio";
 import { loadPortfolioData } from "../data/portfolio";
 import { FC, ReactElement } from "react";
 import { Box, IconButton, Chip, Typography, Grid } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
 import Image from "next/image";
-import { MotionDiv, MotionH1, MotionSpan } from "./_components/motion";
+import { MotionInView, MotionDiv, MotionH1, MotionSpan } from "./_components/Motion";
+import SkillIcon, { SkillIconType } from "./_components/SkillIcon";
 
 const getIcon = (name: string): ReactElement => {
     switch (name.toLocaleLowerCase()) {
@@ -18,6 +20,8 @@ const getIcon = (name: string): ReactElement => {
             return <Image src="/images/icons/scholar.png" alt="Google Scholar" height={25} width={25} />;
         case "orcid":
             return <Image src="/images/icons/orcid.png" alt="ORCiD" height={25} width={25} />;
+        case "e-mail":
+            return <EmailIcon sx={{ color: "white" }} />;
         default:
             return <></>;
     }
@@ -131,7 +135,8 @@ const Home: FC = async (): Promise<ReactElement> => {
                                 display: "block",
                                 borderRadius: "3em",
                                 border: "1px solid var(--portfolio-palette-primaryGradient-second)",
-                                opacity: 0.1
+                                opacity: 0.1,
+                                zIndex: -1
                             }
                         }}
                     >
@@ -155,6 +160,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                                 variant="body1"
                                 color="var(--portfolio-palette-primary-contrastText)"
                             >
+                                {portfolioData.home.salutation}<br/>
                                 {portfolioData.home.description}
                             </Typography>
                         </MotionDiv>
@@ -164,7 +170,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                             marginTop: "30px"
                         }}
                     >
-                        <Typography variant="h6">Research Interests</Typography>
+                        <Typography variant="h6">Topics of Interest</Typography>
                         <Box sx={{ display: "flex", flexWrap: "wrap", gap: "1rem", marginTop: "1rem" }}>
                             {portfolioData.home.interests.map((interest: string, index: number) => (
                                 <MotionDiv
@@ -191,8 +197,67 @@ const Home: FC = async (): Promise<ReactElement> => {
                     transition={{ duration: 0.2, ease: "easeOut" }}
                 >
                     <Typography variant="body1" color="var(--portfolio-palette-primary-contrastText)">
-                        {portfolioData.home.text}
+                        {portfolioData.home.intro}
                     </Typography>
+                    <Box sx={{ marginTop: "2rem" }}>
+                        <Typography variant="h2">My Skill Stack</Typography>
+                        <Box
+                            sx={{
+                                display: "grid",
+                                gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+                                gap: "2rem",
+                                marginTop: "1rem"
+                            }}
+                        >
+                            {portfolioData.home.skills.map((skill: Skill, index: number) => (
+                                <MotionInView
+                                    key={index}
+                                    initial={{ opacity: 0, scale: 0.8 }}
+                                    animate={{ opacity: 1, scale: 1 }}
+                                    transition={{ ease: "easeIn", duration: 0.3, delay: index * 0.1 }}
+                                >
+                                    <Box
+                                        sx={{
+                                            padding: "1.5rem",
+                                            textAlign: "center",
+                                            borderRadius: "3rem",
+                                            backdropFilter: "blur(2px)",
+                                            height: "100%",
+                                            "&::before": {
+                                                content: '""',
+                                                background:
+                                                    "linear-gradient(225deg, var(--portfolio-palette-primaryGradient-main), var(--portfolio-palette-primaryGradient-second))",
+                                                position: "absolute",
+                                                top: 0,
+                                                left: 0,
+                                                height: "100%",
+                                                width: "100%",
+                                                display: "block",
+                                                borderRadius: "3em",
+                                                border: "1px solid var(--portfolio-palette-primaryGradient-second)",
+                                                opacity: 0.1,
+                                                zIndex: -1
+                                            }
+                                        }}
+                                    >
+                                        <SkillIcon
+                                            icon={skill.icon as SkillIconType}
+                                            sx={{
+                                                fontSize: "3rem",
+                                                color: "var(--portfolio-palette-primary-contrastText)"
+                                            }}
+                                        />
+                                        <Typography variant="h6" sx={{ marginTop: "0.5rem" }}>
+                                            {skill.title}
+                                        </Typography>
+                                        <Typography variant="body2" sx={{ marginTop: "0.5rem" }}>
+                                            {skill.description}
+                                        </Typography>
+                                    </Box>
+                                </MotionInView>
+                            ))}
+                        </Box>
+                    </Box>
                 </MotionDiv>
             </Box>
         </Grid>

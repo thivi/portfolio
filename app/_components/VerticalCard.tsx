@@ -2,7 +2,7 @@ import { Box, Card, CardActionArea, CardContent, CardMedia, Chip, Typography } f
 import { FC, ReactElement } from "react";
 import Image from "next/image";
 import Link from "./Link";
-import { MotionDiv } from "./motion";
+import { MotionDiv } from "./Motion";
 
 interface VerticalCardProps {
     heading: string;

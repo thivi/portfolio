@@ -37,28 +37,34 @@ const Project: FC<PageProps<"/projects/[slug]">> = async ({ params }) => {
             tags={[projectData?.type ?? ""]}
         >
             <Typography variant="body1">{projectData?.description}</Typography>
-            <Typography variant="h2" sx={{ marginTop: "2rem" }}>
-                Publications
-            </Typography>
-            <List>
-                {projectData?.publications?.map((pubSlug: string, index: number) => {
-                    const publication = portfolio.publications.items?.find((p) => p.slug === pubSlug);
-                    if (!publication) return null;
+            {projectData?.publications && projectData?.publications?.length > 0 && (
+                <>
+                    <Typography variant="h2" sx={{ marginTop: "2rem" }}>
+                        Publications
+                    </Typography>
+                    <List>
+                        {projectData?.publications?.map((pubSlug: string, index: number) => {
+                            const publication = portfolio.publications.items?.find((p) => p.slug === pubSlug);
+                            if (!publication) return null;
 
-                    return (
-                        <ListItem key={publication.slug} disablePadding>
-                            <ListItemText
-                                sx={{ marginBottom: index !== projectData.publications.length - 1 ? "1rem" : 0 }}
-                            >
-                                <Typography variant="h6" sx={{ marginBottom: "0.5rem", fontSize: "1rem" }}>
-                                    {publication.title}
-                                </Typography>
-                                <PublicationButtons key={publication.slug} publication={publication} />
-                            </ListItemText>
-                        </ListItem>
-                    );
-                })}
-            </List>
+                            return (
+                                <ListItem key={publication.slug} disablePadding>
+                                    <ListItemText
+                                        sx={{
+                                            marginBottom: index !== projectData.publications.length - 1 ? "1rem" : 0
+                                        }}
+                                    >
+                                        <Typography variant="h6" sx={{ marginBottom: "0.5rem", fontSize: "1rem" }}>
+                                            {publication.title}
+                                        </Typography>
+                                        <PublicationButtons key={publication.slug} publication={publication} />
+                                    </ListItemText>
+                                </ListItem>
+                            );
+                        })}
+                    </List>
+                </>
+            )}
             <Box sx={{ marginTop: "2rem" }}>
                 {projectData?.repository && (
                     <Button
