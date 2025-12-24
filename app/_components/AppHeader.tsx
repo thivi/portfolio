@@ -53,6 +53,10 @@ const AppHeader: FC<AppHeaderProps> = ({ portfolioData }): ReactElement => {
         setOpenDrawer(false);
     };
 
+    const closeDrawerOnLinkClick = () => {
+        setOpenDrawer(false);
+    };
+
     return (
         <>
             <AppBar
@@ -130,7 +134,11 @@ const AppHeader: FC<AppHeaderProps> = ({ portfolioData }): ReactElement => {
                         </ListItem>
                         {Object.entries(portfolioData).map(([key, value]) => (
                             <ListItem key={key}>
-                                <ListItemButton component={Link} href={`/${value.slug.toLowerCase()}`}>
+                                <ListItemButton
+                                    component={Link}
+                                    onClick={closeDrawerOnLinkClick}
+                                    href={`/${value.slug.toLowerCase()}`}
+                                >
                                     <ListItemText primary={value?.shortTitle ?? value?.title ?? key} />
                                 </ListItemButton>
                             </ListItem>
