@@ -1,5 +1,5 @@
 import { Box, Card, CardActionArea, CardContent, CardMedia, Chip, Typography } from "@mui/material";
-import { FC, ReactElement } from "react";
+import { FC, PropsWithChildren, ReactElement } from "react";
 import Image from "next/image";
 import Link from "./Link";
 import { MotionDiv } from "./Motion";
@@ -15,13 +15,14 @@ interface VerticalCardProps {
     icon?: ReactElement;
 }
 
-const VerticalCardContent: FC<Omit<VerticalCardProps, "link">> = ({
+const VerticalCardContent: FC<Omit<VerticalCardProps, "link"> & { removeBottomPadding?: boolean }> = ({
     heading,
     subHeading1,
     subHeading2,
     imageUrl,
     tag,
-    icon
+    icon,
+    removeBottomPadding = false
 }): ReactElement => (
     <Box>
         <CardMedia
@@ -62,7 +63,7 @@ const VerticalCardContent: FC<Omit<VerticalCardProps, "link">> = ({
                 </Box>
             )}
         </CardMedia>
-        <CardContent>
+        <CardContent sx={{ paddingBottom: removeBottomPadding ? "1rem !important" : "2rem" }}>
             <Typography variant="h6" sx={{ fontSize: "1rem" }}>
                 {heading}
             </Typography>
@@ -79,7 +80,7 @@ const VerticalCardContent: FC<Omit<VerticalCardProps, "link">> = ({
     </Box>
 );
 
-const VerticalCard: FC<VerticalCardProps> = ({
+const VerticalCard: FC<PropsWithChildren<VerticalCardProps>> = ({
     heading,
     subHeading1,
     subHeading2,
@@ -87,7 +88,8 @@ const VerticalCard: FC<VerticalCardProps> = ({
     tag,
     link,
     linkTarget,
-    icon
+    icon,
+    children
 }): ReactElement => {
     return (
         <Box
@@ -95,31 +97,37 @@ const VerticalCard: FC<VerticalCardProps> = ({
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
+            sx={{ height: "100%" }}
         >
-            <Card sx={{ display: "flex", flexDirection: "column" }} variant="outlined">
-                {link ? (
-                    <Link href={link} style={{ textDecoration: "none", color: "inherit" }} target={linkTarget}>
-                        <CardActionArea>
-                            <VerticalCardContent
-                                heading={heading}
-                                subHeading1={subHeading1}
-                                subHeading2={subHeading2}
-                                imageUrl={imageUrl}
-                                tag={tag}
-                                icon={icon}
-                            />
-                        </CardActionArea>
-                    </Link>
-                ) : (
-                    <VerticalCardContent
-                        heading={heading}
-                        subHeading1={subHeading1}
-                        subHeading2={subHeading2}
-                        imageUrl={imageUrl}
-                        tag={tag}
-                        icon={icon}
-                    />
-                )}
+            <Card sx={{ display: "flex", flexDirection: "column", height: "100%" }} variant="outlined">
+                <Box sx={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
+                    {link ? (
+                        <Link href={link} style={{ textDecoration: "none", color: "inherit" }} target={linkTarget}>
+                            <CardActionArea>
+                                <VerticalCardContent
+                                    heading={heading}
+                                    subHeading1={subHeading1}
+                                    subHeading2={subHeading2}
+                                    imageUrl={imageUrl}
+                                    tag={tag}
+                                    icon={icon}
+                                    removeBottomPadding={!!children}
+                                />
+                            </CardActionArea>
+                        </Link>
+                    ) : (
+                        <VerticalCardContent
+                            heading={heading}
+                            subHeading1={subHeading1}
+                            subHeading2={subHeading2}
+                            imageUrl={imageUrl}
+                            tag={tag}
+                            icon={icon}
+                            removeBottomPadding={!!children}
+                        />
+                    )}
+                    {children && <Box sx={{ padding: "2rem", paddingTop: "1rem" }}>{children}</Box>}
+                </Box>
             </Card>
         </Box>
     );
