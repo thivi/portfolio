@@ -109,7 +109,7 @@ export const theme: Theme = createTheme({
         }
     },
     shape: {
-        borderRadius: "3em",
+        borderRadius: "3rem",
     },
     components: {
         MuiButton: {
@@ -130,7 +130,7 @@ export const theme: Theme = createTheme({
         MuiCard: {
             styleOverrides: {
                 root: {
-                    borderRadius: "3em",
+                    borderRadius: "3rem",
                     backgroundColor: "var(--portfolio-palette-bgGradient-main)",
                 }
             }
@@ -138,7 +138,7 @@ export const theme: Theme = createTheme({
         MuiCardContent: {
             styleOverrides: {
                 root: {
-                    padding: "2em"
+                    padding: "2rem"
                 }
             }
         },
