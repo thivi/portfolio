@@ -41,65 +41,74 @@ const Home: FC = async (): Promise<ReactElement> => {
     return (
         <Grid container spacing={4}>
             <Grid size={{ xs: 12, md: 5, lg: 5 }}>
-                <Box sx={{ display: "flex", justifyContent: "flex-start", marginBottom: "1rem" }}>
-                    <MotionDiv
-                        initial={{ filter: "blur(10px)", opacity: 0 }}
-                        animate={{ filter: "blur(0px)", opacity: 1 }}
-                        transition={{ duration: 0.2, ease: "easeOut" }}
-                    >
-                        <Box sx={{ width: "200px", height: "200px", position: "relative" }}>
-                            <Image
-                                src={portfolioData.home.profilePicture}
-                                alt="Profile Picture"
-                                fill
-                                objectFit="contain"
-                                style={{ borderRadius: "50%" }}
-                            />
-                        </Box>
-                    </MotionDiv>
-                </Box>
-
-                <Typography
-                    variant="h1"
+                <Box
                     sx={{
-                        color: "transparent",
-                        background:
-                            "linear-gradient(45deg, var(--portfolio-palette-primaryGradient-main), var(--portfolio-palette-primaryGradient-second))",
-                        WebkitBackgroundClip: "text",
-                        backgroundClip: "text",
-                        WebkitTextFillColor: "transparent",
-                        fontFamily: "var(--font-heading), var(--font-noto-sans), sans-serif",
-                        fontWeight: 700,
-                        lineHeight: 1.0,
-                        fontSize: "3rem",
-                        filter: "drop-shadow(0px 0px 5px var(--portfolio-palette-primary-dark))"
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: { xs: "center", md: "flex-start" }
                     }}
                 >
-                    {portfolioData.home.title.split("").map((char: string, index: number) => (
-                        <MotionSpan
-                            key={index}
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 1 }}
-                            transition={{ duration: 0.2, delay: index * 0.05, ease: "easeOut" }}
-                        >
-                            {char}
-                        </MotionSpan>
-                    ))}
-                </Typography>
-
-                <Box sx={{ marginTop: "1rem", display: "flex", flexDirection: "row", gap: "0.5rem" }}>
-                    {portfolioData.home.socials.map((social, index: number) => (
+                    <Box sx={{ display: "flex", justifyContent: "flex-start", marginBottom: "1rem" }}>
                         <MotionDiv
-                            key={index}
-                            initial={{ scale: 0.8, opacity: 0 }}
-                            animate={{ scale: 1, opacity: 1 }}
-                            transition={{ duration: 0.2, delay: index * 0.2, ease: "easeOut" }}
+                            initial={{ filter: "blur(10px)", opacity: 0 }}
+                            animate={{ filter: "blur(0px)", opacity: 1 }}
+                            transition={{ duration: 0.2, ease: "easeOut" }}
                         >
-                            <IconButton component="a" href={social.link} target="_blank" aria-label={social.name}>
-                                {getIcon(social.name)}
-                            </IconButton>
+                            <Box sx={{ width: "200px", height: "200px", position: "relative" }}>
+                                <Image
+                                    src={portfolioData.home.profilePicture}
+                                    alt="Profile Picture"
+                                    fill
+                                    objectFit="contain"
+                                    style={{ borderRadius: "50%" }}
+                                />
+                            </Box>
                         </MotionDiv>
-                    ))}
+                    </Box>
+
+                    <Typography
+                        variant="h1"
+                        sx={{
+                            color: "transparent",
+                            background:
+                                "linear-gradient(45deg, var(--portfolio-palette-primaryGradient-main), var(--portfolio-palette-primaryGradient-second))",
+                            WebkitBackgroundClip: "text",
+                            backgroundClip: "text",
+                            WebkitTextFillColor: "transparent",
+                            fontFamily: "var(--font-heading), var(--font-noto-sans), sans-serif",
+                            fontWeight: 700,
+                            lineHeight: 1.0,
+                            fontSize: "3rem",
+                            filter: "drop-shadow(0px 0px 5px var(--portfolio-palette-primary-dark))",
+                            textAlign: { xs: "center", md: "left" }
+                        }}
+                    >
+                        {portfolioData.home.title.split("").map((char: string, index: number) => (
+                            <MotionSpan
+                                key={index}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                transition={{ duration: 0.2, delay: index * 0.05, ease: "easeOut" }}
+                            >
+                                {char}
+                            </MotionSpan>
+                        ))}
+                    </Typography>
+
+                    <Box sx={{ marginTop: "1rem", display: "flex", flexDirection: "row", gap: "0.5rem" }}>
+                        {portfolioData.home.socials.map((social, index: number) => (
+                            <MotionDiv
+                                key={index}
+                                initial={{ scale: 0.8, opacity: 0 }}
+                                animate={{ scale: 1, opacity: 1 }}
+                                transition={{ duration: 0.2, delay: index * 0.2, ease: "easeOut" }}
+                            >
+                                <IconButton component="a" href={social.link} target="_blank" aria-label={social.name}>
+                                    {getIcon(social.name)}
+                                </IconButton>
+                            </MotionDiv>
+                        ))}
+                    </Box>
                 </Box>
             </Grid>
             <Grid size={{ xs: 12, md: 7, lg: 7 }}>
@@ -169,7 +178,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                         }}
                     >
                         <Typography variant="h6">Topics of Interest</Typography>
-                        <Box sx={{ display: "flex", flexWrap: "wrap", gap: "1rem", marginTop: "1rem" }}>
+                        <Box sx={{ display: "flex", flexWrap: "wrap", gap: "1rem", marginTop: "1rem" , justifyContent: { xs: "center", md: "flex-start" }}}>
                             {portfolioData.home.interests.map((interest: string, index: number) => (
                                 <MotionDiv
                                     key={index}
