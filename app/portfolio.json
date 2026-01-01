@@ -1103,14 +1103,6 @@
                 "image": "/images/certifications/it-support.png"
             },
             {
-                "name": "Google IT Support Professional Certificate",
-                "issuer": "Google/Coursera",
-                "date": "21st September 2021",
-                "credentialID": "W77HWU9Z2N9C",
-                "credentialURL": "https://coursera.org/share/ffdf32a31a398507606a772392ebcc57",
-                "image": "/images/certifications/it-support.png"
-            },
-            {
                 "name": "Google IT Automation with Python Professional Certificate",
                 "issuer": "Google/Coursera",
                 "date": "7th September 2021",
@@ -1135,14 +1127,6 @@
                 "image": "/images/certifications/ux-design.png"
             },
             {
-                "name": "WSO2 Certified Identity Server Developer - V5",
-                "issuer": "WSO2",
-                "date": "29th October 2021",
-                "credentialID": "9GZXEG",
-                "credentialURL": "https://certification.wso2.com/web/certificate/9GZXEG",
-                "image": "/images/certifications/wso2.png"
-            },
-            {
                 "name": "Machine Learning Certificate",
                 "issuer": "Stanford University/Coursera",
                 "date": "22nd April 2019",
@@ -1157,6 +1141,14 @@
                 "credentialID": "73U8L5NP4JGP",
                 "credentialURL": "https://coursera.org/share/bfd617f7363b0463fe02db0275c5b739",
                 "image": "/images/certifications/deep-learning.png"
+            },
+            {
+                "name": "WSO2 Certified Identity Server Developer - V5",
+                "issuer": "WSO2",
+                "date": "29th October 2021",
+                "credentialID": "9GZXEG",
+                "credentialURL": "https://certification.wso2.com/web/certificate/9GZXEG",
+                "image": "/images/certifications/wso2.png"
             },
             {
                 "name": "Media and Information Literacy, and Inter-Cultural Dialogue",
