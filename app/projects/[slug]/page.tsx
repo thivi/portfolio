@@ -8,6 +8,7 @@ import { loadPortfolioData } from "../../../data/portfolio";
 import { FC } from "react";
 import { notFound } from "next/navigation";
 import { Params } from "../../../models/navigation";
+import Image from "next/image";
 
 export const generateMetadata = async ({ params }: PageProps<"/projects/[slug]">): Promise<Metadata> => {
     const p: Params = await params;
@@ -36,6 +37,16 @@ const Project: FC<PageProps<"/projects/[slug]">> = async ({ params }) => {
             backHref={`/${portfolio.projects?.slug}`}
             tags={[projectData?.type ?? ""]}
         >
+            <Box
+                sx={{ width: "100%", height: "400px", position: "relative", overflow: "hidden", marginBottom: "20px" }}
+            >
+                <Image
+                    src={projectData?.image || ""}
+                    alt={projectData?.title || ""}
+                    fill
+                    style={{ objectFit: "cover" }}
+                />
+            </Box>
             <Typography variant="body1">{projectData?.description}</Typography>
             {projectData?.publications && projectData?.publications?.length > 0 && (
                 <>
