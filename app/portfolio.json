@@ -1053,6 +1053,15 @@
                 "year": "2020-2023"
             },
             {
+                "slug": "intern-management-app",
+                "title": "Intern Management Application",
+                "description": "This is a React application built using Material UI with Google Sheets as the backend to manage intern developers at WSO2. The application allows to track intern details, project assignments, project completion, and blogs written. I developed this as a hobby project during my time at WSO2 to replace the existing Google Sheet-based system that was being used to manage interns. I designed and devloped a frontend app that consumed Google Sheets' APIs to persist data on a Google Sheet file. The app provided provided a better UX than using Google Sheets alone for both the interns and the their mentors to update and track progress.",
+                "repository": "https://github.com/thivi/intern-management-app",
+                "image": "/images/projects/intern-management-app.png",
+                "type": "Hobby",
+                "year": "2020-2021"
+            },
+            {
                 "slug": "maft",
                 "title": "A Cross-Platform Mobile Application for Election Logistics",
                 "description": "This is a Flutter-based cross-platform mobile application developed to manage election logistics for the Lanka Software Foundation. The application facilitates the efficient distribution and tracking of election materials, ensuring that all necessary tools reach their designated locations on time.",
