@@ -9,6 +9,7 @@ import { FC } from "react";
 import { notFound } from "next/navigation";
 import { Params } from "../../../models/navigation";
 import Image from "next/image";
+import { FEATURED_IMAGE_HEIGHT } from "../../../constants/ui";
 
 export const generateMetadata = async ({ params }: PageProps<"/projects/[slug]">): Promise<Metadata> => {
     const p: Params = await params;
@@ -38,7 +39,13 @@ const Project: FC<PageProps<"/projects/[slug]">> = async ({ params }) => {
             tags={[projectData?.type ?? ""]}
         >
             <Box
-                sx={{ width: "100%", height: "400px", position: "relative", overflow: "hidden", marginBottom: "20px" }}
+                sx={{
+                    width: "100%",
+                    height: FEATURED_IMAGE_HEIGHT,
+                    position: "relative",
+                    overflow: "hidden",
+                    marginBottom: "20px"
+                }}
             >
                 <Image
                     src={projectData?.image || ""}
