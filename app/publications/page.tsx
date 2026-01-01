@@ -31,7 +31,7 @@ const PublicationsPage: FC = async (): Promise<ReactElement> => {
                                 heading={pub.title}
                                 subHeading1={pub.publication}
                                 subHeading2={pub.date}
-                                imageUrl="/images/paper-placeholder.jpg"
+                                imageUrl={pub.image || "/images/paper-placeholder.jpg"}
                                 tag={pub.type}
                                 link={`/${publications.slug}/${pub.slug}`}
                             >
@@ -45,7 +45,7 @@ const PublicationsPage: FC = async (): Promise<ReactElement> => {
                                 subHeading2={pub.date}
                                 tag={pub.type}
                                 link={`/${publications.slug}/${pub.slug}`}
-                                imageUrl="/images/paper-placeholder.jpg"
+                                imageUrl={pub.image || "/images/paper-placeholder.jpg"}
                             >
                                 <PublicationButtons publication={pub} orientation="horizontal" />
                             </VerticalCard>
