@@ -1,0 +1,178 @@
+{
+    "title": "Presentations",
+    "description": "Here are the talks I have given and posters I have presented at various events and conferences during my academic and professional career.",
+    "slug": "presentations",
+    "items": [
+        {
+            "slug": "scone-2025",
+            "title": "Genetic Algorithms for Service Function Chain Embedding",
+            "event": "Scottish Networking Event 2025",
+            "venue": "Abertay cyberQuarter, Dundee",
+            "date": "29th October 2025",
+            "slides": "/pdfs/scone-oct-29.pdf",
+            "image": "/images/presentations/scone-2025/dundee.jpg",
+            "gallery": [
+                "/images/presentations/scone-2025/scone-1.jpg",
+                "/images/presentations/scone-2025/scone-2.jpg",
+                "/images/presentations/scone-2025/scone-3.jpg",
+                "/images/presentations/scone-2025/scone-4.jpg",
+                "/images/presentations/scone-2025/scone-5.jpg"
+            ],
+            "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
+            "type": "Academic"
+        },
+        {
+            "slug": "softcom-2025",
+            "title": "OpenRASE: Service Function Chain Emulation",
+            "event": "33rd International Conference on Software, Telecommunications and Computer Networks (SoftCOM 2025)",
+            "venue": "Split, Croatia (Online)",
+            "date": "18th September 2025",
+            "slides": "/pdfs/softcom-sep-2025.pdf",
+            "image": "/images/presentations/softcom-2025/split.jpg",
+            "gallery": [],
+            "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
+            "type": "Academic"
+        },
+        {
+            "slug": "sicsa-phd-poster-2025",
+            "title": "Poster: Genetic Evolution of Service Function Chain Embedding",
+            "event": "SICSA PhD Conference 2025",
+            "venue": "Craighlockhart Campus, University of Napier",
+            "date": "25th June 2025",
+            "slides": "/pdfs/sicsa-phd-poster.pdf",
+            "image": "/images/presentations/sicsa-phd-conference-2025/poster.png",
+            "gallery": [
+                "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-1.jpg",
+                "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-2.jpg",
+                "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-3.jpg",
+                "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-4.jpg",
+                "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-5.jpg"
+            ],
+            "description": "I presented a poster on using Genetic Algorithms to evolve Service Function Chain embeddings.",
+            "type": "Academic"
+        },
+        {
+            "slug": "sicsa-lightning-2025",
+            "title": "Genetic Algorithms for Service Function Chain Deployment",
+            "event": "SICSA PhD Conference 2025",
+            "venue": "Craighlockhart Campus, University of Napier",
+            "date": "25th June 2025",
+            "slides": "/pdfs/sicsa-lightning-talk.pdf",
+            "image": "/images/presentations/sicsa-phd-conference-2025/napier.jpg",
+            "gallery": [],
+            "description": "I talked about using hybrid evolution to optimally embed Service Function Chains.",
+            "type": "Academic"
+        },
+        {
+            "slug": "sicsa-pre-ec-2025",
+            "title": "Genetic Algorithms for Service Function Chain Deployment",
+            "event": "SICSA Pre-EC Conference 2025",
+            "venue": "University of Stirling",
+            "date": "29th May 2025",
+            "slides": "/pdfs/pre-ec-may-2025.pdf",
+            "image": "/images/presentations/sicsa-pre-ec-2025/stirling.jpg",
+            "gallery": [],
+            "description": "I talked about using Genetic Algorithms for SFC embedding, focussing specifically on how I developed a surrogate to assist the evolution.",
+            "type": "Academic"
+        },
+        {
+            "slug": "uk-systems-2025",
+            "title": "Genetic Algorithms for Service Function Chain Deployment",
+            "event": "9th Annual UK Systems Workshop",
+            "venue": "Redworth Hall Hotel, Durham",
+            "date": "16th April 2025",
+            "slides": "/pdfs/UK-systems-workshop-April-2025.pdf",
+            "image": "/images/presentations/uk-systems-2025/redworth.jpg",
+            "gallery": [],
+            "description": "I talked about optimally embedding SFCs by evolving perceptrons using surrogate-assisted Genetic Algorithms.",
+            "type": "Academic"
+        },
+        {
+            "slug": "openrase-poster",
+            "title": "Poster: Service Function Chain Emulation Using OpenRASE",
+            "event": "",
+            "venue": "",
+            "date": "2024",
+            "slides": "/pdfs/openrase-poster.pdf",
+            "image": "/images/presentations/openrase-poster/poster.png",
+            "gallery": [],
+            "description": "I designed poster explaining how OpenRASE works and how I used it to perform experiments on SFC embedding.",
+            "type": "Academic"
+        },
+        {
+            "slug": "open-rase-sans",
+            "title": "Open Resource Allocation to Service Function Chains Emulator",
+            "event": "Scottish Autonomous Networked Systems",
+            "venue": "University of Glasgow",
+            "date": "2nd May 2024",
+            "slides": "/pdfs/OpenRASE.pdf",
+            "image": "/images/presentations/openrase/glasgow.jpg",
+            "gallery": [
+                "/images/presentations/openrase/sans-1.jpg",
+                "/images/presentations/openrase/sans-2.jpg",
+                "/images/presentations/openrase/sans-3.jpg"
+            ],
+            "description": "I presented the motivation and architecture of the OpenRASE emulator that I developed to perform SFC embedding experiments.",
+            "type": "Academic"
+        },
+        {
+            "slug": "codesprint-iit",
+            "title": "UX Workshop",
+            "event": "Codesprint 2023, IIT",
+            "venue": "Informatics Institute of Technology, Sri Lanka",
+            "date": "17th January 2023",
+            "slides": "/pdfs/codesprint-ux-2023.pdf",
+            "image": "/images/presentations/codesprint/iit.jpg",
+            "gallery": [
+                "/images/presentations/codesprint/codesprint-1.jpeg",
+                "/images/presentations/codesprint/codesprint-2.jpeg",
+                "/images/presentations/codesprint/codesprint-3.jpeg",
+                "/images/presentations/codesprint/codesprint-4.jpeg",
+                "/images/presentations/codesprint/codesprint-5.jpeg",
+                "/images/presentations/codesprint/codesprint-6.jpeg",
+                "/images/presentations/codesprint/codesprint-7.jpeg"
+            ],
+            "description": "I presented an introduction to UX to IIT students.",
+            "type": "Work"
+        },
+        {
+            "slug": "iam-ucsc",
+            "title": "Introduction to Identity and Access Management with Asgardeo",
+            "event": "",
+            "venue": "University of Colombo School of Computing",
+            "date": "17th January 2023",
+            "slides": "",
+            "image": "/images/presentations/iam/ucsc.jpg",
+            "gallery": [
+                "/images/presentations/iam/iam-1.HEIC",
+                "/images/presentations/iam/iam-2.HEIC",
+                "/images/presentations/iam/iam-3.HEIC",
+                "/images/presentations/iam/iam-4.HEIC",
+                "/images/presentations/iam/iam-5.HEIC",
+                "/images/presentations/iam/iam-6.HEIC",
+                "/images/presentations/iam/iam-7.HEIC",
+                "/images/presentations/iam/iam-8.HEIC",
+                "/images/presentations/iam/iam-9.jpeg"
+            ],
+            "description": "I presented an introduction to Identity and Access Management using Asgardeo to the University of Colombo School of Computing students.",
+            "type": "Work"
+        },
+        {
+            "slug": "ui-ux-bootcamp-iit",
+            "title": "Problem Definition in Design Thinking",
+            "event": "UI/UX Bootcamp 2022",
+            "venue": "Informatics Institute of Technology, Sri Lanka",
+            "date": "24th September 2022",
+            "slides": "/pdfs/define-design-thinking.pdf",
+            "image": "/images/presentations/ui-ux-bootcamp/iit.jpg",
+            "gallery": [
+                "/images/presentations/ui-ux-bootcamp/bootcamp-1.jpeg",
+                "/images/presentations/ui-ux-bootcamp/bootcamp-2.jpeg",
+                "/images/presentations/ui-ux-bootcamp/bootcamp-3.jpeg",
+                "/images/presentations/ui-ux-bootcamp/bootcamp-4.jpeg"
+            ],
+            "description": "I presented a talk on defining problems in design thinking as a part of the UI/UX bootcamp conducted for IIT students.",
+            "type": "Work"
+        }
+    ]
+}

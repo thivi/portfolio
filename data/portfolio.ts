@@ -1,8 +1,13 @@
-import { Portfolio } from "../models/portfolio";
+import { Meta, Portfolio } from "../models/portfolio";
 
 export const loadPortfolioData = async () => {
-    const data = await import("../app/portfolio.json");
-    const dataTyped: Portfolio = data.default as Portfolio;
+    const metaData: Meta = await import("./jsons/meta.json");
+    const data: Portfolio = {} as Portfolio;
 
-    return dataTyped;
+    for (const menu of metaData.menus) {
+        const menuData = await import(`./jsons/${ menu }.json`);
+        data[ menu as keyof Portfolio ] = menuData.default;
+    };
+
+    return data;
 };
