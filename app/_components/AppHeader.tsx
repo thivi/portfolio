@@ -138,8 +138,27 @@ const AppHeader: FC<AppHeaderProps> = ({ portfolioData }): ReactElement => {
                                     component={Link}
                                     onClick={closeDrawerOnLinkClick}
                                     href={`/${value.slug.toLowerCase()}`}
+                                    sx={{
+                                        "&:hover": {
+                                            "& .MuiTypography-root": buttonStyle
+                                        },
+                                        "&:active": {
+                                            "& .MuiTypography-root": activeState
+                                        },
+                                        borderRadius: "var(--portfolio-shape-borderRadius)",
+                                    }}
                                 >
-                                    <ListItemText primary={value?.shortTitle ?? value?.title ?? key} />
+                                    <ListItemText
+                                        primary={value?.shortTitle ?? value?.title ?? key}
+                                        sx={{
+                                            "& .MuiTypography-root": {
+                                                width: "fit-content",
+                                                ...(currentPathName.split("/")[1] === `${value.slug.toLowerCase()}`
+                                                    ? activeState
+                                                    : {})
+                                            }
+                                        }}
+                                    />
                                 </ListItemButton>
                             </ListItem>
                         ))}
