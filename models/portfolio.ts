@@ -35,6 +35,7 @@ export interface PublicationItem {
     dataRepository: string;
     type: "Conference Paper" | "Journal Paper" | "Preprint";
     authors: string[];
+    image?: string;
 }
 
 export interface Award {

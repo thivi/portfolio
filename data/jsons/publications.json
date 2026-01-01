@@ -20,7 +20,8 @@
                 "Theviyanthan Krishnamohan",
                 "Lauritz Thamsen",
                 "Paul Harvey"
-            ]
+            ],
+            "image": "/images/publications/genesis.png"
         },
         {
             "slug": "benns-surrogate-model-hybrid-online-offline-evolution-sfc-embedding",
@@ -39,7 +40,8 @@
                 "Theviyanthan Krishnamohan",
                 "Lauritz Thamsen",
                 "Paul Harvey"
-            ]
+            ],
+            "image": "/images/publications/benns.png"
         },
         {
             "slug": "openrase-service-function-chain-emulation",
@@ -57,7 +59,8 @@
             "authors": [
                 "Theviyanthan Krishnamohan",
                 "Paul Harvey"
-            ]
+            ],
+            "image": "/images/publications/open-rase.png"
         },
         {
             "slug": "blockchain-collective-decision-making-swarm-robotics",
@@ -74,7 +77,8 @@
             "type": "Journal Paper",
             "authors": [
                 "Theviyanthan Krishnamohan"
-            ]
+            ],
+            "image": "/images/publications/collective-decision-making-survey.png"
         },
         {
             "slug": "maximizing-runs-cricket-genetic-algorithm",
@@ -91,7 +95,8 @@
             "type": "Journal Paper",
             "authors": [
                 "Theviyanthan Krishnamohan"
-            ]
+            ],
+            "image": "/images/publications/batting-lineup.png"
         },
         {
             "slug": "review-consensus-achievement-strategies-swarm-robotics",
@@ -108,7 +113,8 @@
             "type": "Journal Paper",
             "authors": [
                 "Theviyanthan Krishnamohan"
-            ]
+            ],
+            "image": "/images/publications/consensus-achievement-review.png"
         },
         {
             "slug": "analysis-blockchain-consensus-algorithms-swarm-robotics",
@@ -125,7 +131,8 @@
             "type": "Journal Paper",
             "authors": [
                 "Theviyanthan Krishnamohan"
-            ]
+            ],
+            "image": "/images/publications/blockchain-suitability-swarm-robotics.png"
         },
         {
             "slug": "proof-of-identity-blockchain-consensus-algorithm",
@@ -142,7 +149,8 @@
             "type": "Journal Paper",
             "authors": [
                 "Theviyanthan Krishnamohan"
-            ]
+            ],
+            "image": "/images/publications/poi.png"
         },
         {
             "slug": "computing-runs-a-star-algorithm",
@@ -159,7 +167,8 @@
             "type": "Journal Paper",
             "authors": [
                 "Theviyanthan Krishnamohan"
-            ]
+            ],
+            "image": "/images/publications/a-star-runs.png"
         },
         {
             "slug": "blockflow-decentralized-sdn-controller",
@@ -179,7 +188,8 @@
                 "Kugathasan Janarthanan",
                 "Peramune P.R.L.C",
                 "Ranaweera A.T "
-            ]
+            ],
+            "image": "/images/publications/blockflow.png"
         },
         {
             "slug": "policies-based-container-migration",
@@ -202,7 +212,8 @@
                 "Lakmal Rupasinghe",
                 "Kalpa Kalhara Sampath",
                 "Chethana Liyanapathirana"
-            ]
+            ],
+            "image": "/images/publications/container-migration.png"
         }
     ]
 }

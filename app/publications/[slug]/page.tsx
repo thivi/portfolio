@@ -11,30 +11,38 @@ import { notFound } from "next/navigation";
 import { FC, ReactElement } from "react";
 import { Metadata } from "next";
 import { Params } from "../../../models/navigation";
+import { FEATURED_IMAGE_HEIGHT } from "../../../constants/ui";
+import Image from "next/image";
 
 export const generateMetadata = async ({ params }: PageProps<"/publications/[slug]">): Promise<Metadata> => {
     const p: Params = await params;
     const portfolioData: Portfolio = await loadPortfolioData();
-    const publicationData: PublicationItem | undefined = portfolioData.publications?.items?.find((pub) => pub.slug === p.slug);
+    const publicationData: PublicationItem | undefined = portfolioData.publications?.items?.find(
+        (pub) => pub.slug === p.slug
+    );
 
     return {
         title: `${publicationData?.title}`,
         description: publicationData?.abstract || portfolioData.publications.description || ""
     };
-}
+};
 
 export const generateStaticParams = async (): Promise<Params[]> => {
     const portfolioData: Portfolio = await loadPortfolioData();
 
-    return portfolioData.publications?.items?.map((pub) => ({
-        slug: pub.slug
-    })) || [];
-}
+    return (
+        portfolioData.publications?.items?.map((pub) => ({
+            slug: pub.slug
+        })) || []
+    );
+};
 
 const Publication: FC<PageProps<"/publications/[slug]">> = async ({ params }): Promise<ReactElement> => {
     const p: Params = await params;
     const portfolioData: Portfolio = await loadPortfolioData();
-    const publicationData: PublicationItem | undefined = portfolioData.publications?.items?.find((pub) => pub.slug === p.slug);
+    const publicationData: PublicationItem | undefined = portfolioData.publications?.items?.find(
+        (pub) => pub.slug === p.slug
+    );
 
     if (publicationData === undefined) {
         notFound();
@@ -47,9 +55,27 @@ const Publication: FC<PageProps<"/publications/[slug]">> = async ({ params }): P
             subheading2={`${publicationData?.publication}${publicationData?.publication && ", "}${
                 publicationData?.date
             }`}
-            tags={ [ publicationData?.type || "" ] }
+            tags={[publicationData?.type || ""]}
             backHref={`/${portfolioData.publications?.slug}`}
         >
+            {publicationData?.image && (
+                <Box
+                    sx={{
+                        width: "100%",
+                        height: FEATURED_IMAGE_HEIGHT,
+                        position: "relative",
+                        overflow: "hidden",
+                        marginBottom: "20px"
+                    }}
+                >
+                    <Image
+                        src={publicationData?.image || ""}
+                        alt={publicationData?.title || ""}
+                        fill
+                        style={{ objectFit: "cover" }}
+                    />
+                </Box>
+            )}
             <Typography variant="body1">{publicationData?.abstract}</Typography>
             <Box sx={{ marginTop: "2rem", display: "flex", gap: "1rem", flexWrap: "wrap" }}>
                 <Button
