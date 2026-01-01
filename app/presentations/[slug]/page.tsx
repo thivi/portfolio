@@ -8,6 +8,7 @@ import { Portfolio, PresentationItem } from "../../../models/portfolio";
 import { notFound } from "next/navigation";
 import { Params } from "../../../models/navigation";
 import { loadPortfolioData } from "../../../data/portfolio";
+import { FEATURED_IMAGE_HEIGHT } from "../../../constants/ui";
 
 export const generateMetadata = async ({ params }: PageProps<"/presentations/[slug]">): Promise<Metadata> => {
     const p: Params = await params;
@@ -38,7 +39,7 @@ const Talk: FC<PageProps<"/presentations/[slug]">> = async ({ params }): Promise
             backHref={`/${portfolio.presentations?.slug}`}
         >
             <Box
-                sx={{ width: "100%", height: "400px", position: "relative", overflow: "hidden", marginBottom: "20px" }}
+                sx={{ width: "100%", height: FEATURED_IMAGE_HEIGHT, position: "relative", overflow: "hidden", marginBottom: "20px" }}
             >
                 <Image src={talkData?.image || ""} alt={talkData?.title || ""} fill style={{ objectFit: "cover" }} />
             </Box>
