@@ -1,0 +1,85 @@
+{
+    "title": "Vlogs",
+    "description": "A collection of my video blogs.",
+    "slug": "vlogs",
+    "items": [
+        {
+            "link": "https://www.youtube.com/watch?v=e_3xsRdsyFM",
+            "title": "Final Presentation of Proof of Identity - A blockchain consensus algorithm for swarm robotics",
+            "date": "23rd November 2025",
+            "image": "/images/vlogs/poi.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=VNfiIEyS-Vw",
+            "date": "11th November 2018",
+            "title": "Decentralizing an SDN controller using blockchain",
+            "image": "/images/vlogs/blockflow.jpg"
+        },
+        {
+            "title": "Integrating Office 365 with WSO2 Identity Server",
+            "date": "25th May 2021",
+            "link": "https://www.youtube.com/watch?v=Czxf1o0wp_Y",
+            "image": "/images/vlogs/office-365.jpg"
+        },
+        {
+            "title": "Adding social login buttons to your website",
+            "date": "8th December 2020",
+            "link": "https://www.youtube.com/watch?v=vsBTweSjVRE",
+            "image": "/images/vlogs/social-media-buttons.jpg"
+        },
+        {
+            "title": "Azure AD Federation with WSO2 Identity Server",
+            "date": "30th March 2021",
+            "link": "https://www.youtube.com/watch?v=ycIplHrB6a4",
+            "image": "/images/vlogs/azure-ad.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=HPneV0xpm8U",
+            "title": "Building a Single Page Application with OIDC authentication",
+            "date": "20th October 2020",
+            "image": "/images/vlogs/spa-oidc.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=hM2FBgKCi0s&t=1744s",
+            "title": "Authentication SDKs Using WSO2 Identity Server - WSO2 Identity Server Community Call",
+            "date": "28th August 2020",
+            "image": "/images/vlogs/auth-sdk.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=7nZr2NOUDik",
+            "title": "How to add Facebook login to WSO2 Identity Server",
+            "date": "9th October 2020",
+            "image": "/images/vlogs/fb-login.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=v7AQpkLFq_A",
+            "title": "Social Login",
+            "date": "9th April 2021",
+            "image": "/images/vlogs/social-login.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=i_p0nYtguEs",
+            "title": "MFA",
+            "date": "9th April 2021",
+            "image": "/images/vlogs/mfa.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=5d-wV6ufBXY",
+            "title": "FIDO",
+            "date": "9th April 2021",
+            "image": "/images/vlogs/fido.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=CcrfMKLQq94",
+            "title": "Azure AD",
+            "date": "15th April 2021",
+            "image": "/images/vlogs/azure-ad-iam.jpg"
+        },
+        {
+            "link": "https://www.youtube.com/watch?v=Aq1mDC0d5Bc",
+            "title": "Add passwordless login using Asgardeo",
+            "date": "22nd March 2022",
+            "image": "/images/vlogs/passwordless.jpg"
+        }
+    ]
+}

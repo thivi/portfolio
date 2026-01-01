@@ -1,0 +1,86 @@
+{
+    "title": "Theviyanthan Krishnamohan",
+    "shortTitle": "Home",
+    "salutation": "Hello World!👋",
+    "description": "I am a Ph.D. student in Computing Science researching Genetic Algorithms for autonomous networks at the University of Glasgow.",
+    "slug": "",
+    "profilePicture": "/images/profile.jpeg",
+    "interests": [
+        "Autonomous Networks",
+        "Evolutionary Computation",
+        "Artificial Intelligence",
+        "Identity and Access Management",
+        "Network Virtualisation",
+        "Fullstack Development"
+    ],
+    "socials": [
+        {
+            "name": "E-Mail",
+            "link": "mailto:theviyanthan@outlook.com"
+        },
+        {
+            "name": "GitHub",
+            "link": "https://github.com/thivi"
+        },
+        {
+            "name": "LinkedIn",
+            "link": "https://www.linkedin.com/in/krishnamohan-theviyanthan/"
+        },
+        {
+            "name": "ORCiD",
+            "link": "https://orcid.org/0000-0003-0040-1130"
+        },
+        {
+            "name": "Google Scholar",
+            "link": "https://scholar.google.com/citations?hl=en&user=kOTtM0QAAAAJ"
+        }
+    ],
+    "intro": "I am a computer scientist and software engineer with an insatiable passion for problem-solving and continuous learning. I am ambitious about bridging science and engineering by experimentally evaluating novel research ideas and engineering them into scalable, user-friendly products. Currently, I am reading for a Ph.D. in Computing Science at the University of Glasgow, a world top-100 university, where I research enabling network autonomy using Genetic Algorithms. I have over 5 years of experience in the industry, 4 of which were spent designing and developing an open-source Identity and Access Management product that is recognised as a Strong Performer by Forrester. Outside of my professional work, I have contributed to impactful open-source projects, including software used to manage elections that were used to run national elections in Sri Lanka. Beyond technology, I am an ardent cricket analyst and regularly publish data-driven articles.",
+    "skills": [
+        {
+            "title": "Artificial Intelligence",
+            "icon": "Memory",
+            "description": "Solving real-world problems using Genetic Algorithms, Swarm Optimisation, Deep Neural Networks, and Machine Learning."
+        },
+        {
+            "title": "Scientific Research",
+            "icon": "Biotech",
+            "description": "Formulating research questions, developing prototypes, designing experiments, analysing data using R, and publishing findings."
+        },
+        {
+            "title": "Next.js & React Development",
+            "icon": "Web",
+            "description": "More than 5 years of experience developing and testing frontend apps using React, Next.js, Material UI, Redux, Storybook and React Testing Library."
+        },
+        {
+            "title": "Developing SDKs",
+            "icon": "Code",
+            "description": "Designing and developing OpenID Connect SDKs in TypeScript, which receive thousands of weekly downloads."
+        },
+        {
+            "title": "End-to-end Testing",
+            "icon": "BugReport",
+            "description": "Designing and developing end-to-end tests using Cypress for complex web apps."
+        },
+        {
+            "title": "UX and UI Design",
+            "icon": "Architecture",
+            "description": "Engineering UX following the design thinking process and designing UIs using Figma, Adobe XD, and Adobe Photoshop."
+        },
+        {
+            "title": "Backend Development",
+            "icon": "Storage",
+            "description": "Developing REST APIs using .NET Core, Express.js, and Django."
+        },
+        {
+            "title": "Content Creation",
+            "icon": "Create",
+            "description": "Documenting software, writing blog posts, vlogs and tutorials to explain software features and complex technical concepts."
+        },
+        {
+            "title": "Mentorship & Leadership",
+            "icon": "SupportAgent",
+            "description": "Mentoring junior developers and interns, providing guidance on technical skills, and best practices."
+        }
+    ]
+}

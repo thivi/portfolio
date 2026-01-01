@@ -1,0 +1,85 @@
+{
+    "title": "Education",
+    "description": "My educational background.",
+    "slug": "education",
+    "items": [
+        {
+            "institution": "University of Glasgow",
+            "degree": "Ph.D. in Computing Science",
+            "grade": "",
+            "duration": "2023-Present",
+            "description": "I am reading for a Ph.D. in optimal Service Function Chain embedding using Genetic Algorithms and I am currently in my 3rd year.",
+            "awards": [
+                {
+                    "name": "University of Glasgow Doctoral Scholarship",
+                    "year": "2023-2026"
+                }
+            ],
+            "skills": [
+                "Python",
+                "TypeScript",
+                "Mininet",
+                "R",
+                "Genetic Algorithms",
+                "Neural Networks"
+            ],
+            "projects": [
+                "openrase",
+                "benns",
+                "genesis"
+            ],
+            "image": "/images/education/uofg-logo.jpg"
+        },
+        {
+            "institution": "University of Westminster",
+            "degree": "M.Sc. in Advanced Software Engineering",
+            "grade": "Distinction (Avg: 85.14/100)",
+            "duration": "2021-2022",
+            "description": "My master's thesis was on developing a blockchain consensus algorithm to improve Byzantine fault tolerance in swarm robotics.",
+            "awards": [
+                {
+                    "name": "Dr. Gamini Wickramasinghe Gold Medal for Academic Excellence",
+                    "year": "2022"
+                }
+            ],
+            "skills": [
+                "Swarm Robotics",
+                "Ethereum",
+                "Go",
+                "TypeScript",
+                "React"
+            ],
+            "projects": [
+                "proof-of-identity"
+            ],
+            "image": "/images/education/uofw-logo.jpg"
+        },
+        {
+            "institution": "Sri Lanka Institute of Information Technology",
+            "degree": "B.Sc. in Information Technology specialising in Computer Systems and Network Engineering",
+            "grade": "Second Class Upper (GPA: 3.65/4.0)",
+            "duration": "2015-2018",
+            "description": "I took courses in software, embedded systems, network and system engineering. My finaly-year thesis was on decentarlising the control plane of Software Defined Networking using a blockchain smart contract.",
+            "awards": [
+                {
+                    "name": "Dean List Award for Outstanding Academic Performance",
+                    "year": "2018"
+                },
+                {
+                    "name": "Dean List Award for Outstanding Academic Performance",
+                    "year": "2017"
+                }
+            ],
+            "skills": [
+                "Texas Instrument MSP430",
+                "C#",
+                "Java",
+                "C++"
+            ],
+            "projects": [
+                "blockflow"
+            ],
+            "image": "/images/education/sliit-logo.jpg"
+        }
+    ]
+}

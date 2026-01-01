@@ -168,3 +168,7 @@ export interface Portfolio {
     projects: Projects;
     certifications: Certifications;
 };
+
+export interface Meta {
+    menus: string[];
+}
