@@ -1,0 +1,1163 @@
+{
+    "home": {
+        "title": "Theviyanthan Krishnamohan",
+        "shortTitle": "Home",
+        "salutation": "Hello World!👋",
+        "description": "I am a Ph.D. student in Computing Science researching Genetic Algorithms for autonomous networks at the University of Glasgow.",
+        "slug": "",
+        "profilePicture": "/images/profile.jpeg",
+        "interests": [
+            "Autonomous Networks",
+            "Evolutionary Computation",
+            "Artificial Intelligence",
+            "Identity and Access Management",
+            "Network Virtualisation",
+            "Fullstack Development"
+        ],
+        "socials": [
+            {
+                "name": "E-Mail",
+                "link": "mailto:theviyanthan@outlook.com"
+            },
+            {
+                "name": "GitHub",
+                "link": "https://github.com/thivi"
+            },
+            {
+                "name": "LinkedIn",
+                "link": "https://www.linkedin.com/in/krishnamohan-theviyanthan/"
+            },
+            {
+                "name": "ORCiD",
+                "link": "https://orcid.org/0000-0003-0040-1130"
+            },
+            {
+                "name": "Google Scholar",
+                "link": "https://scholar.google.com/citations?hl=en&user=kOTtM0QAAAAJ"
+            }
+        ],
+        "intro": "I am a computer scientist and software engineer with an insatiable passion for problem-solving and continuous learning. I am ambitious about bridging science and engineering by experimentally evaluating novel research ideas and engineering them into scalable, user-friendly products. Currently, I am reading for a Ph.D. in Computing Science at the University of Glasgow, a world top-100 university, where I research enabling network autonomy using Genetic Algorithms. I have over 5 years of experience in the industry, 4 of which were spent designing and developing an open-source Identity and Access Management product that is recognised as a Strong Performer by Forrester. Outside of my professional work, I have contributed to impactful open-source projects, including software used to manage elections that were used to run national elections in Sri Lanka. Beyond technology, I am an ardent cricket analyst and regularly publish data-driven articles.",
+        "skills": [
+            {
+                "title": "Artificial Intelligence",
+                "icon": "Memory",
+                "description": "Solving real-world problems using Genetic Algorithms, Swarm Optimisation, Deep Neural Networks, and Machine Learning."
+            },
+            {
+                "title": "Scientific Research",
+                "icon": "Biotech",
+                "description": "Formulating research questions, developing prototypes, designing experiments, analysing data using R, and publishing findings."
+            },
+            {
+                "title": "Next.js & React Development",
+                "icon": "Web",
+                "description": "More than 5 years of experience developing and testing frontend apps using React, Next.js, Material UI, Redux, Storybook and React Testing Library."
+            },
+            {
+                "title": "Developing SDKs",
+                "icon": "Code",
+                "description": "Designing and developing OpenID Connect SDKs in TypeScript, which receive thousands of weekly downloads."
+            },
+            {
+                "title": "End-to-end Testing",
+                "icon": "BugReport",
+                "description": "Designing and developing end-to-end tests using Cypress for complex web apps."
+            },
+            {
+                "title": "UX and UI Design",
+                "icon": "Architecture",
+                "description": "Engineering UX following the design thinking process and designing UIs using Figma, Adobe XD, and Adobe Photoshop."
+            },
+            {
+                "title": "Backend Development",
+                "icon": "Storage",
+                "description": "Developing REST APIs using .NET Core, Express.js, and Django."
+            },
+            {
+                "title": "Content Creation",
+                "icon": "Create",
+                "description": "Documenting software, writing blog posts, vlogs and tutorials to explain software features and complex technical concepts."
+            },
+            {
+                "title": "Mentorship & Leadership",
+                "icon": "SupportAgent",
+                "description": "Mentoring junior developers and interns, providing guidance on technical skills, and best practices."
+            }
+        ]
+    },
+    "presentations": {
+        "title": "Presentations",
+        "description": "Here are the talks I have given at various events and conferences during my academic and professional career.",
+        "slug": "presentations",
+        "items": [
+            {
+                "slug": "scone-2025",
+                "title": "Genetic Algorithms for Service Function Chain Embedding",
+                "event": "Scottish Networking Event 2025",
+                "venue": "Abertay cyberQuarter, Dundee",
+                "date": "29th October 2025",
+                "slides": "/pdfs/scone-oct-29.pdf",
+                "image": "/images/presentations/scone-2025/dundee.jpg",
+                "gallery": [
+                    "/images/presentations/scone-2025/scone-1.jpg",
+                    "/images/presentations/scone-2025/scone-2.jpg",
+                    "/images/presentations/scone-2025/scone-3.jpg",
+                    "/images/presentations/scone-2025/scone-4.jpg",
+                    "/images/presentations/scone-2025/scone-5.jpg"
+                ],
+                "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
+                "type": "Academic"
+            },
+            {
+                "slug": "softcom-2025",
+                "title": "OpenRASE: Service Function Chain Emulation",
+                "event": "33rd International Conference on Software, Telecommunications and Computer Networks (SoftCOM 2025)",
+                "venue": "Split, Croatia (Online)",
+                "date": "18th September 2025",
+                "slides": "/pdfs/softcom-sep-2025.pdf",
+                "image": "/images/presentations/softcom-2025/split.jpg",
+                "gallery": [],
+                "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
+                "type": "Academic"
+            },
+            {
+                "slug": "sicsa-phd-poster-2025",
+                "title": "Poster: Genetic Evolution of Service Function Chain Embedding",
+                "event": "SICSA PhD Conference 2025",
+                "venue": "Craighlockhart Campus, University of Napier",
+                "date": "25th June 2025",
+                "slides": "/pdfs/sicsa-phd-poster.pdf",
+                "image": "/images/presentations/sicsa-phd-conference-2025/poster.png",
+                "gallery": [
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-1.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-2.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-3.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-4.jpg",
+                    "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-5.jpg"
+                ],
+                "description": "I presented a poster on using Genetic Algorithms to evolve Service Function Chain embeddings.",
+                "type": "Academic"
+            },
+            {
+                "slug": "sicsa-lightning-2025",
+                "title": "Genetic Algorithms for Service Function Chain Deployment",
+                "event": "SICSA PhD Conference 2025",
+                "venue": "Craighlockhart Campus, University of Napier",
+                "date": "25th June 2025",
+                "slides": "/pdfs/sicsa-lightning-talk.pdf",
+                "image": "/images/presentations/sicsa-phd-conference-2025/napier.jpg",
+                "gallery": [],
+                "description": "I talked about using hybrid evolution to optimally embed Service Function Chains.",
+                "type": "Academic"
+            },
+            {
+                "slug": "sicsa-pre-ec-2025",
+                "title": "Genetic Algorithms for Service Function Chain Deployment",
+                "event": "SICSA Pre-EC Conference 2025",
+                "venue": "University of Stirling",
+                "date": "29th May 2025",
+                "slides": "/pdfs/pre-ec-may-2025.pdf",
+                "image": "/images/presentations/sicsa-pre-ec-2025/stirling.jpg",
+                "gallery": [],
+                "description": "I talked about using Genetic Algorithms for SFC embedding, focussing specifically on how I developed a surrogate to assist the evolution.",
+                "type": "Academic"
+            },
+            {
+                "slug": "uk-systems-2025",
+                "title": "Genetic Algorithms for Service Function Chain Deployment",
+                "event": "9th Annual UK Systems Workshop",
+                "venue": "Redworth Hall Hotel, Durham",
+                "date": "16th April 2025",
+                "slides": "/pdfs/UK-systems-workshop-April-2025.pdf",
+                "image": "/images/presentations/uk-systems-2025/redworth.jpg",
+                "gallery": [],
+                "description": "I talked about optimally embedding SFCs by evolving perceptrons using surrogate-assisted Genetic Algorithms.",
+                "type": "Academic"
+            },
+            {
+                "slug": "openrase-poster",
+                "title": "Poster: Service Function Chain Emulation Using OpenRASE",
+                "event": "",
+                "venue": "",
+                "date": "2024",
+                "slides": "/pdfs/openrase-poster.pdf",
+                "image": "/images/presentations/openrase-poster/poster.png",
+                "gallery": [],
+                "description": "I designed poster explaining how OpenRASE works and how I used it to perform experiments on SFC embedding.",
+                "type": "Academic"
+            },
+            {
+                "slug": "open-rase-sans",
+                "title": "Open Resource Allocation to Service Function Chains Emulator",
+                "event": "Scottish Autonomous Networked Systems",
+                "venue": "University of Glasgow",
+                "date": "2nd May 2024",
+                "slides": "/pdfs/OpenRASE.pdf",
+                "image": "/images/presentations/openrase/glasgow.jpg",
+                "gallery": [
+                    "/images/presentations/openrase/sans-1.jpg",
+                    "/images/presentations/openrase/sans-2.jpg",
+                    "/images/presentations/openrase/sans-3.jpg"
+                ],
+                "description": "I presented the motivation and architecture of the OpenRASE emulator that I developed to perform SFC embedding experiments.",
+                "type": "Academic"
+            },
+            {
+                "slug": "codesprint-iit",
+                "title": "UX Workshop",
+                "event": "Codesprint 2023, IIT",
+                "venue": "Informatics Institute of Technology, Sri Lanka",
+                "date": "17th January 2023",
+                "slides": "/pdfs/codesprint-ux-2023.pdf",
+                "image": "/images/presentations/codesprint/iit.jpg",
+                "gallery": [
+                    "/images/presentations/codesprint/codesprint-1.jpeg",
+                    "/images/presentations/codesprint/codesprint-2.jpeg",
+                    "/images/presentations/codesprint/codesprint-3.jpeg",
+                    "/images/presentations/codesprint/codesprint-4.jpeg",
+                    "/images/presentations/codesprint/codesprint-5.jpeg",
+                    "/images/presentations/codesprint/codesprint-6.jpeg",
+                    "/images/presentations/codesprint/codesprint-7.jpeg"
+                ],
+                "description": "I presented an introduction to UX to IIT students.",
+                "type": "Work"
+            },
+            {
+                "slug": "iam-ucsc",
+                "title": "Introduction to Identity and Access Management with Asgardeo",
+                "event": "",
+                "venue": "University of Colombo School of Computing",
+                "date": "17th January 2023",
+                "slides": "",
+                "image": "/images/presentations/iam/ucsc.jpg",
+                "gallery": [
+                    "/images/presentations/iam/iam-1.HEIC",
+                    "/images/presentations/iam/iam-2.HEIC",
+                    "/images/presentations/iam/iam-3.HEIC",
+                    "/images/presentations/iam/iam-4.HEIC",
+                    "/images/presentations/iam/iam-5.HEIC",
+                    "/images/presentations/iam/iam-6.HEIC",
+                    "/images/presentations/iam/iam-7.HEIC",
+                    "/images/presentations/iam/iam-8.HEIC",
+                    "/images/presentations/iam/iam-9.jpeg"
+                ],
+                "description": "I presented an introduction to Identity and Access Management using Asgardeo to the University of Colombo School of Computing students.",
+                "type": "Work"
+            },
+            {
+                "slug": "ui-ux-bootcamp-iit",
+                "title": "Problem Definition in Design Thinking",
+                "event": "UI/UX Bootcamp 2022",
+                "venue": "Informatics Institute of Technology, Sri Lanka",
+                "date": "24th September 2022",
+                "slides": "/pdfs/define-design-thinking.pdf",
+                "image": "/images/presentations/ui-ux-bootcamp/iit.jpg",
+                "gallery": [
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-1.jpeg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-2.jpeg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-3.jpeg",
+                    "/images/presentations/ui-ux-bootcamp/bootcamp-4.jpeg"
+                ],
+                "description": "I presented a talk on defining problems in design thinking as a part of the UI/UX bootcamp conducted for IIT students.",
+                "type": "Work"
+            }
+        ]
+    },
+    "publications": {
+        "title": "Publications",
+        "description": "The papers I have published in journals and conferences.",
+        "slug": "publications",
+        "items": [
+            {
+                "slug": "simultaneous-genetic-evolution-neural-networks-optimal-sfc-embedding",
+                "title": "Simultaneous Genetic Evolution of Neural Networks for Optimal SFC Embedding",
+                "publication": "",
+                "date": "10th December 2025",
+                "link": "https://arxiv.org/abs/2512.09318",
+                "doi": "https://doi.org/10.48550/arXiv.2512.09318",
+                "preprint": true,
+                "citation": "@misc{krishnamohan2025simultaneousgeneticevolutionneural, title={Simultaneous Genetic Evolution of Neural Networks for Optimal SFC Embedding}, author={Theviyanthan Krishnamohan and Lauritz Thamsen and Paul Harvey}, year={2025}, eprint={2512.09318}, archivePrefix={arXiv}, primaryClass={cs.NE}, url={https://arxiv.org/abs/2512.09318}}",
+                "abstract": "The reliance of organisations on computer networks is enabled by network programmability, which is typically achieved through Service Function Chaining. These chains virtualise network functions, link them, and programmatically embed them on networking infrastructure. Optimal embedding of Service Function Chains is an NP-hard problem, with three sub-problems, chain composition, virtual network function embedding, and link embedding, that have to be optimised simultaneously, rather than sequentially, for optimal results. Genetic Algorithms have been employed for this, but existing approaches either do not optimise all three sub-problems or do not optimise all three sub-problems simultaneously. We propose a Genetic Algorithm-based approach called GENESIS, which evolves three sine-function-activated Neural Networks, and funnels their output to a Gaussian distribution and an A* algorithm to optimise all three sub-problems simultaneously. We evaluate GENESIS on an emulator across 48 different data centre scenarios and compare its performance to two state-of-the-art Genetic Algorithms and one greedy algorithm. GENESIS produces an optimal solution for 100% of the scenarios, whereas the second-best method optimises only 71% of the scenarios. Moreover, GENESIS is the fastest among all Genetic Algorithms, averaging 15.84 minutes, compared to an average of 38.62 minutes for the second-best Genetic Algorithm.",
+                "codeRepository": "",
+                "dataRepository": "",
+                "type": "Preprint",
+                "authors": [
+                    "Theviyanthan Krishnamohan",
+                    "Lauritz Thamsen",
+                    "Paul Harvey"
+                ]
+            },
+            {
+                "slug": "benns-surrogate-model-hybrid-online-offline-evolution-sfc-embedding",
+                "title": "BENNS: A Surrogate Model for Hybrid Online-Offline Evolution of SFC Embedding",
+                "publication": "",
+                "date": "21st September 2025",
+                "link": "https://arxiv.org/abs/2509.16856",
+                "doi": "https://doi.org/10.48550/arXiv.2509.16856",
+                "preprint": true,
+                "citation": "@misc{krishnamohan2025bennssurrogatemodelhybrid, title={BeNNS: A Surrogate Model for Hybrid Online-Offline Evolution of SFC Embedding}, author={Theviyanthan Krishnamohan and Lauritz Thamsen and Paul Harvey}, year={2025}, eprint={2509.16856}, archivePrefix={arXiv}, primaryClass={cs.NI}, url={https://arxiv.org/abs/2509.16856}}",
+                "abstract": "Service Function Chains (SFCs) enable programmatic control of the functions and services in a computer network. By leveraging Software Defined Networking to control the links between virtualised network functions, SFCs provide a scalable approach to dealing with the increased pressures on network operation and management. Unfortunately, the challenge of embedding SFCs onto the underlying physical network and compute infrastructure is an NP-hard problem. Genetic Algorithms (GAs) have been used to address this issue, but they require significant time to evaluate solution quality (fitness) online, with most solutions instead adopting offline simulations or analytical evaluations. To enable online use of GAs in solving the SFC embedding problem, we introduce a hybrid online-offline approach to evaluate generated solutions. At the core of this is BeNNS--a topology, traffic, and SFC-embedding agnostic surrogate model that approximates fitness. We evaluate our approach across six experiments, varying available resources and traffic loads. Our results demonstrate that our approach is capable of exploring thousands of potential configurations and generating deployable solutions in 36.8 minutes on average, compared to online-only approaches, which take 17.9 hours on average to explore tens of solutions, which do not converge on an optimal solution.",
+                "codeRepository": "",
+                "dataRepository": "",
+                "type": "Preprint",
+                "authors": [
+                    "Theviyanthan Krishnamohan",
+                    "Lauritz Thamsen",
+                    "Paul Harvey"
+                ]
+            },
+            {
+                "slug": "openrase-service-function-chain-emulation",
+                "title": "OpenRASE: Service Function Chain Emulation",
+                "publication": "2025 International Conference on Software, Telecommunications and Computer Networks (SoftCOM)",
+                "date": "18th September 2025",
+                "link": "https://ieeexplore.ieee.org/document/11197454",
+                "doi": "https://doi.org/10.23919/SoftCOM66362.2025.11197454",
+                "preprint": false,
+                "citation": "@INPROCEEDINGS{11197454, author={Krishnamohan, Theviyanthan and Harvey, Paul}, booktitle={2025 International Conference on Software, Telecommunications and Computer Networks (SoftCOM)}, title={OpenRASE: Service Function Chain Emulation}, year={2025}, volume={}, number={}, pages={1-6}, keywords={Service function chaining;Heuristic algorithms;Software algorithms;Dynamic scheduling;Computer networks;Software;Telecommunications;Resource management;Optimization;Genetic algorithms;Emulator;Network Function Virtualisation (NFV);Network Function Virtualisation Resource Allocation (NFV-RA);Service Function Chaining (SFC);Autonomous Network}, doi={10.23919/SoftCOM66362.2025.11197454}}",
+                "abstract": "Service Function Chains (SFCs) are one of the key enablers in providing programmable computer networks, paving the way for network autonomy. However, this also introduces new challenges, such as resource allocation and optimisation related to their operation, requiring new algorithms to address these challenges. Various tools have been used in the literature to evaluate these algorithms. However, these tools suffer from inaccuracy, low fidelity, unscalability, inflexibility, or additional code requirements. This paper introduces an emulator based on Mininet and Docker for SFCs called OpenRASE. The goal of OpenRASE is to enable the exploration of resource allocation algorithms for SFCs in a dynamic setting, allowing real CPU usage and latency to be measured. We describe the design and implementation of OpenRASE and discuss its characteristics. We also experimentally evaluate two different algorithms to address the SFC resource allocation challenge, including an online Genetic Algorithm, using OpenRASE to show its effectiveness and practicality for dynamic network conditions.",
+                "codeRepository": "",
+                "dataRepository": "",
+                "type": "Conference Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan",
+                    "Paul Harvey"
+                ]
+            },
+            {
+                "slug": "blockchain-collective-decision-making-swarm-robotics",
+                "title": "A Survey of Applications of Blockchain in Collective Decision-Making Scenarios in Swarm Robotics",
+                "publication": "Journal of Innovation Information Technology and Application (JINITA)",
+                "date": "29th December 2023",
+                "link": "https://ejournal.pnc.ac.id/index.php/jinita/article/view/1950",
+                "doi": "https://doi.org/10.35970/jinita.v5i2.1950",
+                "preprint": false,
+                "citation": "@article{Krishnamohan2023, author={Krishnamohan, Theviyanthan}, doi={10.35970/JINITA.V5I2.1950}, issn={2715-9248}, journal={Journal of Innovation Information Technology and Application (JINITA)}, keywords={Blockchain,Consensus Achievement,Robotics,Swarm,Swarm Intelligence,Swarm Robotics}, month={dec}, number={2}, pages={124--129}, publisher={Politeknik Negeri Cilacap}, title={{A Survey of Applications of Blockchain in Collective Decision-Making Scenarios in Swarm Robotics}}, url={https://ejournal.pnc.ac.id/index.php/jinita/article/view/1950}, volume={5}, year={2023}}",
+                "abstract": "Blockchain is a distributed ledger that was introduced to decentralize monetary systems. However, with time, the applications of blockchain in different realms have been identified. Swarm robotics is a field that combines swarm intelligence and robotics to solve real-world problems that cannot be solved by monolithic robots. Collective decision-making is one of the major behaviors implemented by swarm robotics. This study analyzes existing literature on the applications of blockchain in the collective decision-making scenarios in swarm robotics. Consequently, this study introduces a novel taxonomy to study the different applications effectively. The taxonomy categorizes existing literature into (i) application of blockchain in other areas of swarm robotics, (ii) application of blockchain in continuous collective decision-making scenarios, (iii) application of blockchain in discrete collective decision-making scenarios, (iv) application of blockchain in other discrete collective decision-making scenarios, and (v) application of blockchain in the collective perception scenario. Finally, the limitations of existing work such as excessive resource consumption and violation of swarm robotics principles are discussed.",
+                "codeRepository": "",
+                "dataRepository": "",
+                "type": "Journal Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan"
+                ]
+            },
+            {
+                "slug": "maximizing-runs-cricket-genetic-algorithm",
+                "title": "Maximizing the Runs Scored by a Team in Cricket using Genetic Algorithm",
+                "publication": "International Journal of Electrical and Computer Engineering Research",
+                "date": "15th September 2023",
+                "link": "https://www.ijecer.org/ijecer/article/view/346",
+                "doi": "https://doi.org/10.53375/ijecer.2023.346",
+                "preprint": false,
+                "citation": "@article{Krishnamohan_2023, title={Maximizing the Runs Scored by a Team in Cricket using Genetic Algorithm}, volume={3}, url={https://www.ijecer.org/ijecer/article/view/346}, DOI={10.53375/ijecer.2023.346}, number={3}, journal={International Journal of Electrical and Computer Engineering Research}, author={Krishnamohan, Theviyanthan}, year={2023}, month={Sep.}, pages={7–12}}",
+                "abstract": "Batting teams get two resources in cricket to score runs with, viz. wickets and balls. Trying to score as many runs as possible off every ball a team faces risks losing wickets. Trying to preserve wickets comes at the cost of not enough runs being scored. Thus, to maximize the runs scored, teams need to make efficient use of the balls and wickets available to them. To that end, teams primarily employ two types of batsmen-aggressive batsmen who try to score as many runs as possible off the balls they face and defensive batsmen who try to protect their wickets. Having too many aggressive batsmen helps a team score more runs off the balls they face but it stands the risk of a team losing all its wickets before they face all of their allotted balls. Having too many defensive batsmen helps a team face all the balls allotted to them but they may not end up scoring enough runs. Hence, selecting the right combination of defensive and aggressive batsmen is essential to maximize the runs a batting team scores. However, this is a computationally complex problem to solve. This study proposes the use of genetic algorithm to optimize the batting lineup of a team to help it maximize the runs scored in an innings. The test results indicate, by using the genetic algorithm, the number of runs scored batting first by the full member teams in the last five years can be improved by 5.46% on average.",
+                "codeRepository": "https://github.com/thivi/batting-lineup-generator",
+                "dataRepository": "",
+                "type": "Journal Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan"
+                ]
+            },
+            {
+                "slug": "review-consensus-achievement-strategies-swarm-robotics",
+                "title": "A Review of the Consensus Achievement Strategies in the Context of Swarm Robotics",
+                "publication": "International Journal of Blockchains and Cryptocurrencies",
+                "date": "6th February 2023",
+                "link": "https://www.inderscienceonline.com/doi/abs/10.1504/IJBC.2022.128887",
+                "doi": "https://doi.org/10.53964/mit.2023001",
+                "preprint": false,
+                "citation": "@article{Krishnamohan2023, author={Krishnamohan, Theviyanthan}, doi={10.53964/MIT.2023001}, issn={2957-7942}, journal={Mod Intell Times}, keywords={collective perception,consensus achievement,swarm intelligence,swarm robotics}, month={mar}, pages={1}, publisher={Innovation Forever Publishing Group Limited}, title={{A Review of the Consensus Achievement Strategies in the Context of Swarm Robotics}}, url={https://www.innovationforever.com/article.mit20230002}, volume={1}, year={2023}}",
+                "abstract": "Swarm robotics applies swarm intelligence to robotics to solve real-life problems that cannot be solved by single, monolithic robots. This review first studies swarm robotics in depth and analyzes the different types of tasks carried out by swarms of robots. Then, the consensus-achievement behavior is elaborated on and its relation to the collective perception scenario is reviewed. The collective perception scenario is expounded in detail and the three discreet consensus-achievement strategies, namely the direct modulation of majority-based decision, direct modulation of voter-based decision, and direct comparison are discussed apropos of the collective perception scenario. This review then compares these strategies and explores their shortcoming such as the vulnerability to Byzantine robots.",
+                "codeRepository": "",
+                "dataRepository": "",
+                "type": "Journal Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan"
+                ]
+            },
+            {
+                "slug": "analysis-blockchain-consensus-algorithms-swarm-robotics",
+                "title": "Analysing the suitability of blockchain consensus algorithms in swarm robotics",
+                "publication": "International Journal of Blockchains and Cryptocurrencies",
+                "date": "6th February 2023",
+                "link": "https://www.inderscienceonline.com/doi/abs/10.1504/IJBC.2022.128887",
+                "doi": "https://doi.org/10.1504/IJBC.2022.128887",
+                "preprint": false,
+                "citation": "@article{doi:10.1504/IJBC.2022.128887, author={Krishnamohan, Theviyanthan}, title={Analysing the suitability of blockchain consensus algorithms in swarm robotics}, journal={International Journal of Blockchains and Cryptocurrencies}, volume={3}, number={4}, pages={319-328}, year={2022}, doi={10.1504/IJBC.2022.128887}, URL={https://www.inderscienceonline.com/doi/abs/10.1504/IJBC.2022.128887}, eprint={https://www.inderscienceonline.com/doi/pdf/10.1504/IJBC.2022.128887}}",
+                "abstract": "Swarm robotics integrates robotics with swarm intelligence. Consensus achievement is one of the major behaviours of swarm robotics. Strategies that solve the consensus-achievement problem have been shown to be vulnerable to Byzantine robots. Blockchain-based solutions have been shown to improve Byzantine fault tolerance. However, these solutions suffer from poor performance, excessive resource consumption, and vulnerability to the 51% attack due to the use of the proof-of-work consensus algorithm. This study surveys existing blockchain consensus algorithms and their suitability to swarm robotics. Consequently, a taxonomy is introduced consisting of three categories, namely proof of resource, proof of authority, and Byzantine agreement. The proof-of-resource algorithms are vulnerable to the 51% attack and consume excess resources. Proof of authority algorithms creates permissioned blockchains, which contravenes the principles of swarm robotics. Byzantine agreement algorithms introduce centralisation. Consequently, the need for a new consensus algorithm to be used in swarm robotics is postulated.",
+                "codeRepository": "",
+                "dataRepository": "",
+                "type": "Journal Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan"
+                ]
+            },
+            {
+                "slug": "proof-of-identity-blockchain-consensus-algorithm",
+                "title": "Proof of identity - a blockchain consensus algorithm to create a dynamically permissioned blockchain",
+                "publication": "International Journal of Blockchains and Cryptocurrencies",
+                "date": "6th February 2023",
+                "link": "https://www.inderscienceonline.com/doi/abs/10.1504/IJBC.2022.128888",
+                "doi": "https://doi.org/10.1504/IJBC.2022.128888",
+                "preprint": false,
+                "citation": "@article{doi:10.1504/IJBC.2022.128888,author = {Krishnamohan, Theviyanthan},title = {Proof of identity - a blockchain consensus algorithm to create a dynamically permissioned blockchain},journal = {International Journal of Blockchains and Cryptocurrencies},volume = {3},number = {4},pages = {289-301},year = {2022},doi = {10.1504/IJBC.2022.128888},URL = {https://www.inderscienceonline.com/doi/abs/10.1504/IJBC.2022.128888},eprint = {https://www.inderscienceonline.com/doi/pdf/10.1504/IJBC.2022.128888},}",
+                "abstract": "Blockchains can be either permissioned or permissionless. Existing blockchain consensus algorithms used to create permissioned blockchains to not allow new validators to be dynamically added to the blockchain during runtime. This can be a problem when blockchain is used in swarm robotics, where redundancy is required. Besides, popular algorithms such as proof of work (PoW) that offer redundancy consume a lot of resources, making them unsuitable to run on the powerless robots used in swarm robotics. In addition, such algorithms are also vulnerable to threats such as the 51% attack. This research proposes a novel proof-of-identity (PoI) blockchain consensus algorithm to create a dynamically permissioned blockchain to be used in swarm robotics. This algorithm uses a swarm controller to generate a private-public key pair that is used to authorise validators. Tests carried out showed that the PoI algorithm is immune to the 51% attack threat and can run on low-powered devices such as Raspberry Pi 3. Moreover, the consensus time was also shown to be shorter in comparison to PoW.",
+                "codeRepository": "https://github.com/PoI-Research",
+                "dataRepository": "https://github.com/PoI-Research/poi-analysis",
+                "type": "Journal Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan"
+                ]
+            },
+            {
+                "slug": "computing-runs-a-star-algorithm",
+                "title": "Computing the Runs that Should Be Scored Every over When Chasing a Target in Limited-overs Cricket Using the A* Algorithm",
+                "publication": "Applied Artificial Intelligence, Taylor & Francis",
+                "date": "31st October 2021",
+                "link": "https://www.tandfonline.com/doi/full/10.1080/08839514.2021.1999011",
+                "doi": "https://doi.org/10.1080/08839514.2021.1999011",
+                "preprint": false,
+                "citation": "@article{Krishnamohan15122021,author = {Theviyanthan Krishnamohan},title = {Computing the Runs that Should Be Scored Every over When Chasing a Target in Limited-overs Cricket Using the A* Algorithm},journal = {Applied Artificial Intelligence},volume = {35},number = {15},pages = {2087--2101},year = {2021},publisher = {Taylor & Francis},doi = {10.1080/08839514.2021.1999011},URL = {https://doi.org/10.1080/08839514.2021.1999011},eprint = {https://doi.org/10.1080/08839514.2021.1999011}}",
+                "abstract": "Taking calculated risks against bowlers plays an imperative role in chasing down a target in cricket. Thus, it becomes important for teams to calculate how many runs they should score off every over they face in an innings. The runs a team should score off an over is a function of the difficulty of scoring against the bowler bowling that over, the runs that have already been scored, the target, and the difficulty of scoring runs against the rest of the bowlers. However, the runs that can be scored in an over produces a state space with a branching factor of 37. Such a large state space makes using an uninformed search algorithm impractical. This research proposes the use of the A* algorithm to search the state space to find the number of runs that should be scored off every over during a run chase.",
+                "codeRepository": "https://github.com/thivi/Scoring-tactics-using-a-star-algorithm",
+                "dataRepository": "https://github.com/thivi/Scoring-tactics-using-a-star-algorithm",
+                "type": "Journal Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan"
+                ]
+            },
+            {
+                "slug": "blockflow-decentralized-sdn-controller",
+                "title": "BlockFlow: A decentralized SDN controller using blockchain",
+                "publication": "International Journal of Scientific and Research Publications",
+                "date": "2020",
+                "link": "https://www.ijsrp.org/research-paper-0320.php?rp=P999830",
+                "doi": "https://doi.org/10.29322/IJSRP.10.03.2020.p9991",
+                "preprint": false,
+                "citation": "@article{Krishnamohan2020,author = {Krishnamohan, Theviyanthan and Janarthanan, Kugathasan and P.R.L.C, Peramune and A.T, Ranaweera},doi = {10.29322/IJSRP.10.03.2020.P9991},journal = {International Journal of Scientific and Research Publications (IJSRP)},month = {mar},number = {3},pages = {p9991},publisher = {International Journal of Scientific and Research Publications (IJSRP)},title = {{BlockFlow: A decentralized SDN controller using blockchain}},volume = {10},year = {2020}}",
+                "abstract": "With the rise of cloud computing, data centers,and big data, the current rigid network architecture has beenfound to be inadequate. The modern technological demandsrequire a flexible and easily reconfigurable networkarchitecture. Software Defined Networking is a revolutionaryconcept that separates the control plane of network devices fromtheir data plane and centralizes the control plane of all devices,facilitating the controlling of the entire network through a singleportal. This helps us create flexible network architectures thatcan be reconfigured quickly to fit different needs. However,centralizing control leads to a Single Point of Failure and makesthe network vulnerable to Denial of Service attacks, which is oneof the major reasons why industries are reluctant to adopt thistechnology. Blockchain provides us a with a distributed ledgerand a decentralized state, allowing us to create decentralizedapplications that run over multiple computers. This researchaims to distribute the control plane of Software DefinedNetworks across multiple devices using blockchain. Thisaddresses the existing security vulnerabilities of the SoftwareDefined Network architecture such as Single Point of Failurewhile continuing to keep the control plane logically centralized,thereby allowing the network to be configured through a singleportal. The resulting architecture has a physically distributedcontrol plane whose logic is centralized.",
+                "codeRepository": "https://github.com/thivi/blockFlow",
+                "dataRepository": "",
+                "type": "Journal Paper",
+                "authors": [
+                    "Theviyanthan Krishnamohan",
+                    "Kugathasan Janarthanan",
+                    "Peramune P.R.L.C",
+                    "Ranaweera A.T "
+                ]
+            },
+            {
+                "slug": "policies-based-container-migration",
+                "title": "Policies Based Container Migration Using Cross-Cloud Management Platform",
+                "publication": "2018 IEEE International Conference on Information and Automation for Sustainability (ICIAfS)",
+                "date": "2018",
+                "link": "https://ieeexplore.ieee.org/document/8913336",
+                "doi": "https://doi.org/10.1109/ICIAFS.2018.8913336",
+                "preprint": false,
+                "citation": "@INPROCEEDINGS{8913336,author={Janarthanan, Kugathasan and Peramune, P.R.L.C and Ranaweera, A.T and Krishnamohan, Theviyanthan and Rupasinghe, Lakmal and Sampath, Kalpa Kalhara and Liyanapathirana, Chethana},booktitle={2018 IEEE International Conference on Information and Automation for Sustainability (ICIAfS)}, title={Policies Based Container Migration Using Cross-Cloud Management Platform}, year={2018},volume={},number={},pages={1-6},keywords={Containers;Cloud computing;Standards organizations;Virtual machining;Redundancy;Containers;Cross-Cloud;AWS;AZURE;VM;Dockers},doi={10.1109/ICIAFS.2018.8913336}}",
+                "abstract": "Over the last decade, cloud computing has helped in variety of ways to humanity. Mainly in the ways of, achieving Disaster Recovery (DR) and in protecting the end users' data and Anywhere, Any device, Anytime access to the users' data. This research further helps people and organization to overcome common problems related to clouds such as, vendor-lock in and legal regulation. In today's world, more and more organizations are adopting the cloud services mainly because of the reliability and affordability provided by them. However, there are several drawbacks faced by the cloud users and cloud service providers. Apart from the security perspective, the cloud users are facing challenges in control and visibility, lack of standard service interfaces, difficulty in deploying applications across multiple clouds and vendor lock-in. Also, cloud service providers are facing challenges in degradation of the quality of service provided because of the distance between cloud data center and the end user and unexpected interruption of services etc. The above problems can be reduced to a greater extent or mitigated by adopting Multi Cross Cloud Infrastructure. This benefits the cloud users to receive the best quality services to increase their productivity. Hence, the main aim of this research is to build a common platform to manage the cross-cloud environment particularly Microsoft AZURE cloud and Amazon Web Services (AWS) with multiple features such as policies based container migration among the clouds and finding the best virtual machines (VM) across the clouds to deploy new containers. Cross-cloud management platform can be implemented within an organization or Enterprise and is used by the 3rd level support team such as Infrastructure team to provide multiple services (E.g. - Delivering application containers, Migration of containers on request) to end users based on some service level agreements (SLA) with more control and visibility.",
+                "codeRepository": "",
+                "dataRepository": "",
+                "type": "Conference Paper",
+                "authors": [
+                    "Kugathasan Janarthanan",
+                    "P.R.L.C Peramune",
+                    "A.T Ranaweera",
+                    "Theviyanthan Krishnamohan",
+                    "Lakmal Rupasinghe",
+                    "Kalpa Kalhara Sampath",
+                    "Chethana Liyanapathirana"
+                ]
+            }
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "description": "My educational background.",
+        "slug": "education",
+        "items": [
+            {
+                "institution": "University of Glasgow",
+                "degree": "Ph.D. in Computing Science",
+                "grade": "",
+                "duration": "2023-Present",
+                "description": "I am reading for a Ph.D. in optimal Service Function Chain embedding using Genetic Algorithms and I am currently in my 3rd year.",
+                "awards": [
+                    {
+                        "name": "University of Glasgow Doctoral Scholarship",
+                        "year": "2023-2026"
+                    }
+                ],
+                "skills": [
+                    "Python",
+                    "TypeScript",
+                    "Mininet",
+                    "R",
+                    "Genetic Algorithms",
+                    "Neural Networks"
+                ],
+                "projects": [
+                    "openrase",
+                    "benns",
+                    "genesis"
+                ],
+                "image": "/images/education/uofg-logo.jpg"
+            },
+            {
+                "institution": "University of Westminster",
+                "degree": "M.Sc. in Advanced Software Engineering",
+                "grade": "Distinction (Avg: 85.14/100)",
+                "duration": "2021-2022",
+                "description": "My master's thesis was on developing a blockchain consensus algorithm to improve Byzantine fault tolerance in swarm robotics.",
+                "awards": [
+                    {
+                        "name": "Dr. Gamini Wickramasinghe Gold Medal for Academic Excellence",
+                        "year": "2022"
+                    }
+                ],
+                "skills": [
+                    "Swarm Robotics",
+                    "Ethereum",
+                    "Go",
+                    "TypeScript",
+                    "React"
+                ],
+                "projects": [
+                    "proof-of-identity"
+                ],
+                "image": "/images/education/uofw-logo.jpg"
+            },
+            {
+                "institution": "Sri Lanka Institute of Information Technology",
+                "degree": "B.Sc. in Information Technology specialising in Computer Systems and Network Engineering",
+                "grade": "Second Class Upper (GPA: 3.65/4.0)",
+                "duration": "2015-2018",
+                "description": "I took courses in software, embedded systems, network and system engineering. My finaly-year thesis was on decentarlising the control plane of Software Defined Networking using a blockchain smart contract.",
+                "awards": [
+                    {
+                        "name": "Dean List Award for Outstanding Academic Performance",
+                        "year": "2018"
+                    },
+                    {
+                        "name": "Dean List Award for Outstanding Academic Performance",
+                        "year": "2017"
+                    }
+                ],
+                "skills": [
+                    "Texas Instrument MSP430",
+                    "C#",
+                    "Java",
+                    "C++"
+                ],
+                "projects": [
+                    "blockflow"
+                ],
+                "image": "/images/education/sliit-logo.jpg"
+            }
+        ]
+    },
+    "experience": {
+        "title": "Work Experience",
+        "description": "My work experience.",
+        "slug": "experience",
+        "items": [
+            {
+                "institution": "University of Glasgow",
+                "position": "Graduate Teaching Assistant",
+                "duration": "2024-Present",
+                "description": "I was the Graduate Teaching Assistant for the Operating Systems (COMPSCI4011) course for Level 4 students in 2025. I also marked the exams for the same course.",
+                "awards": [],
+                "skills": [
+                    "Teaching",
+                    "Marking"
+                ],
+                "projects": [],
+                "image": "/images/education/uofg-logo.jpg"
+            },
+            {
+                "institution": "WSO2",
+                "position": "Senior Software Engineer",
+                "duration": "2021-2023",
+                "description": [
+                    "I made significant contributions to two React apps by developing, testing and documenting new features. I also produced vlogs and blogs to help market the features. ",
+                    "I wrote end-to-end tests using Cypress to improve the test coverage of the two React apps.",
+                    "I managed Agile teams to deliver critical features on times.",
+                    "I mentored and coached junior developers to learn the codebases and the best coding practices.",
+                    "I lead and mentored intern developers to develop OIDC SDKs for Node.js, Angular and Express and ship them to production on time.",
+                    "I lead the effort to organise community calls that attracted audience from around the globe.",
+                    "I contributed to WSO2 Oxygen UI, a design system powering WSO2's frontend applications.",
+                    "I worked on reducing the bundle size of the frontend applications, boosting the load times significantly.",
+                    "I was rated as top 5% performer for two successive cycles in 2021 and 2022."
+                ],
+                "awards": [],
+                "skills": [
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Cypress",
+                    "Figma",
+                    "Adobe XD",
+                    "Agile Methodologies"
+                ],
+                "projects": [
+                    "oxygen-ui",
+                    "my-account",
+                    "console",
+                    "oidc-js",
+                    "oidc-spa",
+                    "oidc-react"
+                ],
+                "image": "/images/work/wso2-logo.jpg"
+            },
+            {
+                "institution": "WSO2",
+                "position": "Software Engineer",
+                "duration": "2019-2021",
+                "description": [
+                    "I played a pivotal role in designing the UX, following the design thinking process, of two frontend applications that are in production now.",
+                    "I developed, wrote tests and documented new features for the two React applications.",
+                    "I developed OIDC SDKs for JavaScript, Single Page Applications and React to help developers integrate WSO2 Identity Server with their applications. These SDKS get 1000+ weekly downloads now."
+                ],
+                "awards": [
+                    {
+                        "name": "Sustained Outstanding Contribution",
+                        "year": "2020"
+                    },
+                    {
+                        "name": "Rockstar Award for producing high-impact tech blogs",
+                        "year": "2021"
+                    }
+                ],
+                "skills": [
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Cypress",
+                    "Figma",
+                    "Adobe XD",
+                    "Agile Methodologies"
+                ],
+                "projects": [
+                    "my-account",
+                    "console",
+                    "oidc-js",
+                    "oidc-spa",
+                    "oidc-react"
+                ],
+                "image": "/images/work/wso2-logo.jpg"
+            },
+            {
+                "institution": "Lanka Software Foundation",
+                "position": "Volunteer Software Engineer",
+                "duration": "2019-2021",
+                "description": [
+                    "I developed a cross-platform mobile application using Flutter to manage election logistics.",
+                    "I took part in the development of an election result and incident management applications using React and Django.",
+                    "I designed and developed React and Django applications to send and receive election tools.",
+                    "These applications were used in the 2019 Presidential Election and 2020 General Election in Sri Lanka."
+                ],
+                "awards": [],
+                "skills": [
+                    "React",
+                    "TypeScript",
+                    "Flutter",
+                    "Dart",
+                    "Django",
+                    "Python"
+                ],
+                "projects": [
+                    "maft",
+                    "issuing-receiving",
+                    "incident-management"
+                ],
+                "image": "/images/work/lsf-logo.jpeg"
+            },
+            {
+                "institution": "Mobitel",
+                "position": "Associate Software Engineer",
+                "duration": "2019",
+                "description": [
+                    "I developed node.js app that streamed live data using Socket.IO to a Vue.js app for an event-management system.",
+                    "I developed an Angular application for the dashboard of the event-management system."
+                ],
+                "awards": [],
+                "skills": [
+                    "Vue.js",
+                    "Angular",
+                    "Socket.IO"
+                ],
+                "projects": [],
+                "image": "/images/work/mobitel-logo.jpg"
+            },
+            {
+                "institution": "Aeturnum",
+                "position": "Trainee Software Engineer",
+                "duration": "2017-2018",
+                "description": [
+                    "I worked on a .NET core project that was meant to help the company manage its human resources and projects. The project used Web APIs, Dapper, Entity Framework, SQL, and Angular.",
+                    "I developed a React-based web app for an online food-ordering service provider and delivered it to production under little to no supervision. I optimized the web app to ensure faster loading time and integrated various payment processing systems such as Braintree, Vantiv, Moneris, and Heartland with the app.",
+                    "I lead, guided, and trained another engineer to continue with the development of this React app."
+                ],
+                "awards": [],
+                "skills": [
+                    ".NET Core",
+                    "Angular",
+                    "React",
+                    "SQL"
+                ],
+                "projects": [],
+                "image": "/images/work/aeturnum-logo.jpeg"
+            },
+            {
+                "institution": "Sportskeeda",
+                "position": "Freelance Cricket Writer",
+                "duration": "2014-2018",
+                "description": [
+                    "I authored cricket news and analytical articles, primarily on Sri Lanka cricket, several of which were selected as Editor’s Pick and honoured as Article of the Week and Article of the Year."
+                ],
+                "awards": [
+                    {
+                        "name": "International Cricket Writer of the Year",
+                        "year": "2014"
+                    }
+                ],
+                "skills": [
+                    "Cricket Analysis",
+                    "News Writing",
+                    "Satire Writing"
+                ],
+                "projects": [],
+                "image": "/images/work/sportskeeda-logo.jpeg"
+            }
+        ]
+    },
+    "blogs": {
+        "title": "Blogs",
+        "description": "A collection of my blog posts.",
+        "slug": "blogs",
+        "blogs": [
+            {
+                "name": "Cricket Machan",
+                "link": "https://www.cricketmachan.com",
+                "description": "A blog where I write on cricket, focusing mostly on Sri Lanka cricket.",
+                "image": "/images/blogs/cm-logo.png"
+            },
+            {
+                "name": "The Armchair Critic",
+                "link": "https://www.thearmchaircritic.org",
+                "description": "A blog where I write on tech and everything else.",
+                "image": "/images/blogs/tac-logo.png"
+            },
+            {
+                "name": "Sportskeeda",
+                "link": "https://www.sportskeeda.com/author/theviyanthan-krishnamohan",
+                "description": "My author page on Sportskeeda where I wrote cricket articles.",
+                "image": "/images/blogs/sk-logo.jpeg"
+            }
+        ],
+        "articles": [
+            {
+                "link": "https://wso2.com/blogs/thesource/common-developer-errors-to-avoid-in-a-ciam-strategy/",
+                "title": "Common Developer Errors to Avoid in a CIAM Strategy",
+                "date": "5th May 2020",
+                "image": "/images/blogs/common-developer-errors-ciam.jpg"
+            },
+            {
+                "link": "https://wso2.com/blogs/thesource/how-we-built-our-console-app/",
+                "title": "How We Built Our Console App",
+                "date": "2nd December 2020",
+                "image": "/images/blogs/console-app.png"
+            },
+            {
+                "link": "https://thenewstack.io/leveraging-web-workers-to-safely-store-access-tokens/",
+                "title": "Leveraging Web Workers to Safely Store Access Tokens",
+                "date": "24th February 2021",
+                "image": "/images/blogs/web-workers.jpg"
+            },
+            {
+                "link": "https://thenewstack.io/how-to-optimize-customer-identity-and-access-management/",
+                "title": "How to Optimize Customer Identity and Access Management",
+                "date": "7th May 2022",
+                "image": "/images/blogs/ciam.jpg"
+            },
+            {
+                "link": "https://web.archive.org/web/20210125070100/https://www.islandcricket.lk/editorial/can-chandika-hathurusingha-spark-a-revival/",
+                "title": "Can Chandika Hathurusingha spark a revival?",
+                "date": "23rd January 2018",
+                "image": "/images/blogs/hathurusinghe.webp"
+            },
+            {
+                "link": "https://www.thearmchaircritic.org/cricket/field-laurels-marred-boardroom-politics-sri-lankas-year-review",
+                "title": "On-field of laurels marred by boardroom politics: Sri Lanka’s year in review",
+                "date": "31st December 2014",
+                "image": "/images/blogs/2014-wt20-win.webp"
+            },
+            {
+                "link": "https://web.archive.org/web/20210119022919/https://www.islandcricket.lk/editorial/how-foolish-of-sri-lankas-selectors-to-leave-kusal-mendis-behind/",
+                "title": "How foolish of Sri Lanka’s selectors to leave Kusal Mendis behind",
+                "date": "28th November 2017",
+                "image": "/images/blogs/kusal-mendis.webp"
+            },
+            {
+                "link": "https://web.archive.org/web/20210119020834/https://www.islandcricket.lk/editorial/in-transition-no-more/",
+                "title": "In transition no more?",
+                "date": "16th October 2017",
+                "image": "/images/blogs/sl-vs-pak-2017.webp"
+            },
+            {
+                "link": "https://web.archive.org/web/20211018225725/https://www.islandcricket.lk/editorial/sports-ministers-antics-underlines-need-to-change-sri-lankas-sports-law/",
+                "title": "Sports Minister’s antics underlines need to change Sri Lanka’s Sports Law",
+                "date": "30th July 2017",
+                "image": "/images/blogs/dayasiri-jayasekara.jpg"
+            },
+            {
+                "link": "https://web.archive.org/web/20210125081424/https://www.islandcricket.lk/editorial/bowling-not-entirely-to-blame/",
+                "title": "Bowling not entirely to blame",
+                "date": "20th February 2015",
+                "image": "/images/blogs/sl-vs-nz-2015.avif"
+            },
+            {
+                "link": "https://web.archive.org/web/20210125074551/https://www.islandcricket.lk/editorial/forget-mubarak-and-focus-on-youth/",
+                "title": "Forget Mubarak and focus on youth",
+                "date": "23rd June 2015",
+                "image": "/images/blogs/jehan-mubarak.jpg"
+            },
+            {
+                "link": "https://web.archive.org/web/20210119013723/https://www.islandcricket.lk/editorial/sri-lankas-world-cup-preparation-hampered-by-poor-selections/",
+                "title": "Sri Lanka’s World Cup preparation hampered by poor selections",
+                "date": "28th January 2015",
+                "image": "/images/blogs/sl-wc-2015.webp"
+            },
+            {
+                "link": "https://web.archive.org/web/20211129200440/https://www.islandcricket.lk/editorial/are-sri-lankan-tamil-cricketers-discriminated-against/",
+                "title": "Are Sri Lankan Tamil cricketers discriminated against?",
+                "date": "15th November 2014",
+                "image": "/images/blogs/murali.jpg"
+            },
+            {
+                "link": "https://web.archive.org/web/20210414180746/https://www.islandcricket.lk/editorial/stop-living-in-denial-sri-lanka/",
+                "title": "Stop living in denial, Sri Lanka",
+                "date": "15th June 2016",
+                "image": "/images/blogs/sl-vs-eng-2016.webp"
+            },
+            {
+                "link": "https://web.archive.org/web/20210119013504/https://www.islandcricket.lk/editorial/sri-lanka-captain-a-major-part-of-the-teams-problems/",
+                "title": "Sri Lanka captain a major part of the team’s problems",
+                "date": "18th June 2016",
+                "image": "/images/blogs/angelo-mathews.webp"
+            }
+        ]
+    },
+    "vlogs": {
+        "title": "Vlogs",
+        "description": "A collection of my video blogs.",
+        "slug": "vlogs",
+        "items": [
+            {
+                "link": "https://www.youtube.com/watch?v=e_3xsRdsyFM",
+                "title": "Final Presentation of Proof of Identity - A blockchain consensus algorithm for swarm robotics",
+                "date": "23rd November 2025",
+                "image": "/images/vlogs/poi.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=VNfiIEyS-Vw",
+                "date": "11th November 2018",
+                "title": "Decentralizing an SDN controller using blockchain",
+                "image": "/images/vlogs/blockflow.jpg"
+            },
+            {
+                "title": "Integrating Office 365 with WSO2 Identity Server",
+                "date": "25th May 2021",
+                "link": "https://www.youtube.com/watch?v=Czxf1o0wp_Y",
+                "image": "/images/vlogs/office-365.jpg"
+            },
+            {
+                "title": "Adding social login buttons to your website",
+                "date": "8th December 2020",
+                "link": "https://www.youtube.com/watch?v=vsBTweSjVRE",
+                "image": "/images/vlogs/social-media-buttons.jpg"
+            },
+            {
+                "title": "Azure AD Federation with WSO2 Identity Server",
+                "date": "30th March 2021",
+                "link": "https://www.youtube.com/watch?v=ycIplHrB6a4",
+                "image": "/images/vlogs/azure-ad.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=HPneV0xpm8U",
+                "title": "Building a Single Page Application with OIDC authentication",
+                "date": "20th October 2020",
+                "image": "/images/vlogs/spa-oidc.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=hM2FBgKCi0s&t=1744s",
+                "title": "Authentication SDKs Using WSO2 Identity Server - WSO2 Identity Server Community Call",
+                "date": "28th August 2020",
+                "image": "/images/vlogs/auth-sdk.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=7nZr2NOUDik",
+                "title": "How to add Facebook login to WSO2 Identity Server",
+                "date": "9th October 2020",
+                "image": "/images/vlogs/fb-login.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=v7AQpkLFq_A",
+                "title": "Social Login",
+                "date": "9th April 2021",
+                "image": "/images/vlogs/social-login.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=i_p0nYtguEs",
+                "title": "MFA",
+                "date": "9th April 2021",
+                "image": "/images/vlogs/mfa.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=5d-wV6ufBXY",
+                "title": "FIDO",
+                "date": "9th April 2021",
+                "image": "/images/vlogs/fido.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=CcrfMKLQq94",
+                "title": "Azure AD",
+                "date": "15th April 2021",
+                "image": "/images/vlogs/azure-ad-iam.jpg"
+            },
+            {
+                "link": "https://www.youtube.com/watch?v=Aq1mDC0d5Bc",
+                "title": "Add passwordless login using Asgardeo",
+                "date": "22nd March 2022",
+                "image": "/images/vlogs/passwordless.jpg"
+            }
+        ]
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "A showcase of my projects.",
+        "slug": "projects",
+        "items": [
+            {
+                "slug": "openrase",
+                "title": "OpenRASE: An SFC Emulator",
+                "description": "OpenRASE is an emulator for performing Service Function Chain (SFC) experiments, sepcifically focusing on resource allocation to SFCs. The emulator is written in Python and uses Mininet and Docker containers to emulate computer networks. As of now, to the best of my knowledge, this is the only SFC emulator. In contrast to the simulators avilable, OpenRASE offers higher fidelity and in contrast to the testbeds, it provides more scalability and flexibility.",
+                "repository": "https://github.com/Project-Kelvin/OpenRASE",
+                "image": "/images/projects/openrase.png",
+                "publications": [
+                    "openrase-service-function-chain-emulation"
+                ],
+                "type": "Academic",
+                "year": "2023-Present"
+            },
+            {
+                "slug": "benns",
+                "title": "BENNS: A Surrogate Model for GA-based SFC embedding",
+                "description": "BENNS is a benchmarking and Neural Network based surrogate model for approximating traffic latency across SFCs in and SFC embedding. This surrogate model is used in Genetic Algorithms to speed up the evaluation of candidate solutions. BENNS benchmarks SFC embeddings to encode them to two numerical values, which are then used to train a Neural Network to predict the traffic latency of the SFC embeddings. BENNS reduces evolution time by 98% while achieving near-optimal solutions.",
+                "repository": "https://github.com/Project-Kelvin/OpenRASE/tree/main/src/algorithms/hybrid",
+                "image": "/images/projects/benns.png",
+                "publications": [
+                    "benns-surrogate-model-hybrid-online-offline-evolution-sfc-embedding"
+                ],
+                "type": "Academic",
+                "year": "2024-Present"
+            },
+            {
+                "slug": "genesis",
+                "title": "GENESIS: Evolving Neural Networks for SFC embedding",
+                "description": "GENESIS evolves three Deep Neural Networks (DNNs) using a Genetic Algorithm (GA) to optimally embed Service Function Chains (SFCs) on physical networks. Optimal SFC embedding consists of three sub-problems, namely optimal ordering of Virtual Network Functions (VNFs) in SFCs, optimally embedding VNFs on hosts, and optimally routing traffic between VNFS. These sub-problems have to be optimised simulatenously to achieve optimal SFC embedding. This is an NP-hard optimisation problem. I use a DNN to tackle each sub-problem and evolve these DNNs using a Genetic Algorithm to achieve optimal SFC embedding. GENESIS is 59% faster than the state-of-the-art GA while achieving 29% better performance.",
+                "repository": "https://github.com/Project-Kelvin/OpenRASE/tree/main/src/algorithms/hybrid",
+                "image": "/images/projects/genesis.png",
+                "publications": [
+                    "simultaneous-genetic-evolution-neural-networks-optimal-sfc-embedding"
+                ],
+                "type": "Academic",
+                "year": "2024-Present"
+            },
+            {
+                "slug": "proof-of-identity",
+                "title": "Proof of identity: A Blockchain Consensus Algorithm",
+                "description": "Proof of Identity (PoI) is a blockchain consensus algorithm designed to improve Byzantine failt tolerance in swarm robotics. In swarm robotics, robots work together to achieve a common goal. However, some robots may behave maliciously or fail to function properly, which can compromise the entire swarm's performance. PoI addresses this issue by allowing robots to validate each other's identities and actions using a decentralized ledger. This ensures that only trustworthy robots can participate in the swarm's decision-making process, thereby enhancing the overall reliability and security of the system.",
+                "repository": "https://github.com/PoI-Research",
+                "image": "/images/projects/poi.png",
+                "publications": [
+                    "proof-of-identity-blockchain-consensus-algorithm"
+                ],
+                "type": "Academic",
+                "year": "2022"
+            },
+            {
+                "slug": "blockflow",
+                "title": "BlockFlow: A Decentralized SDN Controller Using Blockchain",
+                "description": "BlockFlow is a decentralized Software Defined Networking (SDN) controller that leverages blockchain technology to enhance network security and reliability. Traditional SDN architectures rely on a centralized controller, which can become a single point of failure and is vulnerable to attacks. BlockFlow addresses these issues by distributing the control plane across multiple nodes using a blockchain-based consensus mechanism. This decentralization ensures that the network remains operational even if some nodes fail or behave maliciously. BlockFlow also provides a transparent and tamper-proof record of network configurations and changes, enhancing trust among network participants.",
+                "repository": "https://github.com/user/project-1",
+                "image": "/images/projects/BlockFlow.png",
+                "publications": [
+                    "blockflow-decentralized-sdn-controller"
+                ],
+                "type": "Academic",
+                "year": "2018"
+            },
+            {
+                "slug": "oxygen-ui",
+                "title": "Oxygen UI: WSO2's Design System",
+                "description": "Oxygen UI is Material Design-based design system that powers WSO2's frontend applications. It provides a set of reusable components, styles, and guidelines to ensure consistency and efficiency in UI development across WSO2 products. As a design system, Oxygen UI helps streamline the design and development process, allowing teams to create user interfaces that are visually appealing, accessible, and user-friendly. I contributed to the initial development effort of Oxygen UI developing components, writing unit tests using React Testing Library, writing stories using StoryBook and documenting them.",
+                "repository": "https://github.com/wso2/oxygen-ui",
+                "image": "/images/projects/oxygenui.png",
+                "type": "Work",
+                "year": "2023"
+            },
+            {
+                "slug": "my-account",
+                "title": "My Account: WSO2 Identity Server's User Portal",
+                "description": "My Account is the user portal of WSO2 Identity Server, providing users with a centralized interface to manage their identity information, security settings, and application access. It offers features such as profile management, password changes, multi-factor authentication setup, and consent management. The portal is designed to enhance user experience and security by giving users control over their personal data and authentication methods. This is a React application and I designed the UX and developed new features, optimised performance and wrote tests using Cypress and React Testing Library.",
+                "repository": "https://github.com/wso2/identity-apps",
+                "image": "/images/projects/my-account.png",
+                "type": "Work",
+                "year": "2019-2023"
+            },
+            {
+                "slug": "console",
+                "title": "Console: WSO2 Identity Server's Management Console",
+                "description": "Console is the management console of WSO2 Identity Server, providing administrators with a web-based interface to configure and manage identity and access management (IAM) settings. It offers features such as user and role management, authentication and authorization policies, identity federation, and reporting. The console is designed to simplify the administration of WSO2 Identity Server, allowing administrators to efficiently manage users, applications, and security settings. This is a React application and I designed the UX and developed new features, optimised performance and wrote tests using Cypress and React Testing Library.",
+                "repository": "https://github.com/wso2/identity-apps",
+                "image": "/images/projects/console.png",
+                "type": "Work",
+                "year": "2019-2023"
+            },
+            {
+                "slug": "oidc-js",
+                "title": "Asgardeo Auth JS Core: OIDC SDK for JavaScript",
+                "description": "Asgardeo Auth JS Core is an OpenID Connect (OIDC) Software Development Kit (SDK) for JavaScript applications. It provides the core utils to build SDKs for all JavaScript platforms and libraries such as Node.js, React and Angular. I contributed significantly to this SDK from scratch, enabling it to be used across multiple JavaScript platforms. This SDK simplifies the integration of OIDC authentication and authorization into JavaScript applications, allowing developers to easily implement secure user authentication and access control. It supports various OIDC flows, token management, and user session handling, making it a comprehensive solution for JavaScript developers looking to incorporate OIDC into their applications.",
+                "repository": "https://github.com/asgardeo/asgardeo-auth-js-core",
+                "image": "/images/projects/asgardeo.png",
+                "type": "Work",
+                "year": "2020-2023"
+            },
+            {
+                "slug": "oidc-spa",
+                "title": "Asgardeo Auth SPA: OIDC SDK for Single Page Applications",
+                "description": "Asgardeo Auth SPA is an OpenID Connect (OIDC) Software Development Kit (SDK) specifically designed for Single Page Applications (SPAs). It provides developers with the necessary tools to integrate OIDC authentication and authorization into their SPA projects seamlessly. I contributed significantly to this SDK from scratch, building it on top of the Asgardeo Auth JavaScript Core SDK. This SDK simplifies the implementation of secure user authentication and access control in SPAs, supporting various OIDC flows, token management, and user session handling. It enables developers to create robust and secure SPAs that adhere to modern authentication standards. I implemented a feture that uses web workers to securely store access tokens, which is safer than using session and local storages.",
+                "repository": "https://github.com/asgardeo/asgardeo-auth-spa-sdk",
+                "image": "/images/projects/asgardeo.png",
+                "type": "Work",
+                "year": "2020-2023"
+            },
+            {
+                "slug": "oidc-react",
+                "title": "Asgardeo Auth React: OIDC SDK for React Applications",
+                "description": "Asgardeo Auth React is an OpenID Connect (OIDC) Software Development Kit (SDK) tailored for React applications. It provides a set of tools and components that enable developers to easily integrate OIDC authentication and authorization into their React projects. I contributed significantly to this SDK from scratch, building it on top of the Asgardeo Auth SPA SDK. This SDK simplifies the process of implementing secure user authentication and access control in React applications, supporting various OIDC flows, token management, and user session handling. It empowers developers to create robust and secure React applications that comply with modern authentication standards.",
+                "repository": "https://github.com/asgardeo/asgardeo-auth-react-sdk",
+                "image": "/images/projects/asgardeo.png",
+                "type": "Work",
+                "year": "2020-2023"
+            },
+            {
+                "slug": "maft",
+                "title": "A Cross-Platform Mobile Application for Election Logistics",
+                "description": "This is a Flutter-based cross-platform mobile application developed to manage election logistics for the Lanka Software Foundation. The application facilitates the efficient distribution and tracking of election materials, ensuring that all necessary tools reach their designated locations on time.",
+                "repository": "https://github.com/ECLK/MAFT",
+                "image": "/images/projects/lsf.jpg",
+                "type": "Volunteer Work",
+                "year": "2019"
+            },
+            {
+                "slug": "issuing-receiving",
+                "title": "Election Material Issuing and Receiving Application",
+                "description": "This is a React and Django-based Election Material Issuing and Receiving Application that is used to issue and receive materials used during an election such as ballot papers, and stationeries. I designed and developed both the frontend and backend applicatiosn from scratch.",
+                "repository": "https://github.com/ECLK/issuing-receiving",
+                "image": "/images/projects/lsf.jpg",
+                "type": "Volunteer Work",
+                "year": "2020"
+            },
+            {
+                "slug": "incident-management",
+                "title": "Election Incident Management Application",
+                "description": "This is a React and Django-based Election Incident Management Application that was used to report and manage election incidents during the 2019 Presidential Election and 2020 General Election in Sri Lanka.",
+                "repository": "https://github.com/ECLK/IncidentManagement",
+                "image": "/images/projects/lsf.jpg",
+                "type": "Volunteer Work",
+                "year": "2020"
+            }
+        ]
+    },
+    "certifications": {
+        "title": "Certifications",
+        "description": "My professional certifications.",
+        "slug": "certifications",
+        "items": [
+            {
+                "name": "Google Data Analytics Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "31st July 2021",
+                "credentialID": "2YHNYMBGQMW7",
+                "credentialURL": "https://coursera.org/share/7683ff8551d7139a166e0b10548597c6",
+                "image": "/images/certifications/data-analytics.png"
+            },
+            {
+                "name": "Google IT Support Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "21st September 2021",
+                "credentialID": "W77HWU9Z2N9C",
+                "credentialURL": "https://coursera.org/share/ffdf32a31a398507606a772392ebcc57",
+                "image": "/images/certifications/it-support.png"
+            },
+            {
+                "name": "Google IT Automation with Python Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "7th September 2021",
+                "credentialID": "EMXX6SDBA6F8",
+                "credentialURL": "https://coursera.org/share/a385cbf48645321c54a920a5bb1604f6",
+                "image": "/images/certifications/it-automation-python.png"
+            },
+            {
+                "name": "Google Project Management Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "25th June 2021",
+                "credentialID": "XD6YUSZPE2S7",
+                "credentialURL": "https://coursera.org/share/ff5085f0709eda5b23938324cf466bcb",
+                "image": "/images/certifications/project-management.png"
+            },
+            {
+                "name": "Google UX Design Professional Certificate",
+                "issuer": "Google/Coursera",
+                "date": "2nd April 2021",
+                "credentialID": "6SBRY8494GTY",
+                "credentialURL": "https://coursera.org/share/6c6c65c13873c8aa9cb4f1dfacf90ff2",
+                "image": "/images/certifications/ux-design.png"
+            },
+            {
+                "name": "Machine Learning Certificate",
+                "issuer": "Stanford University/Coursera",
+                "date": "22nd April 2019",
+                "credentialID": "SFKQTBHFZKXM",
+                "credentialURL": "https://coursera.org/share/d50c1b297ba378a8f8b24ee2481c2f3d",
+                "image": "/images/certifications/machine-learning.jpg"
+            },
+            {
+                "name": "Deep Learning Certificate",
+                "issuer": "Deeplearning.AI/Coursera",
+                "date": "26th December 2020",
+                "credentialID": "73U8L5NP4JGP",
+                "credentialURL": "https://coursera.org/share/bfd617f7363b0463fe02db0275c5b739",
+                "image": "/images/certifications/deep-learning.png"
+            },
+            {
+                "name": "WSO2 Certified Identity Server Developer - V5",
+                "issuer": "WSO2",
+                "date": "29th October 2021",
+                "credentialID": "9GZXEG",
+                "credentialURL": "https://certification.wso2.com/web/certificate/9GZXEG",
+                "image": "/images/certifications/wso2.png"
+            },
+            {
+                "name": "Media and Information Literacy, and Inter-Cultural Dialogue",
+                "issuer": "Athabasca University",
+                "date": "August 2015",
+                "credentialID": "",
+                "credentialURL": "",
+                "image": "/images/certifications/athabasca.png"
+            }
+        ]
+    }
+}
