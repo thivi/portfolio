@@ -10,7 +10,8 @@ import {
     Divider,
     IconButton,
     styled,
-    Typography
+    Typography,
+    Zoom
 } from "@mui/material";
 import HistoryEduIcon from "@mui/icons-material/HistoryEdu";
 import { FC, ReactElement, useState } from "react";
@@ -75,7 +76,17 @@ const Citation: FC<{ citationText: string; size?: "small" | "medium" }> = ({
             <Button startIcon={<HistoryEduIcon />} size={size} onClick={handleOpen} variant="contained">
                 Cite
             </Button>
-            <Dialog open={openCitation !== null} onClose={handleClose} onClick={handleDialogClick}>
+            <Dialog
+                open={openCitation !== null}
+                onClose={handleClose}
+                onClick={handleDialogClick}
+                transitionDuration={ 500 }
+                slots={
+                    {
+                        transition: Zoom
+                    }
+                }
+            >
                 <DialogTitle>
                     <Box sx={{ display: "flex", justifyContent: "space-between" }}>
                         <Typography variant="h6">Cite</Typography>
