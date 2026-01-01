@@ -25,7 +25,7 @@ const PublicationsPage: FC = async (): Promise<ReactElement> => {
         <ListPage heading={publications.title} subHeading={publications.description}>
             <Grid container spacing={4}>
                 {publications.items?.map((pub: PublicationItem) => (
-                    <Box key={pub.slug}>
+                    <Box key={pub.slug} sx={{ width: "-webkit-fill-available" }}>
                         <Grid size={{ md: 12 }} sx={{ display: { xs: "none", sm: "block" } }}>
                             <HorizontalCard
                                 heading={pub.title}
