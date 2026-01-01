@@ -24,7 +24,7 @@ const VerticalCardContent: FC<Omit<VerticalCardProps, "link"> & { removeBottomPa
     icon,
     removeBottomPadding = false
 }): ReactElement => (
-    <Box>
+    <Box sx={{ height: "100%" }}>
         <CardMedia
             sx={{
                 width: "100%",
@@ -102,8 +102,8 @@ const VerticalCard: FC<PropsWithChildren<VerticalCardProps>> = ({
             <Card sx={{ display: "flex", flexDirection: "column", height: "100%" }} variant="outlined">
                 <Box sx={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                     {link ? (
-                        <Link href={link} style={{ textDecoration: "none", color: "inherit" }} target={linkTarget}>
-                            <CardActionArea>
+                        <Link href={link} style={{ textDecoration: "none", color: "inherit", height: "100%" }} target={linkTarget}>
+                            <CardActionArea sx={{ height: "100%" }}>
                                 <VerticalCardContent
                                     heading={heading}
                                     subHeading1={subHeading1}
