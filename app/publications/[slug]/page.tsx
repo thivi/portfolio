@@ -37,6 +37,8 @@ export const generateStaticParams = async (): Promise<Params[]> => {
     );
 };
 
+export const dynamicParams: boolean = true;
+
 const Publication: FC<PageProps<"/publications/[slug]">> = async ({ params }): Promise<ReactElement> => {
     const p: Params = await params;
     const portfolioData: Portfolio = await loadPortfolioData();

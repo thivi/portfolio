@@ -22,6 +22,18 @@ export const generateMetadata = async ({ params }: PageProps<"/projects/[slug]">
     };
 };
 
+export const generateStaticParams = async (): Promise<Params[]> => {
+    const portfolioData: Portfolio = await loadPortfolioData();
+
+    return (
+        portfolioData.projects?.items?.map((project) => ({
+            slug: project.slug
+        })) || []
+    );
+};
+
+export const dynamicParams: boolean = true;
+
 const Project: FC<PageProps<"/projects/[slug]">> = async ({ params }) => {
     const p: Params = await params;
     const portfolio: Portfolio = await loadPortfolioData();
