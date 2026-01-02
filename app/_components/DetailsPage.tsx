@@ -3,6 +3,7 @@ import { FC, PropsWithChildren, ReactElement } from "react";
 import ArrowBack from "@mui/icons-material/ArrowBack";
 import Link from "./Link";
 import { MotionDiv } from "./Motion";
+import { TRANSITION_DURATION } from "../../constants/ui";
 
 interface DetailsPageProps {
     heading: string;
@@ -24,7 +25,7 @@ const DetailsPage: FC<PropsWithChildren<DetailsPageProps>> = ({
             <MotionDiv
                 initial={{ filter: "blur(10px)" }}
                 animate={{ filter: "blur(0px)" }}
-                transition={{ ease: "easeIn", duration: 0.2 }}
+                transition={{ ease: "easeIn", duration: TRANSITION_DURATION}}
             >
                 <Box>
                     <Button

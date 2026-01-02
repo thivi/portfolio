@@ -9,6 +9,7 @@ import ChevronRight from "@mui/icons-material/ChevronRight";
 import { Theme } from "@mui/material/styles";
 import { MotionDiv } from "./Motion";
 import { AnimatePresence, useInView } from "motion/react";
+import { TRANSITION_DURATION } from "../../constants/ui";
 
 const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): ReactElement => {
     const [imageToOpen, setImageToOpen] = useState<number>(-1);
@@ -149,8 +150,8 @@ const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): Re
                         key={index}
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={isInView ? { scale: 1, opacity: 1 } : {}}
-                        transition={{ duration: 0.2, ease: "easeIn", delay: index * 0.1 }}
-                        whileHover={{ scale: 1.05, transition: { duration: 0.1, ease: "easeIn" } }}
+                        transition={{ duration: TRANSITION_DURATION, ease: "easeIn", delay: index * 0.1 }}
+                        whileHover={{ scale: 1.05, transition: { duration: TRANSITION_DURATION, ease: "easeIn" } }}
                     >
                         <Box
                             sx={{

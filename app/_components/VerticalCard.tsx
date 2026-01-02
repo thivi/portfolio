@@ -3,6 +3,7 @@ import { FC, PropsWithChildren, ReactElement } from "react";
 import Image from "next/image";
 import Link from "./Link";
 import { MotionDiv } from "./Motion";
+import { TRANSITION_DURATION } from "../../constants/ui";
 
 interface VerticalCardProps {
     heading: string;
@@ -96,7 +97,7 @@ const VerticalCard: FC<PropsWithChildren<VerticalCardProps>> = ({
             component={MotionDiv}
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
+            transition={{ duration: TRANSITION_DURATION, delay: 0.5, ease: "easeIn" }}
             sx={{ height: "100%" }}
         >
             <Card sx={{ display: "flex", flexDirection: "column", height: "100%" }} variant="outlined">
