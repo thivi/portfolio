@@ -99,7 +99,7 @@ const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): Re
                                         src={images[imageToOpen]}
                                         alt="Expanded gallery image"
                                         fill
-                                        objectFit="contain"
+                                        style={{ objectFit: "contain" }}
                                     />
                                 </MotionDiv>
                             )}
@@ -163,7 +163,12 @@ const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): Re
                             }}
                             onClick={() => setImageToOpen(index)}
                         >
-                            <Image src={imageSrc} alt={`Gallery image ${index + 1}`} fill objectFit="cover" />
+                            <Image
+                                src={imageSrc}
+                                alt={`Gallery image ${index + 1}`}
+                                fill
+                                style={{ objectFit: "cover" }}
+                            />
                         </Box>
                     </MotionDiv>
                 ))}

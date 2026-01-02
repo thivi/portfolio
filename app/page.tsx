@@ -60,8 +60,7 @@ const Home: FC = async (): Promise<ReactElement> => {
                                     src={portfolioData.home.profilePicture}
                                     alt="Profile Picture"
                                     fill
-                                    objectFit="contain"
-                                    style={{ borderRadius: "50%" }}
+                                    style={{ borderRadius: "50%", objectFit: "contain" }}
                                 />
                             </Box>
                         </MotionDiv>
