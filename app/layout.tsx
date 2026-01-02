@@ -59,7 +59,11 @@ const RootLayout: FC<LayoutProps<"/">> = async ({ children }): Promise<ReactElem
                                 paddingBottom: "2rem",
                                 "@media (min-width: 1200px)": {
                                     maxWidth: "1000px"
-                                }
+                                },
+                                minHeight: "100vh",
+                                display: "flex",
+                                flexDirection: "column",
+                                justifyContent: "space-between"
                             }}
                         >
                             <MotionDiv
@@ -69,7 +73,7 @@ const RootLayout: FC<LayoutProps<"/">> = async ({ children }): Promise<ReactElem
                             >
                                 <AppHeader portfolioData={portfolioData} />
                             </MotionDiv>
-                            <Box sx={{ paddingTop: "2rem" }}>{children}</Box>
+                            <Box sx={{ paddingTop: "2rem", flexGrow: 2 }}>{children}</Box>
                             <Footer />
                             <Analytics />
                         </Container>
