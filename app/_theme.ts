@@ -131,7 +131,7 @@ export const theme: Theme = createTheme({
             styleOverrides: {
                 root: {
                     borderRadius: "3rem",
-                    backgroundColor: "var(--portfolio-palette-bgGradient-main)",
+                    backgroundColor: "rgb(from var(--portfolio-palette-bgGradient-main) r g b / 0.2)",
                 }
             }
         },
