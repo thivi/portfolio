@@ -10,7 +10,7 @@ const sitemap = async (): Promise<MetadataRoute.Sitemap> => {
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     Object.entries(data).forEach(([ _, section ]: [ string, typeof data[ keyof Portfolio ] ]) => {
         const entry: MetadataRoute.Sitemap[ number ] = {
-            url: `${BASE_URL}/${ section.slug }`,
+            url: `${ BASE_URL }/${ section.slug }`,
             lastModified: new Date().toISOString(),
             changeFrequency: "monthly",
         };
@@ -21,12 +21,13 @@ const sitemap = async (): Promise<MetadataRoute.Sitemap> => {
             section.items?.forEach((item: typeof section.items[ number ]) => {
                 if ("slug" in item) {
                     const entry: MetadataRoute.Sitemap[ number ] = {
-                        url: `${BASE_URL}/${ section.slug }/${ item.slug }`,
+                        url: `${ BASE_URL }/${ section.slug }/${ item.slug }`,
                         lastModified: new Date().toISOString(),
                         changeFrequency: "monthly",
-                        ...("image" in section && {
+                        ...("image" in item && {
                             images: [
-                                section.image as string ]
+                                `${ BASE_URL }${ item.image as string }`
+                            ]
                         })
                     };
 
