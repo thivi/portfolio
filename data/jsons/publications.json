@@ -153,6 +153,24 @@
             "image": "/images/publications/poi.png"
         },
         {
+            "slug": "proof-of-identity-blockchain-consensus-algorithm-to-improve-byzantine-fault-tolerance-in-swarm-robotics",
+            "title": "Proof of identity - A blockchain consensus algorithm to improve byzantine fault tolerance in swarm robotics",
+            "publication": "University of Westminster",
+            "date": "2022",
+            "link": "/pdfs/masters-thesis.pdf",
+            "doi": "",
+            "preprint": false,
+            "citation": "@thesis{Krishnamohan2022,author={Theviyanthan, Krishnamohan},title={Proof of identity - A blockchain consensus algorithm to improve byzantine fault tolerance in swarm robotics}, year={2022}, school={University of Westminster}}",
+            "abstract": "Swarm robotics applies concepts of swarm intelligence to robotics. Discrete consensus achievement is one of the major behaviors found in swarm robotics. Various algorithms have been developed for discrete consensus achievement. However, existing discrete consensus-achievement algorithms, referred to henceforth as classical solutions, are vulnerable to Byzantine robots. Blockchain has been successfully used to mitigate the negative effect of Byzantine robots in discrete consensus achievement. Blockchain is the technology behind cryptocurrencies that allows the creation of immutable, decentralized, and distributed ledgers. Nevertheless, since the blockchain solution uses the Proof-of-Work blockchain consensus algorithm, it is vulnerable to the 51% attack. Besides, the swarm also takes longer to achieve consensus. This research proposes a novel blockchain consensus algorithm called Proof-of- Identity—which uses a private-public key pair and a swarm controller—to create a dynamically permissioned blockchain that would negate the 51%-attack problem associated with the Proof-of-Work algorithm while also reducing the consensus time. This proposed solution was tested against the classical solution and the existing blockchain solution using the collective perception scenario. The collective perception scenario is used to benchmark different discrete consensus achievement algorithms. Test results show that the Proof-of-Identity algorithm prevents the 51%-attack problem while improving the consensus time in comparison to the existing blockchain solution without affecting the exit probability.",
+            "codeRepository": "https://github.com/PoI-Research",
+            "dataRepository": "https://github.com/PoI-Research/poi-analysis",
+            "type": "Thesis",
+            "authors": [
+                "Theviyanthan Krishnamohan"
+            ],
+            "image": "/images/publications/poi-thesis.png"
+        },
+        {
             "slug": "computing-runs-a-star-algorithm",
             "title": "Computing the Runs that Should Be Scored Every over When Chasing a Target in Limited-overs Cricket Using the A* Algorithm",
             "publication": "Applied Artificial Intelligence, Taylor & Francis",
@@ -214,6 +232,27 @@
                 "Chethana Liyanapathirana"
             ],
             "image": "/images/publications/container-migration.png"
+        },
+        {
+            "slug": "cross-cloud-software-docker-aware-software-defined-networking",
+            "title": "Cross Cloud with Software Defined Networking",
+            "publication": "Sri Lanka Institute of Information Technology (SLIIT)",
+            "date": "2018",
+            "link": "/pdfs/bachelors-thesis.pdf",
+            "doi": "",
+            "preprint": false,
+            "citation": "@thesis{Janarthanan2018,author={Janarthanan, Kugathasan and Peramune, P.R.L.C and Krishnamohan, Theviyanthan and Ranaweera, A.T},title={Cross Cloud with Software Defined Networking}, year={2018}, school={Sri Lanka Institute of Information Technology (SLIIT)}}",
+            "abstract": "In today’s world, more and more organizations are adopting the cloud services mainly because of the reliability and affordability provided by them. However, there are several drawbacks faced by the cloud users and cloud service providers. Apart from the security perspective, the cloud users are facing challenges in control and visibility, lack of standard service interfaces, difficulty in deploying applications across multiple clouds and vendor lock-in. Also, cloud service providers are facing challenges in degradation of the quality of service provided because of the distance between cloud datacenter and the end user and unexpected interruption of services etc. The above problems can be reduced to a greater extent by adopting Multi Cross Cloud Infrastructure. A Cross Cloud Infrastructure is termed as using multiple cloud service providers services. This benefits the cloud users to receive the best quality services in order to increase their productivity. Furthermore, there is a necessity to allocate user services on demand and optimizing the resource allocation for cloud service providers. So, the main aim of this research is to build a common platform to manage a cross-cloud environment. Cross cloud platform can be implemented within an organization or Enterprise and is used by 3rd level support team or Infrastructure team to provide multiple services (E.g. – Delivering application containers, VM connection for development purposes) to end users based on some SLA (policies) with more control and visibility. Software Defined Network (SDN) is a path breaking technological innovation that is expected to complement the rapidly growing cloud infrastructure. SDN separates the control plane from the data plane of a network and centralizes the control plane in a single device allowing network developers to dynamically propagate different networking paradigms. However, the centralization of the control plane, while affording its fair share of benefits, makesSDN vulnerable to several security threats such as denial of service, and man-in-the-middle attacks. This research proposes a radical way to address such limitations by distributing the control plane across the network using the blockchain algorithm while allowing authorized applications to write to the blockchain to communicate with the data plane.",
+            "codeRepository": "https://github.com/thivi/blockFlow",
+            "dataRepository": "",
+            "type": "Thesis",
+            "authors": [
+                "Kugathasan Janarthanan",
+                "P.R.L.C Peramune",
+                "Theviyanthan Krishnamohan",
+                "A.T Ranaweera"
+            ],
+            "image": "/images/publications/cross-cloud.png"
         }
     ]
 }
