@@ -8,7 +8,7 @@ import { Lexend, Exo_2, Farro } from "next/font/google";
 import { NextFontWithVariable } from "next/dist/compiled/@next/font";
 import Footer from "./_components/Footer";
 import { loadPortfolioData } from "../data/portfolio";
-import { Portfolio } from "../models/portfolio";
+import { Portfolio, SocialLink } from "../models/portfolio";
 import { FC, ReactElement } from "react";
 import { MotionDiv } from "./_components/Motion";
 import { Analytics } from "@vercel/analytics/next";
@@ -47,8 +47,26 @@ const emphasisFont: NextFontWithVariable = Farro({
 const RootLayout: FC<LayoutProps<"/">> = async ({ children }): Promise<ReactElement> => {
     const portfolioData: Portfolio = await loadPortfolioData();
 
+    const socials: string[] = portfolioData.home.socials
+        .filter((link: SocialLink) => link.name !== "E-Mail")
+        .map((link: SocialLink) => link.link);
+
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: portfolioData.home.title,
+        url: "https://www.thivi.dev",
+        sameAs: [...socials]
+    };
+
     return (
         <html lang="en" className={`${headingFont.variable} ${bodyFont.variable} ${emphasisFont.variable}`}>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c")
+                }}
+            />
             <body className="app-body">
                 <AppRouterCacheProvider>
                     <CssBaseline />
