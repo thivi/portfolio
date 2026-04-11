@@ -20,6 +20,7 @@ export interface PresentationItem {
     gallery: string[];
     description: string;
     type: string;
+    mode: string;
 }
 
 export interface PublicationItem {

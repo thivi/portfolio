@@ -19,7 +19,8 @@
                 "/images/presentations/scone-2025/scone-5.jpg"
             ],
             "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
-            "type": "Academic"
+            "type": "Academic",
+            "mode": "Talk"
         },
         {
             "slug": "softcom-2025",
@@ -31,7 +32,8 @@
             "image": "/images/presentations/softcom-2025/split.jpg",
             "gallery": [],
             "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
-            "type": "Academic"
+            "type": "Academic",
+            "mode": "Talk"
         },
         {
             "slug": "sicsa-phd-poster-2025",
@@ -49,7 +51,8 @@
                 "/images/presentations/sicsa-phd-conference-2025/sicsa-poster-5.jpg"
             ],
             "description": "I presented a poster on using Genetic Algorithms to evolve Service Function Chain embeddings.",
-            "type": "Academic"
+            "type": "Academic",
+            "mode": "Poster"
         },
         {
             "slug": "sicsa-lightning-2025",
@@ -61,7 +64,8 @@
             "image": "/images/presentations/sicsa-phd-conference-2025/napier.jpg",
             "gallery": [],
             "description": "I talked about using hybrid evolution to optimally embed Service Function Chains.",
-            "type": "Academic"
+            "type": "Academic",
+            "mode": "Talk"
         },
         {
             "slug": "sicsa-pre-ec-2025",
@@ -73,7 +77,8 @@
             "image": "/images/presentations/sicsa-pre-ec-2025/stirling.jpg",
             "gallery": [],
             "description": "I talked about using Genetic Algorithms for SFC embedding, focussing specifically on how I developed a surrogate to assist the evolution.",
-            "type": "Academic"
+            "type": "Academic",
+            "mode": "Talk"
         },
         {
             "slug": "uk-systems-2025",
@@ -85,7 +90,8 @@
             "image": "/images/presentations/uk-systems-2025/redworth.jpg",
             "gallery": [],
             "description": "I talked about optimally embedding SFCs by evolving perceptrons using surrogate-assisted Genetic Algorithms.",
-            "type": "Academic"
+            "type": "Academic",
+            "mode": "Talk"
         },
         {
             "slug": "openrase-poster",
@@ -97,7 +103,8 @@
             "image": "/images/presentations/openrase-poster/poster.png",
             "gallery": [],
             "description": "I designed poster explaining how OpenRASE works and how I used it to perform experiments on SFC embedding.",
-            "type": "Academic"
+            "type": "Academic",
+            "mode": "Poster"
         },
         {
             "slug": "open-rase-sans",
@@ -113,7 +120,8 @@
                 "/images/presentations/openrase/sans-3.jpg"
             ],
             "description": "I presented the motivation and architecture of the OpenRASE emulator that I developed to perform SFC embedding experiments.",
-            "type": "Academic"
+            "type": "Academic",
+            "mode": "Talk"
         },
         {
             "slug": "codesprint-iit",
@@ -133,7 +141,8 @@
                 "/images/presentations/codesprint/codesprint-7.jpeg"
             ],
             "description": "I presented an introduction to UX to IIT students.",
-            "type": "Work"
+            "type": "Work",
+            "mode": "Talk"
         },
         {
             "slug": "iam-ucsc",
@@ -155,7 +164,8 @@
                 "/images/presentations/iam/iam-9.jpeg"
             ],
             "description": "I presented an introduction to Identity and Access Management using Asgardeo to the University of Colombo School of Computing students.",
-            "type": "Work"
+            "type": "Work",
+            "mode": "Talk"
         },
         {
             "slug": "ui-ux-bootcamp-iit",
@@ -172,7 +182,8 @@
                 "/images/presentations/ui-ux-bootcamp/bootcamp-4.jpeg"
             ],
             "description": "I presented a talk on defining problems in design thinking as a part of the UI/UX bootcamp conducted for IIT students.",
-            "type": "Work"
+            "type": "Work",
+            "mode": "Talk"
         }
     ]
 }
