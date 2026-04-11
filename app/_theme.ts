@@ -25,6 +25,26 @@ declare module '@mui/material/styles' {
     }
 }
 export const theme: Theme = createTheme({
+    palette: {
+        mode: "dark",
+        background: {
+            default: "#000814",
+        },
+        primary: {
+            main: "#001d3d"
+        },
+        secondary: {
+            main: "#003566"
+        },
+        primaryGradient: {
+            main: "#00a6fb",
+            second: "#ff0064"
+        },
+        bgGradient: {
+            main: "#000814",
+            second: "#001d3d"
+        }
+    },
     cssVariables: {
         cssVarPrefix: "portfolio",
     },
@@ -83,29 +103,6 @@ export const theme: Theme = createTheme({
             color: "var(--portfolio-palette-primary-contrastText)",
             lineHeight: 1.5,
             fontSize: "0.95rem"
-        }
-    },
-    colorSchemes: {
-        dark: {
-            palette: {
-                background: {
-                    default: "#000814",
-                },
-                primary: {
-                    main: "#001d3d"
-                },
-                secondary: {
-                    main: "#003566"
-                },
-                primaryGradient: {
-                    main: "#00a6fb",
-                    second: "#ff0064"
-                },
-                bgGradient: {
-                    main: "#000814",
-                    second: "#001d3d"
-                }
-            }
         }
     },
     shape: {
