@@ -19,7 +19,7 @@ export const generateMetadata = async ({ params }: PageProps<"/presentations/[sl
         title: `${talkData?.title}`,
         description: talkData?.description || portfolio.presentations.description
     };
-}
+};
 
 export const generateStaticParams = async (): Promise<Params[]> => {
     const portfolioData: Portfolio = await loadPortfolioData();
@@ -47,18 +47,26 @@ const Talk: FC<PageProps<"/presentations/[slug]">> = async ({ params }): Promise
             heading={talkData?.title || ""}
             subheading1={`${talkData?.event || ""}, ${talkData?.venue || ""}`}
             subheading2={talkData?.date || ""}
-            tags={ [ talkData?.type || "" ] }
+            tags={[talkData?.type || ""]}
             backHref={`/${portfolio.presentations?.slug}`}
         >
             <Box
-                sx={{ width: "100%", height: FEATURED_IMAGE_HEIGHT, position: "relative", overflow: "hidden", marginBottom: "20px" }}
+                sx={{
+                    width: "100%",
+                    height: FEATURED_IMAGE_HEIGHT,
+                    position: "relative",
+                    overflow: "hidden",
+                    marginBottom: "20px"
+                }}
             >
                 <Image src={talkData?.image || ""} alt={talkData?.title || ""} fill style={{ objectFit: "cover" }} />
             </Box>
             <Typography variant="body1">{talkData?.description}</Typography>
-            <Typography variant="h2" sx={{ marginTop: "2rem", marginBottom: "1rem" }}>
-                Presentation Slides
-            </Typography>
+            {talkData?.slides && (
+                <Typography variant="h2" sx={{ marginTop: "2rem", marginBottom: "1rem" }}>
+                    {talkData?.mode === "Talk" ? "Presentation Slides" : "Poster"}
+                </Typography>
+            )}
             <iframe
                 title={talkData?.title || "Talk Slides"}
                 src={talkData?.slides || ""}
@@ -66,10 +74,14 @@ const Talk: FC<PageProps<"/presentations/[slug]">> = async ({ params }): Promise
                 height="600px"
                 className="pdf-iframe"
             ></iframe>
-            <Typography variant="h2" sx={{ marginTop: "2rem", marginBottom: "1rem" }}>
-                Gallery
-            </Typography>
-            <Gallery images={talkData?.gallery || []} />
+            {talkData?.gallery && talkData?.gallery.length > 0 && (
+                <>
+                    <Typography variant="h2" sx={{ marginTop: "2rem", marginBottom: "1rem" }}>
+                        Gallery
+                    </Typography>
+                    <Gallery images={talkData?.gallery || []} />
+                </>
+            )}
         </DetailsPage>
     );
 };
