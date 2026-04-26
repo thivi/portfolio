@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import Image from "next/image";
 import Gallery from "../../_components/Gallery";
 import DetailsPage from "../../_components/DetailsPage";
@@ -9,6 +9,8 @@ import { notFound } from "next/navigation";
 import { Params } from "../../../models/navigation";
 import { loadPortfolioData } from "../../../data/portfolio";
 import { FEATURED_IMAGE_HEIGHT } from "../../../constants/ui";
+import LinkIcon from "@mui/icons-material/Link";
+import Link from "../../_components/Link";
 
 export const generateMetadata = async ({ params }: PageProps<"/presentations/[slug]">): Promise<Metadata> => {
     const p: Params = await params;
@@ -62,6 +64,19 @@ const Talk: FC<PageProps<"/presentations/[slug]">> = async ({ params }): Promise
                 <Image src={talkData?.image || ""} alt={talkData?.title || ""} fill style={{ objectFit: "cover" }} />
             </Box>
             <Typography variant="body1">{talkData?.description}</Typography>
+            {talkData?.link && (
+                <Box sx={{ marginTop: "1rem" }}>
+                    <Button
+                        component={Link}
+                        href={talkData?.link as string}
+                        target="_blank"
+                        startIcon={<LinkIcon />}
+                        variant="contained"
+                    >
+                        Link to the Official Event Page
+                    </Button>
+                </Box>
+            )}
             {talkData?.slides && (
                 <Typography variant="h2" sx={{ marginTop: "2rem", marginBottom: "1rem" }}>
                     {talkData?.mode === "Talk" ? "Presentation Slides" : "Poster"}
