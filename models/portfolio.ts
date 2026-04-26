@@ -21,6 +21,7 @@ export interface PresentationItem {
     description: string;
     type: string;
     mode: string;
+    link?: string;
 }
 
 export interface PublicationItem {
