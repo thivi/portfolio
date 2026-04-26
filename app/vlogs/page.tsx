@@ -30,7 +30,8 @@ const VlogsPage: FC = async (): Promise<ReactElement> => {
                             subHeading1={vlog.date}
                             imageUrl={vlog.image}
                             link={vlog.link}
-                            icon={<PlayArrowIcon sx={{ height: "4rem", width: "4rem" }} />}
+                            icon={ <PlayArrowIcon sx={ { height: "4rem", width: "4rem" } } /> }
+                            linkTarget="_blank"
                         />
                     </Grid>
                 ))}
