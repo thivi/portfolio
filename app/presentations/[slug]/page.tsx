@@ -47,7 +47,7 @@ const Talk: FC<PageProps<"/presentations/[slug]">> = async ({ params }): Promise
     return (
         <DetailsPage
             heading={talkData?.title || ""}
-            subheading1={`${talkData?.event || ""}, ${talkData?.venue || ""}`}
+            subheading1={`${talkData?.event || ""} ${talkData?.event && talkData?.venue ? "," : ""} ${talkData?.venue || ""}`}
             subheading2={talkData?.date || ""}
             tags={[talkData?.type || ""]}
             backHref={`/${portfolio.presentations?.slug}`}
