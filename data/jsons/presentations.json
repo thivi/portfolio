@@ -4,6 +4,35 @@
     "slug": "presentations",
     "items": [
         {
+            "slug": "poster-uk-systems-2026",
+            "title": "Poster: BENNS: A Surrogate for Hybrid Online-Offline Evolution of Optimal Service Function Chain Embedding",
+            "event": "10th Annual UK System Research Challenges Workshop",
+            "venue": "Redworth Hall Hotel, Durham",
+            "date": "27th April 2026",
+            "slides": "/pdfs/poster-uk-systems-2026.pdf",
+            "image": "/images/presentations/uk-systems-2026/poster-uk-systems-2026.png",
+            "gallery": [
+                "/images/presentations/uk-systems-2026/poster-snap-uk-systems-2026.jpg"
+            ],
+            "description": "I presented a poster describing the BENNS surrogate model I developed to perform hybrid online-offline evolution of SFC embeddings.",
+            "type": "Academic",
+            "mode": "Poster"
+        },
+        {
+            "slug": "uk-systems-2026",
+            "title": "Benchmarking and Neural Network-Based Surrogate Model for Hybrid Online-Offline Evolution of Service Function Chain Embedding",
+            "event": "10th Annual UK System Research Challenges Workshop",
+            "venue": "Redworth Hall Hotel, Durham",
+            "date": "27th April 2026",
+            "slides": "/pdfs/uk-systems-2026.pdf",
+            "image": "/images/presentations/uk-systems-2026/uk-systems-2026.jpg",
+            "gallery": [],
+            "description": "I talked about the BENNS surrogate model I developed to perform hybrid online-offline evolution of SFC embeddings.",
+            "type": "Academic",
+            "mode": "Talk",
+            "link": "https://uksystems.org/workshop/2026/"
+        },
+        {
             "slug": "scone-2025",
             "title": "Genetic Algorithms for Service Function Chain Embedding",
             "event": "Scottish Networking Event 2025",
@@ -20,7 +49,8 @@
             ],
             "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
             "type": "Academic",
-            "mode": "Talk"
+            "mode": "Talk",
+            "link": "https://scone.cs.st-andrews.ac.uk/meetings/29-10-2025/"
         },
         {
             "slug": "softcom-2025",
@@ -33,7 +63,8 @@
             "gallery": [],
             "description": "I presented my paper \"OpenRASE: Service Function Chain Emulation\" at SoftCOM 2025 virtually.",
             "type": "Academic",
-            "mode": "Talk"
+            "mode": "Talk",
+            "link": "https://2025.softcom.fesb.unist.hr/"
         },
         {
             "slug": "sicsa-phd-poster-2025",
@@ -78,12 +109,13 @@
             "gallery": [],
             "description": "I talked about using Genetic Algorithms for SFC embedding, focussing specifically on how I developed a surrogate to assist the evolution.",
             "type": "Academic",
-            "mode": "Talk"
+            "mode": "Talk",
+            "link": "https://sicsa.ac.uk/events/pre-ec-day-2025/"
         },
         {
             "slug": "uk-systems-2025",
             "title": "Genetic Algorithms for Service Function Chain Deployment",
-            "event": "9th Annual UK Systems Workshop",
+            "event": "9th Annual UK System Research Challenges Workshop",
             "venue": "Redworth Hall Hotel, Durham",
             "date": "16th April 2025",
             "slides": "/pdfs/UK-systems-workshop-April-2025.pdf",
@@ -91,7 +123,8 @@
             "gallery": [],
             "description": "I talked about optimally embedding SFCs by evolving perceptrons using surrogate-assisted Genetic Algorithms.",
             "type": "Academic",
-            "mode": "Talk"
+            "mode": "Talk",
+            "link": "https://uksystems.org/workshop/2025/"
         },
         {
             "slug": "openrase-poster",
@@ -121,7 +154,8 @@
             ],
             "description": "I presented the motivation and architecture of the OpenRASE emulator that I developed to perform SFC embedding experiments.",
             "type": "Academic",
-            "mode": "Talk"
+            "mode": "Talk",
+            "link": "https://scot-ans.github.io/"
         },
         {
             "slug": "codesprint-iit",
