@@ -143,7 +143,13 @@ const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): Re
                     </Box>
                 </Box>
             </Backdrop>
-            <Box sx={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: "1rem" }}>
+            <Box
+                sx={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+                    gap: "1rem"
+                }}
+            >
                 {images?.map((imageSrc: string, index: number) => (
                     <MotionDiv
                         ref={ref}
@@ -158,7 +164,7 @@ const Gallery: FC<{ images: string[] }> = ({ images }: { images: string[] }): Re
                                 position: "relative",
                                 width: "100%",
                                 height: "100%",
-                                paddingBottom: "150%",
+                                paddingBottom: "250px",
                                 cursor: "pointer"
                             }}
                             onClick={() => setImageToOpen(index)}
