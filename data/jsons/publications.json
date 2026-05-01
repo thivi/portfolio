@@ -4,6 +4,25 @@
     "slug": "publications",
     "items": [
         {
+            "slug": "energy-aware-optimal-service-function-chain-embedding-emulated-multi-access-edge-computing-internet-things",
+            "title": "Energy-Aware Optimal Service Function Chain Embedding in Emulated Multi-Access Edge Computing for Internet of Things",
+            "publication": "TDIS '26: Proceedings of the 4th International Workshop on Testing Distributed Internet of Things Systems",
+            "date": "26th April 2026",
+            "link": "https://dl.acm.org/doi/10.1145/3802513.3803485",
+            "doi": "https://doi.org/10.1145/3802513.3803485",
+            "preprint": false,
+            "citation": "@inproceedings{10.1145/3802513.3803485, author = {Krishnamohan, Theviyanthan and Harvey, Paul}, title = {Energy-Aware Optimal Service Function Chain Embedding in Emulated Multi-Access Edge Computing for Internet of Things}, year = {2026}, isbn = {9798400726088}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3802513.3803485}, doi = {10.1145/3802513.3803485}, abstract = {Rising data processing demands from ever-increasing numbers of IoT devices have led to increased use of edge compute deployments, where energy consumption has become a critical challenge. By switching from dedicated hardware functions to chains of virtualised network functions, called Service Function Chains (SFCs), energy consumption can be reduced when processing IoT network data. However, optimally embedding these functions in edge deployments to achieve this is NP-hard, with existing solutions optimising only a subset of the problem space. In this work, we explore a Genetic Algorithm-based approach that optimises all three sub-problems scalably to minimise energy consumption in SFCs. We test our proposed solution across two Multi-Access Edge Computing scenarios and show that our solution efficiently converges on an optimal solution in terms of the number of embedded SFCs and energy consumed.}, booktitle = {Proceedings of the 4th International Workshop on Testing Distributed Internet of Things Systems}, pages = {19–24}, numpages = {6}, keywords = {Multi-Access Edge Computing, Internet of Things, Energy Optimisation, Service Function Chaining, Evolutionary Networks}, location = { }, series = {TDIS '26} }",
+            "abstract": "Rising data processing demands from ever-increasing numbers of IoT devices have led to increased use of edge compute deployments, where energy consumption has become a critical challenge. By switching from dedicated hardware functions to chains of virtualised network functions, called Service Function Chains (SFCs), energy consumption can be reduced when processing IoT network data. However, optimally embedding these functions in edge deployments to achieve this is NP-hard, with existing solutions optimising only a subset of the problem space. In this work, we explore a Genetic Algorithm-based approach that optimises all three sub-problems scalably to minimise energy consumption in SFCs. We test our proposed solution across two Multi-Access Edge Computing scenarios and show that our solution efficiently converges on an optimal solution in terms of the number of embedded SFCs and energy consumed.",
+            "codeRepository": "https://github.com/Project-Kelvin/OpenRASE/tree/main/src/algorithms/hybrid",
+            "dataRepository": "https://github.com/Project-Kelvin/open-research-data/tree/main/genesis_power",
+            "type": "Conference Paper",
+            "authors": [
+                "Theviyanthan Krishnamohan",
+                "Paul Harvey"
+            ],
+            "image": "/images/publications/energy-aware.png"
+        },
+        {
             "slug": "simultaneous-genetic-evolution-neural-networks-optimal-sfc-embedding",
             "title": "Simultaneous Genetic Evolution of Neural Networks for Optimal SFC Embedding",
             "publication": "",
@@ -60,7 +79,7 @@
                 "Theviyanthan Krishnamohan",
                 "Paul Harvey"
             ],
-            "image": "/images/publications/open-rase.png"
+            "image": "/images/publications/openrase.png"
         },
         {
             "slug": "blockchain-collective-decision-making-swarm-robotics",
