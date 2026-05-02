@@ -15,7 +15,7 @@
             "abstract": "Rising data processing demands from ever-increasing numbers of IoT devices have led to increased use of edge compute deployments, where energy consumption has become a critical challenge. By switching from dedicated hardware functions to chains of virtualised network functions, called Service Function Chains (SFCs), energy consumption can be reduced when processing IoT network data. However, optimally embedding these functions in edge deployments to achieve this is NP-hard, with existing solutions optimising only a subset of the problem space. In this work, we explore a Genetic Algorithm-based approach that optimises all three sub-problems scalably to minimise energy consumption in SFCs. We test our proposed solution across two Multi-Access Edge Computing scenarios and show that our solution efficiently converges on an optimal solution in terms of the number of embedded SFCs and energy consumed.",
             "codeRepository": "https://github.com/Project-Kelvin/OpenRASE/tree/main/src/algorithms/hybrid",
             "dataRepository": "https://github.com/Project-Kelvin/open-research-data/tree/main/genesis_power",
-            "type": "Conference Paper",
+            "type": "Workshop Paper",
             "authors": [
                 "Theviyanthan Krishnamohan",
                 "Paul Harvey"
