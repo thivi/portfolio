@@ -14,7 +14,9 @@
             "gallery": [
                 "/images/presentations/tdis-2026/tdis-1.jpeg",
                 "/images/presentations/tdis-2026/tdis-2.jpeg",
-                "/images/presentations/tdis-2026/tdis-3.jpeg"
+                "/images/presentations/tdis-2026/tdis-3.jpeg",
+                "/images/presentations/tdis-2026/tdis-4.jpeg",
+                "/images/presentations/tdis-2026/tdis-5.jpeg"
             ],
             "description": "I presented my workshop paper on using GENESIS and the CPU usage predictor models from BENNS can be used to perform energy-aware optimal SFC embedding in emulated Multi-Access Edge Computing networks for Internet of Things.",
             "type": "Academic",
