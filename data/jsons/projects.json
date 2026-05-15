@@ -34,7 +34,8 @@
             "repository": "https://github.com/Project-Kelvin/OpenRASE/tree/main/src/algorithms/hybrid",
             "image": "/images/projects/genesis.png",
             "publications": [
-                "simultaneous-genetic-evolution-neural-networks-optimal-sfc-embedding"
+                "simultaneous-genetic-evolution-neural-networks-optimal-sfc-embedding",
+                "energy-aware-optimal-service-function-chain-embedding-emulated-multi-access-edge-computing-internet-things"
             ],
             "type": "Academic",
             "year": "2024-Present"
