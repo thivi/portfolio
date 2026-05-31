@@ -138,7 +138,7 @@
             "event": "9th Annual UK System Research Challenges Workshop",
             "venue": "Redworth Hall Hotel, Durham",
             "date": "16th April 2025",
-            "slides": "/pdfs/UK-systems-workshop-April-2025.pdf",
+            "slides": "/pdfs/uk-systems-workshop-april-2025.pdf",
             "image": "/images/presentations/uk-systems-2025/redworth.jpg",
             "gallery": [],
             "description": "I talked about optimally embedding SFCs by evolving perceptrons using surrogate-assisted Genetic Algorithms.",
@@ -165,7 +165,7 @@
             "event": "Scottish Autonomous Networked Systems",
             "venue": "University of Glasgow",
             "date": "2nd May 2024",
-            "slides": "/pdfs/OpenRASE.pdf",
+            "slides": "/pdfs/openrase.pdf",
             "image": "/images/presentations/openrase/glasgow.jpg",
             "gallery": [
                 "/images/presentations/openrase/sans-1.jpg",
