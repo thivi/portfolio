@@ -4,6 +4,25 @@
     "slug": "publications",
     "items": [
         {
+            "slug": "service-function-chain-optimal-composition-and-embedding-a-systematic-survey-of-optimisation-approaches",
+            "title": "Service function chain optimal composition and embedding: A systematic survey of optimisation approaches",
+            "publication": "Computer Science Review",
+            "date": "November 2026",
+            "link": "https://www.sciencedirect.com/science/article/pii/S1574013726001188",
+            "doi": "https://doi.org/10.1016/j.cosrev.2026.101010",
+            "preprint": false,
+            "citation": "@article{KRISHNAMOHAN2026101010,title = {Service function chain optimal composition and embedding: A systematic survey of optimisation approaches},journal = {Computer Science Review},volume = {62},pages = {101010},year = {2026},issn = {1574-0137},doi = {https://doi.org/10.1016/j.cosrev.2026.101010},url = {https://www.sciencedirect.com/science/article/pii/S1574013726001188},author = {Theviyanthan Krishnamohan and Paul Harvey},keywords = {Network function virtualisation, Software defined networking, Service function chaining, Network optimisation, Virtual network function},abstract = {Service Function Chains (SFCs) support computer networks in keeping pace with increasing user numbers and changing usage patterns by enabling network programmability. SFCs virtualise network functions, such as firewalls, enabling them to be programmatically embedded on servers and linked, creating a chain of virtual network functions. Optimally composing and embedding SFCs on physical networks is an NP-hard optimisation problem. Since 2016, there has not been a comprehensive literature survey of approaches to optimally compose and embed SFCs across all application domains. In this work, we survey the literature, identify, and analyse 209 papers based on their title, abstract and content. We then develop an analytical framework to extract data from the curated papers. Based on the data, we propose an update to the existing three-stage definition of the optimal SFC composition and embedding problem, factoring in recent technological advancements and approaches. We analyse the extracted data in terms of use cases, including optimisation objectives, application domains, physical network topologies, algorithms used, their scalability, their adaptability to a dynamic network environment, and the evaluation mechanisms used. Based on this analysis, we finally present emerging trends and identify research gaps in the literature.}}",
+            "abstract": "Service Function Chains (SFCs) support computer networks in keeping pace with increasing user numbers and changing usage patterns by enabling network programmability. SFCs virtualise network functions, such as firewalls, enabling them to be programmatically embedded on servers and linked, creating a chain of virtual network functions. Optimally composing and embedding SFCs on physical networks is an NP-hard optimisation problem. Since 2016, there has not been a comprehensive literature survey of approaches to optimally compose and embed SFCs across all application domains. In this work, we survey the literature, identify, and analyse 209 papers based on their title, abstract and content. We then develop an analytical framework to extract data from the curated papers. Based on the data, we propose an update to the existing three-stage definition of the optimal SFC composition and embedding problem, factoring in recent technological advancements and approaches. We analyse the extracted data in terms of use cases, including optimisation objectives, application domains, physical network topologies, algorithms used, their scalability, their adaptability to a dynamic network environment, and the evaluation mechanisms used. Based on this analysis, we finally present emerging trends and identify research gaps in the literature.",
+            "codeRepository": "",
+            "dataRepository": "",
+            "type": "Journal Paper",
+            "authors": [
+                "Theviyanthan Krishnamohan",
+                "Paul Harvey"
+            ],
+            "image": "/images/publications/sfc-oce-survey.png"
+        },
+        {
             "slug": "energy-aware-optimal-service-function-chain-embedding-emulated-multi-access-edge-computing-internet-things",
             "title": "Energy-Aware Optimal Service Function Chain Embedding in Emulated Multi-Access Edge Computing for Internet of Things",
             "publication": "TDIS '26: Proceedings of the 4th International Workshop on Testing Distributed Internet of Things Systems",
