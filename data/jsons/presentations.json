@@ -4,6 +4,37 @@
     "slug": "presentations",
     "items": [
         {
+            "slug": "sicsa-phd-conference-lightning-2026",
+            "title": "Evolving Neural Networks for Optimal Service Function Chain Embedding",
+            "event": "SICSA PhD Conference 2026",
+            "venue": "Glasgow Caledonian University",
+            "date": "23rd June 2026",
+            "slides": "/pdfs/sicsa-lightning-talk-2026.pdf",
+            "image": "/images/presentations/sicsa-phd-conference-2026/caledonian.jpg",
+            "gallery": [],
+            "description": "I presented a talk on using a Genetic Algorithm to evolve Deep Neural Networks for optimal Service Function Chain embedding.",
+            "type": "Academic",
+            "mode": "Talk",
+            "link": "https://sicsaconf.org/programme/lightning-talks/"
+        },
+        {
+            "slug": "sicsa-poster-phd-conference",
+            "title": "Poster: GENESIS: Genetic Evolution of Deep Neural Networks for Optimal Service Function Chain Embedding",
+            "event": "SICSA PhD Conference 2026",
+            "venue": "Glasgow Caledonian University",
+            "date": "23rd June 2026",
+            "slides": "/pdfs/sicsa-phd-poster-2026.pdf",
+            "image": "/images/presentations/sicsa-phd-conference-2026/poster.png",
+            "gallery": [
+                "/images/presentations/sicsa-phd-conference-2026/poster-1.jpg",
+                "/images/presentations/sicsa-phd-conference-2026/poster-2.jpg"
+            ],
+            "description": "I presented a poster on using a Genetic Algorithm to evolve Deep Neural Networks for optimal Service Function Chain embedding.",
+            "type": "Academic",
+            "mode": "Poster",
+            "link": "https://sicsaconf.org/programme/posters/"
+        },
+        {
             "slug": "tdis-eurosys-2026",
             "title": "Energy-Aware Optimal Service Function Chain Embedding in Emulated Multi-Access Edge Computing for Internet of Things",
             "event": "TDIS '26: Proceedings of the 4th International Workshop on Testing Distributed Internet of Things Systems",
